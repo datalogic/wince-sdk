@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <tocdata>  <book name=\"Namespaces\" >  <chunk name=\"Namespaces\" ref=\"whtdata5.xml\" />  </book>  <book name=\"Examples\" >    <item name=\"Examples Table\" url=\"EXAMPLE_MATRIX.htm\" />  </book>    </tocdata>";

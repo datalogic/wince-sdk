@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="DecodeCancelRequest" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeCancelRequest</title>
+</head>
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">DecodeCancelRequest</h2>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">This function cancels a request previously posted to a decoding device.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0; font-family: Verdana, sans-serif; font-size: 8pt;">BOOL cdecl DecodeCancelRequest( HANDLE hFile, DWORD reqID );</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">HANDLE hFile</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Handle to the decoding device that was posted to. The CreateFile function returns this handle.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD reqID</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Request identifier of the request to cancel. The DecodePostRequest functions return this identifier.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Returns:</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<h3 style="font-family: Verdana, sans-serif;">&#160;</h3>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Remarks:</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Specifying a request ID that has not been posted will cause FALSE to be returned.</p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">When this function is called, any notifications that were registered with the request when it was posted will be signalled.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;This is done to allow threads waiting on these notification to be signalled.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;Consider this example:</span></p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">1) Thread A calls DecodePostRequestEvent with a handle to an event.</span></p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">2) Thread B calls WaitForSingleObject with the event handle from step 1.</span></p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">3) Thread A calls DecodeCancelRequest.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;This will signal the event and allow thread B to run.</span></p>
+<p class="MsoNormal" style="margin-bottom: .0001pt; line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">4) Thread B calls DecodeReadString which returns FALSE.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;Calling GetLastError returns ERROR_INVALID_PARAMETER, because the request ID is no longer valid (it has been cancelled).</span></p>
+</body>
+</html>

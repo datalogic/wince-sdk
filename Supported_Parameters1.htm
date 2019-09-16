@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Supported Parameters1</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+</head>
+<body>
+<h1>Supported Parameters</h1>
+<p>&#160;</p>
+<p class="MsoPlainText"><span lang="EN-US" xml:lang="EN-US" style="mso-ansi-language: EN-US;">Some general decoding parameters only<span style="mso-spacerun: yes;">&#160;</span>&#160;apply to a specific type of reader like an imager or a laser. Others may apply to all barcode scanners.</span></p>
+<p class="MsoPlainText" style="mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">In order to understand which parameters can be applied with a specific type of scanner can be followed two different ways:</span></p>
+<p class="MsoPlainText" style="mso-ansi-language: EN-US;">&#160;</p>
+<ol style="list-style: decimal;">
+<li style="font-family: Verdana, sans-serif; font-size: 8pt;">
+<p class="MsoPlainText" style="text-indent: -18.0pt; mso-list: l0 level1 lfo1; margin-left: 18pt; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">Please refer to the <a href="Overview.htm">Decoding Parameter</a> section of this help file.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">There can be found the tables with the parameters description and the different readers that support them.</span></p>
+</li>
+<li style="font-family: Verdana, sans-serif; font-size: 8pt;">
+<p class="MsoPlainText" style="text-indent: -18.0pt; mso-list: l0 level1 lfo1; mso-ansi-language: EN-US; margin-left: 18pt;"><span lang="EN-US" xml:lang="EN-US">Use the <a href="DecodeGetParamLimits.htm">DecodeGetParamLimits</a> function to determine which parameters apply to a specific reader. It follows a sample source code:</span></p>
+</li>
+</ol>
+<p class="MsoPlainText" style="text-indent: -18.0pt; mso-list: l0 level1 lfo1; mso-ansi-language: EN-US; margin-left: 18pt;">&#160;</p>
+<p class="MsoPlainText" style="text-indent: -18.0pt; mso-list: l0 level1 lfo1; mso-ansi-language: EN-US; margin-left: 18pt;">&#160;</p>
+<table style="border-left-style: Solid; border-top-style: Solid; border-right-style: Solid; border-bottom-style: Solid; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; left: 0px; top: 213px; margin-left: 24px;" cellspacing="0" width="709">
+<col style="width: 100%;" />
+<tr>
+<td style="border: Solid 1px #000000;">
+<p class="MsoPlainText" style="margin-right: 10pt; margin-top: 3pt; margin-bottom: 3pt; margin-left: 24px;">&#160;</p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="mso-layout-grid-align: none; text-autospace: none; font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;/* Example:</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;* we want to know whether the long range input mode, long range enable spot,</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;* and imager illuminate enable are supported with a specific reader.</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;*/</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;">&#160;</p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;DCD_PARAM_LIMIT paramArray[3];</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;">&#160;</p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;paramArray[0].index = LONG_RANGE_INPUT_MODE;</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;paramArray[1].index = LONG_RANGE_ENABLE_SPOT;</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;paramArray[2].index = IMAGER_ILLUMINATE_ENABLE;</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;">&#160;</p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;// This gets the valid range of values for one or more label programming parameters.</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;BOOL success = DecodeGetParamLimits( paramArray, 3 );</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;">&#160;</p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;//Any unsupported parameter index will be assigned limits of 0 to</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;//0xFFFFFFFF.</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;if</span> <span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">( paramArray[0].max == (DWORD)-1 )</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;{</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt; font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT;"><span style="mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;</span><span style="color: #008000; mso-no-proof: yes;">// Then LONG_RANGE_INPUT_MODE is NOT supported!</span></p>
+<p class="MsoNormal" style="mso-layout-grid-align: none; text-autospace: none; margin-top: 1.5pt; margin-bottom: 1.5pt;"><span style="font-size: 9.0pt; font-family: 'Courier New'; mso-ansi-language: IT; mso-no-proof: yes;">&#160;&#160;&#160;}</span></p>
+<p class="MsoPlainText" style="margin-right: 10pt; margin-top: 3pt; margin-bottom: 3pt; margin-left: 24px;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="MsoPlainText" style="text-indent: -18.0pt; mso-list: l0 level1 lfo1; mso-ansi-language: EN-US; margin-left: 18pt;">&#160;</p>
+<p class="MsoPlainText">&#160;</p>
+</body>
+</html>

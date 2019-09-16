@@ -1,0 +1,433 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Originator" content="ImportDoc" />
+<meta name="OriginalFile" content="C:\HTML Help Projects\SDK-WindowsCE5\DOC\Pre_Postamble_Examples.doc" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Premable/Postamble Examples</title>
+
+<style type="text/css">
+<!--
+A:visited { color:#0000ff; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body lang="IT" xml:lang="IT"><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../SDK.htm", "", ">", "Home", "../System_Overview.htm");
+document.write("Premable/Postamble Examples<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 14.0pt;">Preamble/Postamble Examples</span></font></b></h2>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">The following procedures give an example for:</span></font></p>
+<ol style="list-style: decimal;">
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="margin-top: 6.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><a href="#setpostamble"><span lang="EN-US" xml:lang="EN-US" style="color: #0000ff; font-size: 8pt;">setting a postamble</span></a><span lang="EN-US" xml:lang="EN-US">;</span></p>
+</li>
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="margin-top: 6.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt; font-size: 8pt;"><a href="#getpostamble"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">getting a postamble</span></a><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">;</span></p>
+</li>
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="margin-top: 6.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt; font-size: 8pt;"><a href="#setpreamble"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">setting a preamble</span></a><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">;</span></p>
+</li>
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="margin-top: 6.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt; font-size: 8pt;"><a href="#getpreamble"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">getting a preamble</span></a><span lang="EN-US" xml:lang="EN-US" style="font-size: 8pt;">.</span></p>
+</li>
+</ol>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><a name="setpostamble" id="setpostamble"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Setting a Postamble</span></font></b></a></h3>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">This example allows appending the carriage return character ([CR]) to the trailing barcode character.</span></font></p>
+<p class="Normal" style="text-align: left;">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">// Windows Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;windows.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Text Function Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;tchar.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Serial Bar Code Raster Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BBCR_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//One Dimensional Bar Code Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BCD_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//DATALOGIC SCANNER SETUP CLASS Header File</span></font></p>
+<p class="Normal"><font><span style="font-size: 9.0pt; font-family: 'Courier New';">#include “DL_SEDAPI.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bool SetPostamble (LPCTSRT szText)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool bResponse = false;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;DLScannerSetup oSetup;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;#pragma pack (1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct PostambleString</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long m_nLength;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR m_sText[_MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;PostambleString oText;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long nLength = (_tcslen(szText)&lt;=_MAX_PATH)? tcslen(szText):MAX_PATH;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;memcpy(oText.m_sText, szText, nLength*sizeof(TCHAR));</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;oText.m_nLength = nLength;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;int nParamaID = -1;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getReaderIdentifier() == SE_READER_BBCR_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BBCR_PARAM_POSTAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">else if (oSetup.getReaderIdentifier() == SE_READER_BCD_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BCD_PARAM_POSTAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nParamID != -1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;oSetup.setParameterByReference (nParamID, &amp;oText);</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getStatus() == DLScannerSetup::s_nOK)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bResponse = true;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return (bResponse);</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">int WINAPI WinMain(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hPrevInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LPTSTR&#160;&#160;&#160;&#160;lpCmdLine,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;nCmdShow)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;SetPostamble(_T(“\r\n”));</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 0;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><a name="getpostamble" id="getpostamble"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Getting a Postamble</span></font></b></a></h3>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">This example allows showing the postamble text in a message box.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">// Windows Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;windows.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Text Function Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;tchar.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Serial Bar Code Raster Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BBCR_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//One Dimensional Bar Code Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BCD_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//DATALOGIC SCANNER SETUP CLASS Header File</span></font></p>
+<p class="Normal"><font><span style="font-size: 9.0pt; font-family: 'Courier New';">#include “DL_SEDAPI.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bool GetPostamble (LPTSTR szDest, unsigned long nDestCapacity)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool bResponse = false;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;DLScannerSetup oSetup;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;#pragma pack (1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct PostambleString</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long m_nLength;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR m_sText[_MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;PostambleString oText;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;oText.m_nLength =_MAX_PATH;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;int nParamaID = -1;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getReaderIdentifier() == SE_READER_BBCR_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BBCR_PARAM_POSTAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">else if (oSetup.getReaderIdentifier() == SE_READER_BCD_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BCD_PARAM_POSTAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nParamID != -1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;oSetup.getParameterByReference (nParamID, &amp;oText);</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getStatus() == DLScannerSetup::s_nOK)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nDestCapacity&gt;oText.m_nLength)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bResponse = true;</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">memcpy(szDest, oText.m_sText, oText.m_nLength*sizeof(TCHAR));</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">szDest[oText.m_nLength] = _T(‘\0’);</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return (bResponse);</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">int WINAPI WinMain(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hPrevInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LPTSTR&#160;&#160;&#160;&#160;lpCmdLine,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;nCmdShow)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR szMyString[MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (GetPostamble(szMyString, MAX_PATH)==true)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MessageBox(NULL,szMyString, _T(“Postamble”), MB_OK);</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;">&#160;</p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">return 0;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><a name="setpreamble" id="setpreamble"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Setting a Preamble</span></font></b></a></h3>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">This example allows appending the ‘dir’ DOS command to the leading barcode character.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">// Windows Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;windows.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Text Function Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;tchar.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Serial Bar Code Raster Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BBCR_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//One Dimensional Bar Code Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BCD_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//DATALOGIC SCANNER SETUP CLASS Header File</span></font></p>
+<p class="Normal"><font><span style="font-size: 9.0pt; font-family: 'Courier New';">#include “DL_SEDAPI.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bool SetPreamble (LPCTSRT szText)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool bResponse = false;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;DLScannerSetup oSetup;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;#pragma pack (1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct PreambleString</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long m_nLength;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR m_sText[_MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;PreambleString oText;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long nLength = (_tcslen(szText)&lt;=_MAX_PATH)? tcslen(szText):MAX_PATH;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;memcpy(oText.m_sText, szText, nLength*sizeof(TCHAR));</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;oText.m_nLength = nLength;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;int nParamaID = -1;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getReaderIdentifier() == SE_READER_BBCR_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BBCR_PARAM_PREAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">else if (oSetup.getReaderIdentifier() == SE_READER_BCD_CALSS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BCD_PARAM_PREAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nParamID != -1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;oSetup.setParameterByReference (nParamID, &amp;oText);</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getStatus() == DLScannerSetup::s_nOK)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;bResponse = true;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return (bResponse);</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">int WINAPI WinMain(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hPrevInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LPTSTR&#160;&#160;&#160;&#160;lpCmdLine,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;nCmdShow)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;SetPreamble(_T(“dir”));</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return 0;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><a name="getpreamble" id="getpreamble"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Getting a Preamble</span></font></b></a></h3>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">This example allows showing the postamble text in a message box.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">// Windows Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;windows.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Text Function Main Header File</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include &lt;tchar.h&gt;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//Serial Bar Code Raster Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BBCR_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//One Dimensional Bar Code Reader PARAMETERS Enumeration</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">#include “BCD_Parameters.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">//DATALOGIC SCANNER SETUP CLASS Header File</span></font></p>
+<p class="Normal"><font><span style="font-size: 9.0pt; font-family: 'Courier New';">#include “DL_SEDAPI.h”</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bool GetPreamble (LPTSTR szDest, unsigned long nDestCapacity)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;bool bResponse = false;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;DLScannerSetup oSetup;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;#pragma pack (1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;struct PreambleString</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;unsigned long m_nLength;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR m_sText[_MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;PreambleString oText;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;oText.m_nLength =_MAX_PATH;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;int nParamaID = -1;</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getReaderIdentifier() == SE_READER_BBCR_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BBCR_PARAM_PREAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">else if (oSetup.getReaderIdentifier() == SE_READER_BCD_CLASS_ID)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;nParamID = BCD_PARAM_PREAMBLE_STRING;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nParamID != -1)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;oSetup.getParameterByReference (nParamID, &amp;oText);</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (oSetup.getStatus() == DLScannerSetup::s_nOK)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (nDestCapacity&gt;oText.m_nLength)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">bResponse = true;</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">memcpy(szDest, oText.m_sText, oText.m_nLength*sizeof(TCHAR));</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">szDest[oText.m_nLength] = _T(‘\0’);</span></font></p>
+<p class="Normal" style="margin-left: 35.4pt; text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;return (bResponse);</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">int WINAPI WinMain(&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;HINSTANCE hPrevInstance,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LPTSTR&#160;&#160;&#160;&#160;lpCmdLine,</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;int&#160;&#160;&#160;&#160;&#160;&#160;&#160;nCmdShow)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;TCHAR szMyString[MAX_PATH];</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (GetPreamble(szMyString, MAX_PATH)==true)</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MessageBox(NULL,szMyString, _T(“Preamble”), MB_OK);</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal" style="text-indent: 35.4pt;">&#160;</p>
+<p class="Normal" style="text-indent: 35.4pt;"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">return 0;</span></font></p>
+<p class="Normal"><font><span lang="EN-US" xml:lang="EN-US" style="font-size: 9.0pt; font-family: 'Courier New';">}</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

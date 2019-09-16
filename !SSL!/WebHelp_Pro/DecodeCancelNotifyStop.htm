@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeCancelNotifyStop</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodeCancelNotifyStop");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodeCancelNotifyStop<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2>DecodeCancelNotifyStop</h2>
+<p>&#160;</p>
+<p>Like posting requests, any posted notifications are automatically canceled when the device handle is closed. The notifications are posted to a specific decoding driver, so the notifications are limited to that device only. Notifications are sent when the device stops scanning.</p>
+<p>&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0;">BOOL DecodeCancelNotifyStop(HANDLE hFile);</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hFile</p>
+<p style="margin-left: 80px;">Handle to the decoding device from which a scanning stop notification was requested. The CreateFile function returns this handle. This must be the same handle used to request a previous notification.</p>
+<h3>Returns:</h3>
+<p style="margin-left: 40px; text-align: left;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

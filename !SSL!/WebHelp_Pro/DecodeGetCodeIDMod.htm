@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeGetCodeIDMod</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodeGetCodeIDMod");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodeGetCodeIDMod<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2>DecodeGetCodeIDMod</h2>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">This function reads the AIM code ID modifier of a data sample prior to calling DecodeReadString.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;It should only be called after notification of a data sample</span>.</p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left; background-color: #c0c0c0; font-weight: bold; mso-bidi-font-size: 10.0pt;"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-family: Arial;">DWORD cdecl DecodeGetCodeIDMod(HANDLE hFile, DWORD reqID)</span></p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">hFile</span></p>
+<p style="margin-left: 80px; text-align: left;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Handle to the decoding device to read data from.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;The CreateFile function returns this handle</span>.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">reqID</span></p>
+<p style="margin-left: 80px; text-align: left;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Request identifier of the request that has been satisfied with data to be read.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;The DecodePostRequest functions return this identifier</span>.</p>
+<p style="text-align: left;">&#160;</p>
+<h3 style="font-size: 10pt;">Returns:</h3>
+<p style="margin-left: 40px; text-align: left;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">On success, the AIM code ID modifier associated with the request is returned.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;See the AIM Symbology Identifier specification for details.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">&#160;On error, -1 is returned</span>.</p>
+<p style="text-align: left;">&#160;</p>
+<h3 style="font-size: 10pt;">Remarks:</h3>
+<p style="margin-left: 40px; text-align: left;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The AIM code ID is specified as a string in the format "]Cm", where "C" is a character representing the symbology, and "m" is a modifier.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The value of the modifier is the number returned by this function.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">It has a meaning which is specific to the label symbology.</span><span style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The label symbology can be determined by calling DecodeGetCodeID</span>.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

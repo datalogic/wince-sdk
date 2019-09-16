@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<section name="Target:FlashHelp">
+		<element name="m_strTopicBarIniOrder" value="TpcShow|TpcInfoSyncToc|">
+		</element>
+		<element name="m_strNpiBackground" value="bssctab0.gif">
+		</element>
+		<element name="m_bNavPaneFts" value="1">
+		</element>
+		<element name="m_strTopicBarSelOrder" value="TpcShow|TpcInfoSyncToc|">
+		</element>
+		<element name="m_strToolBarIniOrder" value="Contents|Index|FtsSearch|Glossary|WebSearch|Custom1|Custom2|Custom3|FtsInputField|">
+		</element>
+		<element name="m_nNavPaneMode" value="1">
+		</element>
+		<element name="m_eNavBarStyle" value="2">
+		</element>
+		<element name="PublishOptions" value="0">
+		</element>
+		<element name="m_strToolBarSelOrder" value="Contents|Index|FtsSearch|Glossary|WebSearch|Custom1|Custom2|Custom3|FtsInputField|">
+		</element>
+		<element name="m_bSupportW3C" value="0">
+		</element>
+		<element name="m_strNbiWebSearch" value="">
+		</element>
+		<element name="m_strNbiBrowsePrev" value="">
+		</element>
+		<element name="m_strNbtHide" value="Hide">
+		</element>
+		<element name="m_strMinToolBarIniOrder" value="MinBrowsePrev|MinBrowseNext|MinSyncToc|MinHide|">
+		</element>
+		<element name="m_strNpiGlossaryOff" value="bssctab8.gif">
+		</element>
+		<element name="m_strNpiIndexOn" value="bssctab3.gif">
+		</element>
+		<element name="m_bNavPaneToc" value="1">
+		</element>
+		<element name="m_strNbiShow" value="">
+		</element>
+		<element name="m_nNavBarType" value="269">
+		</element>
+		<element name="SSDefaultTopic" value="">
+		</element>
+		<element name="m_strMinToolBarSelOrder" value="MinBrowsePrev|MinBrowseNext|MinHide|">
+		</element>
+		<element name="m_strNpiTocPageRemote" value="">
+		</element>
+		<element name="m_nMinFontSize" value="9">
+		</element>
+		<element name="m_bPrefixPageName" value="0">
+		</element>
+		<element name="m_strNbiBrowseNext" value="">
+		</element>
+		<element name="DefaultServer" value="">
+		</element>
+		<element name="m_strNpiTocBookOpen" value="">
+		</element>
+		<element name="m_strNpiTocBookClose" value="">
+		</element>
+		<element name="m_strNptSearch" value="Search">
+		</element>
+		<element name="m_strNptIndex" value="Index">
+		</element>
+		<element name="m_eNavBarPos" value="2">
+		</element>
+		<element name="m_nNamingRule" value="6657">
+		</element>
+		<element name="m_bExtJsSplit" value="0">
+		</element>
+		<element name="m_strNbtWebSearch" value="WebSearch">
+		</element>
+		<element name="SSLayoutType" value="2">
+		</element>
+		<element name="CreateProjectUser" value="">
+		</element>
+		<element name="m_strNpiTocPage" value="">
+		</element>
+		<element name="m_strNpiSearchOn" value="bssctab5.gif">
+		</element>
+		<element name="m_bInjectNavBar" value="1">
+		</element>
+		<element name="m_bInjectJsCode" value="0">
+		</element>
+		<element name="m_strProductName" value="">
+		</element>
+		<element name="m_strAuthoringToolName" value="">
+		</element>
+		<element name="m_strNbiHide" value="">
+		</element>
+		<element name="m_bNavPaneGls" value="0">
+		</element>
+		<element name="m_strNbtBrowsePrev" value="&lt;&lt;">
+		</element>
+		<element name="m_strNpiGlossaryOn" value="bssctab7.gif">
+		</element>
+		<element name="Publish_Servers" value="">
+		</element>
+		<element name="CreateProjectTime" value="">
+		</element>
+		<element name="m_strNpiSearchOff" value="bssctab6.gif">
+		</element>
+		<element name="m_strNpiContentOn" value="bssctab1.gif">
+		</element>
+		<element name="m_strNptGlossary" value="Glossary">
+		</element>
+		<element name="m_bSupport508" value="0">
+		</element>
+		<element name="m_bSupportFirewall" value="0">
+		</element>
+		<element name="m_strNbtBrowseNext" value="&gt;&gt;">
+		</element>
+		<element name="m_nNavBarFontSize" value="8">
+		</element>
+		<element name="ActiveSkinPathName" value="!SkinSubFolder!\FlashHelp_Default\FlashHelp_Default.fhs">
+		</element>
+		<element name="BuildExpression" value="">
+		</element>
+		<element name="DestinationProjectName" value="!SSL!\FlashHelp\SDK.htm">
+		</element>
+		<element name="m_strNpiContentOff" value="bssctab2.gif">
+		</element>
+		<element name="m_bNavPaneNdx" value="1">
+		</element>
+		<element name="m_strNbiBrowseNextD" value="">
+		</element>
+		<element name="ResultFileName" value="!SSL!\FlashHelp\SDK.htm">
+		</element>
+		<element name="SSDefaultWindow" value="NewWindow">
+		</element>
+		<element name="PublishString" value="">
+		</element>
+		<element name="m_strNpiIndexOff" value="bssctab4.gif">
+		</element>
+		<element name="m_strNbtSyncToc" value="SyncToc">
+		</element>
+		<element name="ActiveSkinName" value="FlashHelp Default">
+		</element>
+		<element name="m_strWH5_ChunkSize" value="Modem|10K">
+		</element>
+		<element name="m_bExtCssSplit" value="1">
+		</element>
+		<element name="m_bAutoSync" value="1">
+		</element>
+		<element name="DefaultSettingApplied" value="1">
+		</element>
+		<element name="m_strLogFileName" value="">
+		</element>
+		<element name="m_strTemplateName" value="">
+		</element>
+		<element name="m_strNbiBrowsePrevD" value="">
+		</element>
+		<element name="m_strNbiSyncToc" value="">
+		</element>
+		<element name="m_strNbtBrowseNextD" value="&gt;&gt;">
+		</element>
+		<element name="m_strNbtShow" value="Show">
+		</element>
+		<element name="m_strNavBarFontName" value="Arial">
+		</element>
+		<element name="SSDefaultTopicId" value="-1">
+		</element>
+		<element name="m_strNptContent" value="Contents">
+		</element>
+		<element name="m_strToolBarDefaultTab" value="Contents|">
+		</element>
+		<element name="m_bInjectNsJsCode" value="1">
+		</element>
+		<element name="m_strNbtBrowsePrevD" value="&lt;&lt;">
+		</element>
+		<element name="SupportMas_Prj" value="1">
+		</element>
+	</section>
+</configuration>

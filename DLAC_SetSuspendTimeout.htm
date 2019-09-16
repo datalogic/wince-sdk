@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="DLAC_SetSuspendTimeout" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DLAC_SetSuspendTimeout</title>
+</head>
+<body>
+<h2>DLAC_SetSuspendTimeout</h2>
+<p>It sets the automatic AC Suspend Timeout value.</p>
+<p>&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="100%" bgcolor="#CCCCCC">
+<col style="width: 100%;" />
+<tr style="vertical-align: top;">
+<td style="width: 100%; padding-right: 10px; padding-left: 10px; border-top-width: 1px; border-top-style: Solid; border-right-style: Solid; border-right-width: 1px; border-bottom-width: 1px; border-bottom-style: Solid;">
+<p style="font-weight: bold;">BOOL DLAC_SetSuspendTimeout(int param)</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h3>Parameters</h3>
+<p style="font-style: italic;">param</p>
+<p>integer value representing the AC Suspend Timeout to be set in second. &#160;</p>
+<h3>Return Value</h3>
+<p>TRUE if success, FALSE in case of failure.</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<h3>Requirements</h3>
+<table style="vertical-align: top;" cellspacing="0" width="100%">
+<col style="width: 15.923%;" />
+<col style="width: 84.077%;" />
+<tr style="vertical-align: top;">
+<td style="width: 15.923%; padding-right: 10px; padding-left: 10px;">
+<p><span style="font-weight: bold;">Header</span>:</p>
+</td>
+<td style="width: 84.077%; padding-right: 10px; padding-left: 10px;">
+<p>declared in <span style="font-style: italic;">DL_DeviceApi.h</span>, include <span style="font-style: italic;">DL_DeviceApi.h</span>.</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="width: 15.923%; padding-right: 10px; padding-left: 10px;">
+<p><span style="font-weight: bold;">Library</span>:</p>
+</td>
+<td style="width: 84.077%; padding-right: 10px; padding-left: 10px;">
+<p>use <span style="font-style: italic;">DL_API.lib</span>.</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<h3>Remarks</h3>
+<p>This function writes the parameter in the Windows registry:</p>
+<p>KEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Power\Timeouts\ACSuspendTimeout.</p>
+</body>
+</html>

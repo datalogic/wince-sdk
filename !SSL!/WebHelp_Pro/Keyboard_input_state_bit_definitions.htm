@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Keyboard input state bit definitions</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDevice API\nDefined Values\nKeyboard Input State Bit definitions");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"BATINFO,_P_BATINFO1.htm\">Device API<\/a> > <a href=\"The_backlight_brightness_values.htm\">Defined Values<\/a> > Keyboard Input State Bit definitions<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">Keyboard Input State Bit definitions</h2>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="79.573%">
+<col style="width: 35.194%;" />
+<col style="width: 20.177%;" />
+<col style="width: 46.233%;" />
+<tr style="vertical-align: top; height: 26px;">
+<td style="border: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Name</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Value (Bit)</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Description</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_BLUE_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000001</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Blue key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_BLUE_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000002</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Blue is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_SHIFT_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000004</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Shift key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 28px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_SHIFT_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000008</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Shift is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_ALT_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000040</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Alt key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_ALT_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000080</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Alt is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_YELLOW_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000400</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Yellow key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_YELLOW_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000800</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Yellow is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_CAPS_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00001000</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Caps key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_CAPS_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00002000</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Caps is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_CTRL_DOWN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000010</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Ctrl key is down</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_CTRL_ON</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0x00000020</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Ctrl is on</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 26px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">KBD_STATE_ERROR</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0xFFFFFFFF</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 46.233%; padding-right: 10px; padding-left: 10px; vertical-align: middle;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Error retrieving state</p>
+</td>
+</tr>
+</table>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

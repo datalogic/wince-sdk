@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Originator" content="ImportDoc" />
+<meta name="OriginalFile" content="C:\HTML Help Projects\SDK-WindowsCE5\DOC\GSM_descrip.doc" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="Html\gSM_descrip.htm" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DLGSM API - Description</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+A:visited {
+        color: #0000ff;
+}
+A:link {
+        color: #0000ff;
+}
+/*]]>*/
+</style>
+</head>
+<body lang="IT" xml:lang="IT">
+<h2><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 14.0pt;">DLGSM API</span></font></b></h2>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;"><span lang="EN-US" xml:lang="EN-US">For Windows CE, the Datalogic GSM (DLGSM) Library provides a basic C API for SMS message sending and for user authentication procedure by means of PIN and PUK codes.</span></p>
+<p>&#160;</p>
+<p style="font-family: Verdana; font-size: 8.0pt;">For Windows Mobile, refer to the standard Library showed in the Microsoft® Windows Mobile 6 Documentation (Phone Features - CellCore).</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3 style="font-size: 10.0pt; font-family: Verdana;">Library Functions</h3>
+<p>&#160;</p>
+<table style="margin-left: 3.5pt;" cellspacing="0" width="93.969%">
+<col style="width: 6.652%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<col style="width: 4.788%;" />
+<tr>
+<td style="width: 6.652%; vertical-align: top; border: solid #808080 1.0pt; border-left: none; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;" bgcolor="#CCCCCC">
+<p class="Normal" style="margin-top: 2.0pt; margin-bottom: 2.0pt; margin-left: 3pt; margin-right: 3pt;"><span style="font-size: 8.0pt; font-weight: bold; font-family: Verdana;">Functions</span></p>
+</td>
+<td colspan="9" style="width: 43.092%; vertical-align: top; border: solid #808080 1.0pt; border-left: none; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC">
+<p class="Normal" style="margin-top: 2.0pt; margin-bottom: 2.0pt; margin-left: 3pt; margin-right: 3pt; text-align: center;"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-weight: bold;">Compatibility</span></font></b></p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 8.0pt; font-weight: bold;">&#160;</p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #800080;"><img src="../Images/viper net.jpg" alt="" style="border: none;" width="17" height="156" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #ff7f3f;"><img src="../Images/kyman net.jpg" alt="" style="border: none;" width="17" height="169" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #ff00ff;"><img src="../Images/rhino net.jpg" alt="" style="border: none;" width="17" height="160" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #008000;"><img src="../Images/skorpio.jpg" alt="" style="border: none;" width="17" height="136" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #ff0000;"><img src="../Images/skorpio gun.jpg" alt="" style="border: none;" width="17" height="176" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p style="text-align: center;"><img src="../Images/kyman.jpg" alt="" style="border: none;" width="17" height="131" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center;"><img src="../Images/J Series.jpg" alt="" style="border: none;" width="17" height="147" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #0000ff;"><img src="../Images/Memor4.jpg" alt="" style="border: none;" width="14" height="170" border="0" /></p>
+</td>
+<td style="width: 4.788%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal" style="margin-top: 1.0pt; margin-bottom: 1.0pt; margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 7pt; text-align: center; color: #0000ff;"><img src="../Images/Memor3.jpg" alt="" style="border: none;" width="14" height="170" border="0" /></p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold; margin-left: 3pt; margin-right: 3pt;"><a href="API_DLGSM_Class_AddPhoneBook.htm" style="font-weight: bold;">DLGSM_AddPhoneBook</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Adds a new entry to the SIM phone book.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold; margin-left: 3pt; margin-right: 3pt;"><a href="API_DLGSM_Class_Answer.htm" style="font-weight: bold;">DLGSM_Answer</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Answers to an incoming call.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-weight: bold;"><span class="Hyperlink" lang="EN-US" xml:lang="EN-US"><a href="API_DLGSM_Class_AuthOpen.htm" style="font-weight: bold;">DLGSM_AuthOpen</a></span></p>
+<p style="margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 8.0pt; margin-top: 3pt; margin-bottom: 6pt;"><span lang="EN-US" xml:lang="EN-US">Opens the GSM and enables SMS messaging.</span></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_CancelDialling.htm" style="font-weight: bold;">DLGSM_CancelDialling</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Aborts a call in-progress.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_CheckForConnection.htm" style="font-weight: bold;">DLGSM_CheckForConnection</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Indicates the connection status.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-weight: bold;"><span class="Hyperlink" lang="EN-US" xml:lang="EN-US"><a href="API_DLGSM_Class_Close.htm" style="font-weight: bold;">DLGSM_Close</a></span></p>
+<p style="margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 8.0pt; margin-top: 3pt; margin-bottom: 6pt;"><span lang="EN-US" xml:lang="EN-US">Closes the GSM module.</span></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_DeletePhoneBook.htm" style="font-weight: bold;">DLGSM_DeletePhoneBook</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Deletes an entry of the SIM phone book.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_DeleteSMS.htm" style="font-weight: bold;">DLGSM_DeleteSMS</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Deletes an SMS message.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_DialNumber.htm" style="font-weight: bold;">DLGSM_DialNumber</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Allows dialling a phone number.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><span class="Hyperlink" lang="EN-US" xml:lang="EN-US"><a href="API_DLGSM_Class_GetLastErrorMessage.htm" style="font-weight: bold;">DLGSM_GetLastErrorMessage</a></span></p>
+<p style="margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 8.0pt; margin-top: 3pt; margin-bottom: 6pt;"><span lang="EN-US" xml:lang="EN-US">Returns a description of the last error.</span></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetOperator.htm" style="font-weight: bold;">DLGSM_GetOperator</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the associated operator.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSimID.htm" style="font-weight: bold;">DLGSM_GetSimID</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the SIM card unique ID.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSCount.htm" style="font-weight: bold;">DLGSM_GetSMSCount</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Returns the number of SMS messages stored in the SIM card.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSDate.htm" style="font-weight: bold;">DLGSM_GetSMSDate</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the date of the selected SMS message.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSID.htm" style="font-weight: bold;">DLGSM_GetSMSID</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt;">Gets the ID of the selected SMS message.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSNumber.htm" style="font-weight: bold;">DLGSM_GetSMSNumber</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the number of the selected SMS messages.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSText.htm" style="font-weight: bold;">DLGSM_GetSMSText</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the text of the selected SMS message.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GetSMSTime.htm" style="font-weight: bold;">DLGSM_GetSMSTime</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the time of the selected SMS message.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSActivateContext.htm" style="font-weight: bold;">DLGSM_GPRSActivateContext</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Activates/deactivates a DPD context identifier.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSActivateContextStatus.htm" style="font-weight: bold;">DLGSM_GPRSActivateContextStatus</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Returns the status of all defined contexts.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSAttch.htm" style="font-weight: bold;">DLGSM_GPRSAttach</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Attaches/detaches the GPRS device.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSAttachStatus.htm" style="font-weight: bold;">DLGSM_GPRSAttachStatus</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the GPRS device attach status.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSDial.htm" style="font-weight: bold;">DLGSM_GPRSDial</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Allows to dial into the GPRS network.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSGetContext.htm" style="font-weight: bold;">DLGSM_GPRSGetContext</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Returns the context currently defined.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_GPRSSetContext.htm" style="font-weight: bold;">DLGSM_GPRSSetContext</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Defines a new Packet Data Protocol (PDP) context.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_HangUp.htm" style="font-weight: bold;">DLGSM_HangUp</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Closes a phone conversation.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_IsInitialized.htm" style="font-weight: bold;">DLGSM_IsInitialized</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Returns the GSM initialization status.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_IsNewSMS.htm" style="font-weight: bold;">DLGSM_IsNewSMS</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Indicates if the received SMS is new.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_InitSMS.htm" style="font-weight: bold;">DLGSM_InitSMS</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Initializes the SMS operations.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_IsRinging.htm" style="font-weight: bold;">DLGSM_IsRinging</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Indicates if the phone is ringing.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_Open.htm">DLGSM_Open</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; margin-top: 3pt; margin-bottom: 6pt;">Opens a GSM Communication Port</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_PhoneBookRange.htm" style="font-weight: bold;">DLGSM_PhoneBookRange</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Gets the starting and ending location of the SIM phone book.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_ReadPhoneBooks.htm" style="font-weight: bold;">DLGSM_ReadPhoneBooks</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Reads all the SIM phone book entries.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_RejectCall.htm" style="font-weight: bold;">DLGSM_RejectCall</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; font-family: Verdana; font-size: 8.0pt; margin-top: 3pt; margin-bottom: 6pt;">Redirects an incoming call to the VoiceMail service (if available).</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-weight: bold;"><span class="Hyperlink" lang="DE" xml:lang="DE"><a href="API_DLGSM_Class_SendSMS.htm" style="font-weight: bold;">DLGSM_SendSMS</a></span></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;"><span lang="EN-US" xml:lang="EN-US">Sends an SMS message.</span></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="width: 6.652%; vertical-align: top; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; border-left-style: solid; border-left-width: 1.0pt; border-left-color: #808080;">
+<p style="margin-left: 3pt; margin-right: 3pt; font-size: 8.0pt; text-underline: none; font-family: Verdana; font-weight: bold;"><a href="API_DLGSM_Class_WritePhoneBook.htm" style="font-weight: bold;">DLGSM_WritePhoneBook</a></p>
+<p style="margin-left: 3pt; margin-right: 3pt; margin-top: 3pt; margin-bottom: 6pt;">Modifies an entry record of the SIM phone book.</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center; font-family: Verdana; font-size: 8.0pt;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #ff7f3f;" ?><font face="Microsoft Sans Serif" style="color: #ff7f3f;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" style="color: #986532;" ?><font face="Microsoft Sans Serif" style="color: #986532;">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;"><?rh-symbol_start 
+                 name="filled-circle" ?><font face="Microsoft Sans Serif">●</font><?rh-symbol_end ?></p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+<td style="width: 4.788%; border-top: none; border-left: none; border-bottom: solid #808080 1.0pt; border-right: solid #808080 1.0pt; padding: 0cm 3.5pt 0cm 3.5pt;">
+<p style="text-align: center;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+</body>
+</html>

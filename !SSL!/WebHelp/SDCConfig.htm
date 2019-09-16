@@ -1,0 +1,305 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>SDCConfig</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nWiFi API\nData Structures\nSDCConfig");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"CF10G_STATUS.htm\">WiFi API<\/a> > <a href=\"CF10G_STATUS.htm\">Data Structures<\/a> > SDCConfig<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;"><span><font size="4" style="font-size:14pt;">SDCConfig</font></span></h2>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Standard 
+ connection configuration struct</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 10pt; font-weight: bold;">Members:</p>
+<p style="font-family: Verdana, sans-serif; font-size: 10pt; font-weight: bold;">&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="102.069%">
+	<col style="width: 23.716%;" />
+	<col style="width: 23.716%;" />
+	<col style="width: 52.568%;" />
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">char 
+		 configName[CONFIG_NAME_SZ]</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">&quot;Friendly&quot; 
+		 name to associate with this connection</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">char 
+		 SSID[SSID_SZ]</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">SSID of 
+		 the network to connect to</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="AUTH.htm">AUTH</a> authType</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">Authentication 
+		 type</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="ENCRYPTION.htm">ENCRYPTION</a> encr</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">Encryption 
+		 type</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td rowspan="2" style="padding-right: 10px; padding-left: 10px;" 
+			 bgcolor="#E8E8E8"><span style="font-family: 'Courier New', monospace;">UNION</span></td>
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="CRYPT.htm">CRYPT</a> PSK</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="text-align: left; font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Pre-shared (secret) key value</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="WEP_KEY.htm">WEP_KEY</a> wep</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="text-align: left; font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">WEP key value and index</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="EapTypes.htm">EapTypes</a> EapType</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">EAP type 
+		 of the configuration. Only valid for WPA and WPA2 profiles. Important: 
+		 You must use the corresponding union type with the value set in 
+		 the EapType field:</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;&#160;SDCConfig 
+		 sdc {};</p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;&#160;sdc.EapType 
+		 = EapTypes.PPP_EAP_PEAP;</p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;&#160;</p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;&#160;PEAPConfig 
+		 peapConfig {};</p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;&#160;sdc.PEAP 
+		 = &amp;peapConfig;</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL 
+		 PmkCache</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">EAP: Use 
+		 Pairwise Master Key (PMK) caching?</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+		 style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;">Allows 
+		 authenticating clients can skip EAP exchange while roaming between 
+		 access points.</font></span></p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">1 
+		 (TRUE) = yes, use PMK caching</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">0 
+		 (FALSE) = no, don't use PMK caching</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL 
+		 Cckm</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;"><span style="font-family: Verdana, sans-serif; 
+		 font-size: 8pt;"><font size="1" style="font-size:8pt;">EAP: Use Cisco Centralized Key Management (CCKM) 
+		 Fast Roaming?</font></span></p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">1 
+		 (TRUE) = yes </p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">0 
+		 (FALSE) = no</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td rowspan="5" style="padding-right: 10px; padding-left: 10px;" 
+			 bgcolor="#E8E8E8"><p style="font-family: 'Courier New', monospace; 
+									 font-size: 10pt; text-align: center;">UNION</p>
+		<p style="font-family: 'Courier New', monospace; font-size: 10pt;">&#160;&#160;</p>
+		<p style="font-family: 'Courier New', monospace; font-size: 10pt;">&#160;&#160;</p>
+		<p style="font-family: 'Courier New', monospace; font-size: 10pt;">&#160;&#160;</p>
+		<p style="font-family: 'Courier New', monospace; font-size: 10pt;">&#160;&#160;</p>
+		<p style="font-family: 'Courier New', monospace; font-size: 10pt;">&#160;&#160;</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="PEAPConfig_C.htm">PEAPConfig</a> *PEAP</p></td>
+		<td rowspan="5" style="padding-right: 10px; padding-left: 10px;" 
+			 bgcolor="#E8E8E8"><p style="text-align: left; font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Use *one* of the 
+		 values in the union to point to a struct of the desired EAP method 
+		 type. <span style="text-align: left; font-family: Verdana, sans-serif; 
+					 font-size: 8pt;"><font size="1" style="font-size:8pt;">All values in the given struct should 
+		 be initialized to 0.</font></span></p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">The 
+		 recommended methods to do so are as follows:</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+		 style="font-weight: bold;">Option 1:</span> use memset</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;<span 
+		 style="font-family: 'Courier New', monospace;">PEAPConfig peapConfig;</span></p>
+		<p style="text-align: left; font-size: 8pt; font-family: 'Courier New', monospace;">&#160;memset(peapConfig, 
+		 0, sizeof(peapConfig));</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+		 style="font-weight: bold;">Option 2:</span> Use C++ initialization</p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;<span 
+		 style="font-family: 'Courier New', monospace;">PEAPConfig peapConfig 
+		 {};</span></p>
+		<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="EAPTLSConfig_C.htm">EAPTLSConfig</a> *EAPTLS</p></td>
+		
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="EAPTTLSConfig_C.htm">EAPTTLSConfig</a> *EAPTTS</p></td>
+		
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="EAPTTLSConfig_C.htm">LEAPConfig</a> *LEAP</p></td>
+		
+	</tr>
+	<tr style="vertical-align: top;">
+		<td style="padding-right: 10px; padding-left: 10px;" bgcolor="#E8E8E8"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;"><a 
+		 href="EAPFASTConfig_C.htm">EAPFASTConfig</a> *EAPFAST</p></td>
+		
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL 
+		 enabled</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="text-align: left; 
+			 font-family: Verdana, sans-serif; font-size: 8pt;">Connection 
+		 is enabled for activation</p></td>
+	</tr>
+	<tr style="vertical-align: top;">
+		<td colspan="2" style="padding-right: 10px; padding-left: 10px;"><p 
+			 style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL 
+		 Broadcast</p></td>
+		<td style="padding-right: 10px; padding-left: 10px;"><p style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;"><span style="font-weight: bold;">1</span> 
+		 = connect to the network, even if it's not broadcasting the SSID 
+		 </p>
+		<p style="font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+		 style="font-weight: bold;">0</span> = only connect to the network 
+		 if it's SSID is being broadcast </p></td>
+	</tr>
+</table>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

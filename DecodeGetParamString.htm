@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeGetParamString</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+</head>
+<body>
+<h2>DecodeGetParamString</h2>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0;">DWORD cdecl DecodeGetParamString (DWORD index, WCHAR* data, DWORD length);</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">DWORD index</p>
+<p style="margin-left: 80px; text-align: left;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The value of the item to be retrieved.</span></p>
+<p style="margin-left: 80px; text-align: left;">&#160;</p>
+<p style="text-align: left; font-style: italic; margin-left: 40px;">WCHAR* data</p>
+<p style="margin-left: 80px; font-style: italic; text-align: left;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-style: normal;">The pointer to the Unicode string buffer to copy the data characters into.</span></p>
+<p style="margin-left: 80px; font-style: italic; text-align: left;">&#160;</p>
+<p style="text-align: left; font-style: italic; margin-left: 36px;">&#160;DWORD length</p>
+<p style="text-align: left; margin-left: 80px;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The length of the buffer passed in to hold the data to be saved (divide by two to get the number of WCHAR characters).</span></p>
+<h3>Returns:</h3>
+<p style="margin-left: 40px; text-align: left; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">The actual number of bytes copied into the data buffer. Return 0 if there are no Unicode characters or if the DecodeSetParam function was used to set a single character.</p>
+<h3 style="font-size: 10pt;"><span style="font-size: 10pt;">Remarks:</span></h3>
+<p style="margin-left: 40px; text-align: left;">The acceptable index arguments are string of Unicode characters as indicated in <a href="General_Decoding_Definitions.htm">General Decoding Definitions</a>.</p>
+<p style="margin-left: 40px; text-align: left;">The index argument can assume one of the following values:</p>
+<p style="margin-left: 40px; text-align: left;">LABEL_PREFIX</p>
+<p style="margin-left: 40px; text-align: left;">LABEL_SUFFIX</p>
+<p style="margin-left: 40px; text-align: left;">LABEL_SEPARATOR.</p>
+<p style="text-align: left;">&#160;</p>
+</body>
+</html>

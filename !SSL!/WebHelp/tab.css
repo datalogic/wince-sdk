@@ -1,0 +1,100 @@
+﻿/* Style Sheet created by ImportDoc 13.0 */
+
+p.WD_Normal {
+	margin:0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:Arial;
+}
+
+p.WD_Heading3 {
+	margin-top:0pt;
+	margin-right:0pt;
+	margin-bottom:.0001pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	text-indent:-36.0pt;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+p.WD_Toc1 {
+	margin:0pt;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:Arial;
+}
+
+p.WD_Toc2 {
+	margin-top:10.0pt;
+	margin-right:0pt;
+	margin-bottom:.0001pt;
+	margin-left:0pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:Arial;
+}
+
+p.WD_Barcode {
+	margin-top:0pt;
+	margin-right:0pt;
+	margin-bottom:.0001pt;
+	margin-left:5.65pt;
+	text-align:center;
+	font-size:15.0pt;
+	font-family:IDAutomationC128XS;
+}
+
+OL {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+UL {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+rh-list.MSWordList0 {
+	x-level-count:9;
+	x-lvl-1-text-indent:-28px;
+	x-lvl-1-margin:76px;
+	x-lvl-1-type:decimal;
+	x-lvl-1-format:<x>;
+	x-lvl-2-format:<1>.<x>;
+	x-lvl-2-text-indent:-38px;
+	x-lvl-2-type:decimal;
+	x-lvl-2-margin:86px;
+	x-lvl-3-margin:48px;
+	x-lvl-3-format:<1>.<2>.<x>;
+	x-lvl-3-text-indent:-48px;
+	x-lvl-3-type:decimal;
+	x-lvl-4-format:<1>.<2>.<3>.<x>;
+	x-lvl-4-text-indent:-57px;
+	x-lvl-4-margin:105px;
+	x-lvl-4-type:decimal;
+	x-lvl-5-format:<1>.<2>.<3>.<4>.<x>;
+	x-lvl-5-text-indent:-67px;
+	x-lvl-5-type:decimal;
+	x-lvl-5-margin:115px;
+	x-lvl-6-margin:124px;
+	x-lvl-6-type:decimal;
+	x-lvl-6-format:<1>.<2>.<3>.<4>.<5>.<x>;
+	x-lvl-6-text-indent:-76px;
+	x-lvl-7-format:<1>.<2>.<3>.<4>.<5>.<6>.<x>;
+	x-lvl-7-text-indent:-86px;
+	x-lvl-7-type:decimal;
+	x-lvl-7-margin:134px;
+	x-lvl-8-margin:144px;
+	x-lvl-8-format:<1>.<2>.<3>.<4>.<5>.<6>.<7>.<x>;
+	x-lvl-8-text-indent:-96px;
+	x-lvl-8-type:decimal;
+	x-lvl-9-margin:153px;
+	x-lvl-9-type:decimal;
+	x-lvl-9-text-indent:-105px;
+	x-lvl-9-format:<1>.<2>.<3>.<4>.<5>.<6>.<7>.<8>.<x>;
+}
+

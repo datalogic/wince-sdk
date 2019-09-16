@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="DecodeSoftTrigger" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeSoftTrigger</title>
+</head>
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">DecodeSoftTrigger</h2>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">This activates the trigger of a decoding device to begin data acquisition.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0; font-family: Verdana, sans-serif; font-size: 8pt;">BOOL cdecl DecodeSoftTrigger( HANDLE hFile, DWORD inputType, DWORD timeout );</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">HANDLE hFile</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Handle to the decoding device. The CreateFile function returns this handle.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD inputType</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Specifies the input data type to begin acquiring. Valid values are listed in section <a href="Input_Data_Types_Mask.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Input Data Types Mask</a>.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD timeout</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Amount of time, in milliseconds, to continue the attempt to acquire data. If data has not been obtained after this time period, then the trigger is deactivated.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Returns:</h3>
+<p style="margin-left: 40px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure. The function will return immediately.</p>
+</body>
+</html>

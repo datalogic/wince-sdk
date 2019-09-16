@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Web Develop Client</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../SDK.htm", "", ">", "Home", "../System_Overview.htm");
+document.write("Web Develop Client<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>Web Client</h1>
+<p class="Normal">&#160;</p>
+<table style="border: Solid 1.5pt #ff962d; vertical-align: top;" cellspacing="0" width="100%">
+<col style="width: 100%;" />
+<tr style="vertical-align: top;">
+<td style="border: Solid 1pt #ff7f00; width: 100%; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; color: #ff7f00; text-align: center; margin-top: 12pt; margin-bottom: 3pt;">NOTE</p>
+<p style="font-family: Verdana; font-size: 8.0pt; margin-left: 10pt; margin-right: 10pt; margin-bottom: 12pt; text-align: center;">This feature is not supported by the Datalogic Skorpio™ batch models using WinCE 5.0 Core.</p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;"><span lang="EN-US" xml:lang="EN-US">Your Datalogic mobile computer or PDA can be used as a Web Client communicating with a Web Server to navigate web applications.</span></p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">The web browser used by the mobile computer is Microsoft® Internet Explorer 6.0, which provides the following functions (for further details refer to Microsoft® documentation):</font></span></font></p>
+<p class="Normal" style="margin-top: 3.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">-</font></span> <span lang="EN-US" xml:lang="EN-US">complete ActiveX Hosting support, which allows creating HTML pages including the Datalogic ActiveX Controls;</span></p>
+<p class="Normal" style="margin-top: 3.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><span lang="FR" xml:lang="FR">- Internet Explorer 6.0 DOM;</span></p>
+<p class="Normal" style="margin-top: 3.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><span lang="FR" xml:lang="FR" style="font: 7.0pt 'Times New Roman'; font-size: 8.0pt; font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">-</font></span> <span lang="FR" xml:lang="FR">Dynamic HTML;</span></p>
+<p class="Normal" style="margin-top: 3.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><font style="font-size: xx-small; font-family: 'Times New Roman';" size="1" face="Times New Roman"><span lang="FR" xml:lang="FR" style="font: 7.0pt 'Times New Roman'; font-size: 8.0pt; font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">-</font></span></font> <span lang="FR" xml:lang="FR">XML Parser;</span></p>
+<p class="Normal" style="margin-top: 3.0pt; margin-right: 0cm; margin-bottom: .0001pt; margin-left: 17.85pt; text-indent: -17.85pt;"><font style="font-size: xx-small; font-family: 'Times New Roman';" size="1" face="Times New Roman"><span lang="FR" xml:lang="FR" style="font: 7.0pt 'Times New Roman'; font-size: 8.0pt; font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">-</font></span></font> <span lang="FR" xml:lang="FR">JavaScript Parser 5.5.</span></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">When the mobile computer requires a web page, its onboard web browser sends the server the HTTP_USER_AGENT header containing the string identifying the mobile computer itself.</font></span></font></p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">Thanks to this information, the web site (server) recognizes the Datalogic mobile computer and is able to send it those web pages which are more suitable for the mobile computer functions (i.e. pages with JavaScript scripting for barcode reading) and its screen resolution.</font></span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">For example, if using the ASP technology with JavaScript scripting language, the web server is able to get this information through the following instruction:</font></span></font></p>
+<p class="Normal" style="margin-top: 6.0pt; margin-right: 0cm; margin-bottom: 6.0pt; margin-left: 0cm; text-align: center;"><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-style: italic;"><font size="1" style="font-size:8pt;"><i>&lt;% var sUserAgent = Request.ServerVariables(“HTTP_USER_AGENT”); %&gt;</i></font></span></font></i></p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">Then, the contents of the <i><span style="font-style: italic;"><i>sUserAgent</i></span></i> variable string will be the following:</font></span></font></p>
+<p class="Normal" style="margin-top: 6.0pt; text-align: center;"><i><font style="font-family: Verdana;" face="Verdana"><span lang="FR" xml:lang="FR" style="font-size: 8.0pt; font-style: italic;"><font size="1" style="font-size:8pt;"><i>Mozilla/4.0 (compatible; MSIE 6.0; Windows CE; Device_Name; 240x320)</i></font></span></font></i></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">where Device_Name is one of the following Datalogic devices: Viper-NET, Kyman-NET, Rhino-NET, Datalogic Skorpio, Datalogic Skorpio-GUN, Datalogic Jet, Datalogic Memor.</p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">If using the PHP technology, it is possible to get the same information by simply requiring the value of the <i><span style="font-style: italic;"><i>$HTTP_USER_AGENT</i></span></i> predefined variable.</font></span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">The same information can be obtained in an HTML page by simply requiring the value of JavaScript <i><span style="font-style: italic;"><i>navigator.userAgent</i></span></i> property.</font></span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;"><font size="1" style="font-size:8pt;">Thanks to the Internet Explorer 6.0 DOM, Document Object Model, it will also be possible to recognize the mobile computer screen resolution by requiring the value of the <i><span style="font-style: italic;"><i>screen.width</i></span></i> and <i><span style="font-style: italic;"><i>screen.height</i></span></i> properties.</font></span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 9" />
+<title>JoyaCradleReadConfigData</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;"><span style="font-family: Verdana, sans-serif; 
+	 font-size: 14pt;">JoyaCradleReadConfigArea</span></h2>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">It reads a 
+ custom byte array from Joya Cradle Persistent Memory dedicated to custom 
+ data.</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" 
+		 width="100%" bgcolor="#CCCCCC">
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" 
+			 width="642"><p class="Normal" style="font-weight: bold; font-family: Verdana, sans-serif; 
+							 font-size: 8pt;"><span style="mso-fareast-font-family: 'Times New Roman'; 
+													 mso-ansi-language: IT; 
+													 mso-fareast-language: IT; 
+													 mso-bidi-language: AR-SA;">BOOL 
+		 </span>&#160;cdecl &#160;<span style="mso-fareast-font-family: 'Times New Roman'; 
+										 mso-ansi-language: IT; mso-fareast-language: IT; 
+										 mso-bidi-language: AR-SA;">JoyaCradleReadConfigArea(</span>BYTE* 
+		 area, unsigned long size, unsigned long* pReturnSize<span style="mso-fareast-font-family: 'Times New Roman'; 
+		 mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA;">)</span>;</p></td>
+	</tr>
+</table>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 class="Normal" style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b 
+	 style="font-weight: bold;"><span lang="EN-US" xml:lang="EN-US">Parameters</span></b></h3>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; font-family: Verdana, sans-serif; 
+	 font-size: 8pt;"><span style="mso-fareast-font-family: 'Times New Roman'; 
+							 mso-ansi-language: IT; mso-fareast-language: IT; 
+							 mso-bidi-language: AR-SA;">BYTE* area</span> 
+ </p>
+<p style="margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;">Array 
+ of byte to read.</p>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA; 
+	 font-family: Verdana, sans-serif; font-size: 8pt; font-weight: normal;">unsigned 
+ long size</p>
+<p style="margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: IT; 
+	 mso-fareast-language: IT; mso-bidi-language: AR-SA;">Size of the array 
+ (max value is 575)</span></p>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; mso-fareast-font-family: 'Times New Roman'; 
+	 mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA; 
+	 font-family: Verdana, sans-serif; font-size: 8pt;">unsigned long* 
+ pReturnSize </p>
+<p style="margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;"><span 
+	 style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: IT; 
+	 mso-fareast-language: IT; mso-bidi-language: AR-SA;">Returned size 
+ of the array</span>.</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 8pt; font-weight: normal;"><b 
+	 style="font-weight: normal;"><span lang="EN-US" xml:lang="EN-US" style="font-weight: normal;">where</span></b></h3>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;"><b style="font-weight: normal;"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-weight: normal;">t</span></b>ypedef 
+ union</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">{</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">BYTE fastChargeEnabled;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">BYTE data[CONFIG_AREA_SIZE];</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">} JOYA_CRADLE_CONFIG;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-size: 10.0pt; font-family: Verdana, sans-serif;">&#160;</h3>
+<h3 style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b><span 
+	 lang="EN-US" xml:lang="EN-US">Return Value</span></b></h3>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;"><span style="mso-fareast-font-family: 'Times New Roman'; 
+	 mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA;">A 
+ value of TRUE is returned on success, otherwise FALSE is returned to indicate 
+ failure</span>.</p>
+</body>
+</html>

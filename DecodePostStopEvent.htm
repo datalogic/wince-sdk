@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodePostStopEvent</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+</head>
+<body>
+<h2>DecodePostStopEvent</h2>
+<p>&#160;</p>
+<p>These events occur at a system level of visibility, but are separate for each decoding device. &#160;For each decoding device, only one event or message can be in effect at any time. &#160;If a stop event is posted, then you need to cancel the stop notification to post the stop event with a new event handle or a windows message.</p>
+<p>&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0;">BOOL DecodePostStopEvent(HANDLE hFile, HANDLE hEvent);</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hFile</p>
+<p style="margin-left: 80px;">Handle to the decoding device from which a scanning stop notification is requested. &#160;The CreateFile function returns this handle.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hEvent</p>
+<p style="margin-left: 80px; text-align: left;">Handle to the event to signal when scanning stops. If set to NULL, the notification is cancelled (see Remarks section).</p>
+<p style="margin-left: 80px; text-align: left;">&#160;</p>
+<h3>Returns:</h3>
+<p style="margin-left: 40px; text-align: left;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Remarks:</h3>
+<p style="margin-left: 40px; text-align: left;">An event notification cannot be requested if a message has already been requested. &#160;Setting hEvent to NULL can be used to cancel a previous event notification request, but only if the same file handle is used to both request and cancel the notification.</p>
+</body>
+</html>

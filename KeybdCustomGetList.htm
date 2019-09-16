@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>KeybdCustomGetList</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+</head>
+<body>
+<h2>KeybdCustomGetList</h2>
+<p>&#160;</p>
+<p class="Normal" style="mso-bidi-font-size: 12.0pt; font-family: Verdana, sans-serif; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-size: 8pt; mso-bidi-language: AR-SA;">Gets custom key association list that currently applies to the keypad.</p>
+<p class="Normal">&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse; left: 0px; top: 102px; height: 18px;" cellspacing="0" width="685" bgcolor="#CCCCCC">
+<tr>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" width="650">
+<p class="Normal" style="font-weight: bold; font-size: 8pt; font-family: Verdana, sans-serif;"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">int cdecl KeybdCustomGetList (CUSTOM_KEY* list, DWORD length)</span>;</p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<h3 class="Normal" style="font-family: Verdana; font-size: 10.0pt;"><b style="font-weight: bold;"><span lang="EN-US" xml:lang="EN-US">Parameters</span></b></h3>
+<p class="Normal" style="font-style: italic;"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">CUSTOM_KEY</span><span style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">* list</span> <span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"></span>&#160;</p>
+<p style="margin-left: 40px; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-size: 8pt;">This parameter points to a CUSTOM_KEY array that receives the custom key association list that applies to the keypad. If this parameter is null, the function exits with no action and returns zero.</p>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">DWORD length</p>
+<p style="margin-left: 40px; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-size: 8pt;">This parameter holds the length of the array (in number of elements) pointed to by the “list” parameter. If there are more elements in the custom key association list than specified by this parameter, the function fills the entire caller’s array with a subset of the custom keys. If there are fewer elements in the custom key association list than specified by this parameter, the function will copy only the elements that exist and will leave the rest of the caller’s array unmodified.</p>
+<p>&#160;</p>
+<h3 style="font-family: Verdana; font-size: 10.0pt;"><b style="font-weight: bold;"><span lang="EN-US" xml:lang="EN-US">Return Value</span></b></h3>
+<h3 style="mso-fareast-font-family: 'Times New Roman'; font-weight: normal; mso-ansi-language: EN-US; mso-fareast-language: EN-US; font-family: Verdana; font-size: 8pt; margin-top: 6pt;"><span style="mso-bidi-language: AR-SA;">The returned signed integer value specifies the number of array elements that were copied into the caller’s array. If this value is equal to -1, it indicates that an error occurred.</span></h3>
+<h3>Remarks</h3>
+<p style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Verdana, sans-serif;">It may be necessary to call the “<span style="mso-bidi-font-size: 12.0pt;">KeybdCustomGetListLength” API function before calling this function so that the length of the custom key association list is known</span>.</p>
+<p style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Verdana, sans-serif;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-family: Verdana, sans-serif;">For more information about <a href="CUSTOM_KEY.htm">CUSTOM_KEY</a> see section Data Structures.</span></p>
+<p>&#160;</p>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>KeybdGetMultitapDelay</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDevice API\nFunction Reference\nKeybdGetMultitapDelay");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"BATINFO,_P_BATINFO1.htm\">Device API<\/a> > <a href=\"AccelerometerClose.htm\">Function Reference<\/a> > KeybdGetMultitapDelay<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">KeybdGetMultitapDelay</h2>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana, sans-serif;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana, sans-serif;">Gets the delay setting used by the multitap feature when the unit is in alpha mode.</p>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" width="100%" bgcolor="#CCCCCC">
+<tr>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" width="642">
+<p class="Normal" style="font-size: 8.0pt; font-weight: bold; font-family: Verdana, sans-serif;">int cdecl KeybdGetMultitapDelay( void );</p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Return Value</span></b></h3>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">One of the values listed in section <a href="Keyboard_multitap_delay_definitions.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Keyboard multitap delay definitions</a>.</p>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-size: 10.0pt; background-color: Transparent; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Remarks</span></b></h3>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">This function will return KBD_MULTITAP_DELAY_ERROR if this function is not supported by the installed keypad.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

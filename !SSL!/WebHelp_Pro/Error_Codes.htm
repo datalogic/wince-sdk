@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Error Codes</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nError Codes");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > Error Codes<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">Error Codes</h2>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">When many of the functions return an error code, calling GetLastError may return additional error information. &#160;&#160;These values should be valid HRESULTs, made up as follows:</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><span style="color: #0000ff;"><font color="blue" >#define</font></span> FACILITY_DCD 0xA0</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;"><span style="color: #0000ff;"><font color="blue" >#define</font></span> MAKE_DCD_ERROR(code) (MAKE_HRESULT(1, FACILITY_DCD, (code))|(1UL&lt;&lt;29))</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Error Code HRESULTs:</p>
+<table style="vertical-align: top;" cellspacing="0" width="71.002%">
+<col style="width: 28.649%;" />
+<col style="width: 36.706%;" />
+<col style="width: 34.645%;" />
+<tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Name</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Code used in MAKE_DCD_ERROR(…)</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Description</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">Reserved</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">5, 6, 7, 8</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Depricated values from OCR</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">DCD_E_PARAM_INDEX</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">0</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Parameter index is not supported</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">DCD_E_PARAM_MIN</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">1</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Parameter value is too low</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">DCD_E_PARAM_MAX</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">2</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Parameter value is too high</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">DCD_E_TRIG_BUSY</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">3</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Triggering is already active for the device</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">DCD_E_TOO_MANY_MONITORS</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">4</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">More than 255 monitor requests exist</p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

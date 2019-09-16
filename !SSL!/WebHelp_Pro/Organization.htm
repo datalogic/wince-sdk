@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Organization</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("General References\nDecoding Subsystem\nOrganization");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"System_Overview.htm\">General References<\/a> > <a href=\"Organization.htm\">Decoding Subsystem<\/a> > Organization<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">Organization</h2>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Decoding on the Datalogic platform is accomplished through the use of multiple device drivers. Each driver exposes a stream interface to the Device Manager, and is written using a monolithic model. The figure below illustrates the relationship between the various device drivers.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-weight: bold; text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><img src="Images/Decoding_Subsystem_Drivers.jpg" alt="" style="border: none;" width="363" height="460" border="0" /><br />
+&#160;</p>
+<p style="font-weight: bold; text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;">Decoding Subsystem Drivers</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">All drivers related to decoding are assigned a name with the prefix "DCD". &#160;The index of each driver is assigned automatically by the Device Manager with the exception of the Decode Manager, which is assigned an index of zero. &#160;Each decoding device (laser engine, imager or a combination device) has a corresponding decoding driver which interfaces directly to it. &#160;The Decode Manager has the responsibility of being the single interface point for functions common to input data types, such as label programming, and keyboard wedge support. &#160;Applications can use it to enumerate the decoding devices present in the system. &#160;Once a suitable device is found the user can use the decoding SDK to obtain data from that device.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">The decoding system is based on the concept of input data types. The distinction is based on the automatic data collection technology used to collect the data. The currently supported data types are barcodes and images. A physical decoding device is capable of interpreting data in at least one of these forms, and some devices can interpret more than one data type.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

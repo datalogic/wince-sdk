@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>SoftSpotAction</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nSoftSpot API\nData Structures\nSoftSpotAction");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"SoftSpotAction.htm\">SoftSpot API<\/a> > <a href=\"SoftSpotAction.htm\">Data Structures<\/a> > SoftSpotAction<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1 style="font-family: Verdana, sans-serif; font-size: 14pt; font-weight: bold;">SoftSpotAction</h1>
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">The structure holds information about a given SoftSpot action that can be performed by SoftSpot.</font></span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10pt; font-weight: bold;"><font size="2" style="font-size:10pt;">Members</font></span><span lang="EN-US" xml:lang="EN-US">:</span></p>
+<p class="MsoNormal">&#160;</p>
+<p class="MsoNormal">&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="75.796%">
+<col style="width: 50.929%;" />
+<col style="width: 49.071%;" />
+<tr style="vertical-align: top;">
+<td style="border: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">DWORD actionId;</font></span></td>
+<td style="border-top: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">Unique ID of given action</font></span></td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: 'Courier New', monospace; font-size: 10pt;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">WCHAR title[SOFTSPOT_MAX_TITLE_LENGTH];</font></span></p>
+</td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">Human-readable action title</font></span></td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">WCHAR icon[MAX_PATH]</font></span><span style="font-family: 'Courier New', monospace; font-size: 10pt;"><font size="2" style="font-size:10pt;">; &#160;&#160;</font></span></td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">Full path to icon image used for Action. 32-bit (RGBA) PNG files are the only types of image files supported</font></span></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">SOFTSPOT_ACTION_TYPE actionType;</font></span></p>
+</td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">Type of action (scan or launch app)</font></span></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">WCHAR application[MAX_PATH];</font></span></p>
+</td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8.0pt; line-height: 115%; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">Full path to executable to launch</font></span></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p class="MsoNormal"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-ansi-language: EN-US;"><font size="1" style="font-size:8pt;">WCHAR arguments[MAX_PATH];</font></span></p>
+</td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8.0pt; line-height: 115%; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">Arguments to pass to executable on launch</font></span></p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Ridge 1px #000000; border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font size="1" style="font-size:8pt;">DWORD order; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span></td>
+<td style="border-right: Ridge 1px #000000; border-bottom: Ridge 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; line-height: 115%; font-family: Verdana, sans-serif; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-bidi-font-family: 'Times New Roman'; mso-bidi-theme-font: minor-bidi; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;"><font size="1" style="font-size:8pt;">Order action is displayed in Action list</font></span></td>
+</tr>
+</table>
+&#160; <br />&#160; <br />&#160;
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

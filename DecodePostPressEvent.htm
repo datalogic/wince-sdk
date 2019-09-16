@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodePostPressEvent</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+</head>
+<body>
+<h2>DecodePostPressEvent</h2>
+<p>&#160;</p>
+<p>When all hardware triggers are released and a hardware trigger is pressed the software must sent a press event regardless of the configured type of the trigger. &#160;This event will be set before the events of any resultant events (ie scan start).<br />
+These events occur at a system level of visibility, and are specific to the decode manager ("DCD0:"). &#160;Only one event can be in effect at any time. &#160;If a press event is posted, then you need to cancel the stop notification to post the press event with a new event handle or a windows message.<br />
+Multiple triggers exist on a device, but only one trigger can be active at time. &#160;Once a scanning session begins, all triggers except the one which started the session will be ignored until the end of the scanning session.</p>
+<p>&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0;">BOOL DecodePostPressEvent(HANDLE hEvent);</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hEvent</p>
+<p style="margin-left: 80px; text-align: left;">Handle to the event to signal when a trigger is pressed. &#160;If set to NULL, the notification is cancelled (see Remarks section).</p>
+<h3>Returns:</h3>
+<p style="margin-left: 40px; text-align: left;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Remarks:</h3>
+<p style="margin-left: 40px; text-align: left;">An event notification cannot be requested if a message has already been requested. &#160;Setting hEvent to NULL can be used to cancel a previous event notification request.</p>
+</body>
+</html>

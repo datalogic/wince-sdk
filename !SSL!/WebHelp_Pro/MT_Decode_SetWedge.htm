@@ -1,0 +1,306 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="MT_Decode_SetParamString.doc" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>MT_Decode_SetWedge</title>
+<link rel="stylesheet" href="MT_Decode_SetWedge.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nDecode\nSetWedge");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"CL_ClassList.htm\">Classes<\/a> > <a href=\"CL_Decode.htm\">Decode<\/a> > SetWedge<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><i style="font-style: italic;">Datalogic .NET SDK</i></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">SetWedge (Method)</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Syntax</i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; background-color: #c0c0c0;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+<p class="WD_Normal" style="
+text-indent:35.4pt;
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="text-indent: 35.4pt; padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">public</font></span> <span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><span style="color: #0000ff;"><font color="blue" >static</font></span> <span style="color: #0000ff;"><font color="blue" >bool</font></span> SetWedge(<span style="color: #2B91AF;"><font color="#2b91af" >WedgeType</font></span> inputType, <span style="color: #0000ff;"><font color="blue" >bool</font></span> enable);</font></span></span></p>
+<p class="WD_Normal" style="
+text-indent:35.4pt;
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="text-indent: 35.4pt; padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Class&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="CL_Decode.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Decode</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="NS_DatalogicApi.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Datalogic.API</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> Datalogic.API.DLL</font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Enables or disables the keyboard wedge feature for a particular type of input data.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Parameters Table</i></b></p>
+<table style="margin-left: 1.9pt;" cellspacing="0" width="51.243%">
+<col style="width: 21.954%;" />
+<col style="width: 22.187%;" />
+<col style="width: 21.954%;" />
+<col width="229" />
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Type</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Parameter</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Description</b></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">WedgeType</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">inputType</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Indicates the type of input data for which the wedge settings should be altered.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">bool</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">enable</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Specifies whether or not the wedge feature is enabled. If false, the feature is disabled, otherwise it is enabled.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[return]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">bool</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">TRUE is returned on success, otherwise FALSE is returned.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[on error]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">FALSE</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">&#160;</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">If an invalid input type is specified, FALSE is returned.</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Example</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" cellspacing="0">
+<col width="654" />
+<tr>
+<td style="vertical-align: top; border-left: solid #000000 1.0px; border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;private</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"><span style="color: #0000ff;"><font color="blue" >void</font></span> btnWedge_Click(<span style="color: #0000ff;"><font color="blue" >object</font></span> sender, <span style="color: #2B91AF;"><font color="#2b91af" >EventArgs</font></span> e)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;bool</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">b = <span style="color: #0000ff;"><font color="blue" >false</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;bool</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">bIsEnabled = <span style="color: #0000ff;"><font color="blue" >false</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// “WedgeStatus” is a boolean global member.</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >if</font></span> (WedgeStatus == <span style="color: #0000ff;"><font color="blue" >false</font></span>)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WedgeStatus = <span style="color: #0000ff;"><font color="blue" >true</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;btnWedge.Text = <span style="color: #A31515;"><font color="#a31515" >"Disable Wedge"</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >else</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WedgeStatus = <span style="color: #0000ff;"><font color="blue" >false</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;btnWedge.Text = <span style="color: #A31515;"><font color="#a31515" >"Enable Wedge"</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;b = <span style="color: #2B91AF;"><font color="#2b91af" >Decode</font></span>.<b>SetWedge</b>(<span style="color: #2B91AF;"><font color="#2b91af" >WedgeType</font></span>.Barcode, WedgeStatus);&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;bIsEnabled = <span style="color: #2B91AF;"><font color="#2b91af" >Decode</font></span>.GetWedge(<span style="color: #2B91AF;"><font color="#2b91af" >WedgeType</font></span>.Barcode);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">See Also</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><a href="EXAMPLE_MATRIX.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Example #015 (4)</a>.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:8pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 8pt; "><font size="1" style="font-size:8pt;">&#160;</font></span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><i style="font-style: italic;">Copyright © Datalogic ADC. All Right Reserved</i></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

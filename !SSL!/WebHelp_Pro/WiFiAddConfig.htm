@@ -1,0 +1,986 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>AddConfig</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nWiFi\nAddConfig");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"CL_ClassList.htm\">Classes<\/a> > <a href=\"CL_WiFi.htm\">WiFi<\/a> > AddConfig<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; 
+	 font-size: 10pt;"><span><span style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt; background-color: #33cccc;"><font size="2" style="font-size:10pt;"><i 
+	 style="font-style: italic;">Datalogic .NET SDK</i></font></span></span></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; 
+	 font-size: 10pt;"><b><span style="font-weight: bold;">AddConfig</span> 
+ (Method)</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Syntax</i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; 
+	 background-color: #c0c0c0;">
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+	<p class="WD_Normal" style="
+text-indent:35.4pt;
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="text-indent: 35.4pt; padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; 
+											 color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">public static 
+	 void</font></span><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"> 
+	 AddConfig(</font></span><span style="font-size: 10.0pt; font-family: 'Courier New'; 
+							 color: #2B91AF;"><font size="2" color="#2b91af" style="font-size:10.000000pt;">StandardWiFiConfig</font></span><span 
+	 style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"> cfg)</font></span></span></p>
+	<p class="WD_Normal" style="
+text-indent:35.4pt;
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="text-indent: 35.4pt; padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b>Class&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> 
+	 <a href="CL_WiFi.htm">WiFi</a></font></span></p>
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> 
+	 <a href="NS_DatalogicApi.htm" style="font-family: Verdana, sans-serif; 
+		 font-size: 10pt;">Datalogic.API</a></font></span></p>
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> 
+	 Datalogic.API.DLL</font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Adds 
+ a new WiFi profile</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><span style="font-style: italic; 
+	 font-weight: bold;"><i>Throws</i></span></font></span></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><a 
+	 href="WiFiException_(Class).htm">WiFiException</a> on error. </p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Parameters 
+ Table</i></b></p>
+<table style="margin-left: 1.9pt;" cellspacing="0" width="66.874%">
+	<col style="width: 11.732%;" />
+	<col style="width: 20.211%;" />
+	<col style="width: 26.291%;" />
+	<col style="width: 42.737%;" />
+	<tr>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#D9D9D9"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;">&#160;</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#D9D9D9"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;">Type</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#D9D9D9"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;">Parameter</b></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#D9D9D9"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;">Description</b></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">[in]</p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 10.0pt; font-family: 'Courier New';"><a 
+		 href="WiFiConfig.htm">StandardWiFiConfig</a></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">cfg</font></span></p></td>
+		<td style="vertical-align: top; border-left: none; border-right: none; 
+			 border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">A <a href="StandardWiFiConfig.htm">StandardWiFiConfig</a>, 
+		 (or derived) object containing required values for a new standard 
+		 or EAP Wi-Fi profile to be added to the system.</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-size: 10pt;"><span style="font-size: 10pt;"><font size="2" style="font-size:10pt;">To 
+ add EAP profiles, use the following specific classes, which derive from 
+ StandardWifiConfig that correspond to specific EAP types:</font></span></p>
+<ul style="list-style: disc;">
+	<li style="font-size: 10pt;"><p style="font-size: 10pt;"><a href="PEAPConfig.htm">PEAPConfig</a></p></li>
+	<li style="font-size: 10pt;"><p style="font-size: 10pt;"><a href="EAPTLSConfig.htm">EAPTLSConfig</a></p></li>
+	<li style="font-size: 10pt;"><p style="font-size: 10pt;"><a href="EAPTTLSConfig.htm">EAPTTLSConfig</a></p></li>
+	<li style="font-size: 10pt;"><p style="font-size: 10pt;"><a href="LEAPConfig.htm">LEAPConfig</a></p></li>
+	<li style="font-size: 10pt;"><p style="font-size: 10pt;"><a href="EAPFASTConfig.htm">EAPFASTConfig</a></p></li>
+</ul>
+<p class="WD_Normal">&#160;</p>
+<h2>Examples</h2>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b style="font-weight: bold;"><i 
+	 style="font-style: italic;">Example: Adding a WPA2-PSK network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; 
+			 font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+		 style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">StandardWiFiConfig 
+		 cfg = new StandardWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;myNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;mySSID&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.AuthType 
+		 = Authentication.Wpa2Psk;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Encr 
+		 = Encryption.Aes;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Broadcast 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.PSK.Buffer 
+		 = &quot;myPassword&quot;; </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try 
+		 <span style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex) <span style="text-autospace: none; font-size: 9.0pt; 
+									 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;outputWriteLine(&quot;Error 
+		 adding &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding an open network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; 
+			 font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+		 style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">StandardWiFiConfig 
+		 cfg = new StandardWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;myNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;mySSID&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.AuthType 
+		 = Authentication.Open;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Encr 
+		 = Encryption.None;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Broadcast 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;outputWriteLine(&quot;Error 
+		 adding &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding an EAP-PEAP network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;PEAPConfig 
+		 cfg = new PEAPConfig();</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;peap&quot;;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;myPeapNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Type 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Source 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.InnerMethod 
+		 = EapInnerMethod.EapMschapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Password 
+		 = &quot;myPassword&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b><i>Example: 
+ Adding an EAP-TLS network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;"><span style="text-autospace: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 
+		 Will use &quot;eaptls&quot; certificate, which has been added 
+		 to Control Panel</span></p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 
+		 &gt; Certificates &gt; My Certificates list already. Make sure 
+		 the</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// 
+		 device's date is in certificate's set start and end date range!</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EAPTLSConfig 
+		 cfg = new EAPTLSConfig();</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;eaptls&quot;;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;myEAPTLSNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Conn.ValidateServer 
+		 = false;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Conn.FastReconnect 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding an EAP-TTLS network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EAPTTLSConfig 
+		 cfg = new EAPTTLSConfig();</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;eapttls&quot;;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;myEAPTTLSNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Conn.ValidateServer 
+		 = false;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Type 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Source 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Password 
+		 = &quot;myPassword&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding an EAP-LEAP network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;LEAPConfig 
+		 cfg = new LEAPConfig();</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;leap&quot;;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;myLeapNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Type 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Source 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Cckm 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Password 
+		 = &quot;myPassword&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding an EAP-FAST network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EAPFASTConfig 
+		 cfg = new EAPFASTConfig();</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.ConfigName 
+		 = &quot;eapfast&quot;;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.SSID 
+		 = &quot;myEAPFASTNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Type 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Source 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.InnerMethod 
+		 = EapInnerMethod.EapMschapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Base.Cckm 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EAP.Cred.Password 
+		 = &quot;myPassword&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try<span 
+		 style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)<span style="text-autospace: none; font-size: 9.0pt; 
+								 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;{</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<h2 style="color: #ff0000;">&#160;</h2>
+<h2 style="color: #ff0000;">DEPRECATED EXAMPLES</h2>
+<h3>The following examples are no longer valid. SDK version 2.1.0.54 was 
+ the last version in which these were supported. &#160;Please refer to 
+ the above examples instead.</h3>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Deprecated 
+ Example: Adding a WPA2-PSK network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; 
+			 font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+		 style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">StandardWiFiConfig 
+		 cfg = new StandardWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.ConfigName 
+		 = &quot;myNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.SSID 
+		 = &quot;mySSID&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.AuthType 
+		 = Authentication.Wpa2Psk;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Encr 
+		 = Encryption.Aes;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Broadcast 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.PSK 
+		 = &quot;myPassword&quot;; </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;outputWriteLine(&quot;Error 
+		 adding &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Deprecated 
+ </i></b><b><i>Example: Adding an open network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; 
+			 font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span 
+		 style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">StandardWiFiConfig 
+		 cfg = new StandardWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.ConfigName 
+		 = &quot;myNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.SSID 
+		 = &quot;mySSID&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.AuthType 
+		 = Authentication.Open;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Encr 
+		 = Encryption.None;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Broadcast 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;outputWriteLine(&quot;Error 
+		 adding &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Deprecated 
+ </i></b><b><i>Example: Adding an EAP-PEAP network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EapWiFiConfig 
+		 cfg = new EapWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.SSID 
+		 = &quot;myPeapNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.AuthType 
+		 = Authentication.Wpa2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EapType 
+		 = EapTypes.PppEapPeap;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredType 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredSource 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.InnerMethod 
+		 = EapInnerMethod.EapMschapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Password 
+		 = &quot;myPassword&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try 
+		 </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Deprecated 
+ </i></b><b><i>Example: Adding an LEAP network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EapWiFiConfig 
+		 cfg = new EapWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.SSID 
+		 = &quot;myLeapNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.AuthType 
+		 = Authentication.Wpa2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EapType 
+		 = EapTypes.DlEapLeap;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Cckm 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredType 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredSource 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.InnerMethod 
+		 = EapInnerMethod.EapMschapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Password 
+		 = &quot;myPass&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try 
+		 </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<h3 class="WD_Normal" style="font-size: 10pt; font-family: Verdana, sans-serif;">&#160;</h3>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Deprecated 
+ </i></b><b><i>Example: Adding an EAP-FAST network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;EapWiFiConfig 
+		 cfg = new EapWiFiConfig();</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.SSID 
+		 = &quot;myEapFastNetwork&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.AuthType 
+		 = Authentication.Wpa2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.EapType 
+		 = EapTypes.DlEapFast;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Cckm 
+		 = true;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredType 
+		 = CredentialsType.Password;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.CredSource 
+		 = CredentialsSource.FromProfile;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.InnerMethod 
+		 = EapInnerMethod.EapMschapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.UserName 
+		 = &quot;myUser&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;cfg.Password 
+		 = &quot;myPass&quot;;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try 
+		 </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;WiFi.AddConfig(cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;catch 
+		 (WiFiException ex)</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Debug.WriteLine(&quot;Error 
+		 adding EAP profile, err &quot; + ex.ErrorCode);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<h3 class="WD_Normal" style="font-size: 10pt; font-family: Verdana, sans-serif;">Remarks</h3>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">Supported 
+ devices: Skorpio X4, Falcon X4</p>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">See Also</i></b></p>
+<p class="WD_Normal" style="font-size: 8pt; font-family: Verdana, sans-serif;"><span 
+	 style="font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;"><a href="CL_WiFi.htm">WiFi 
+ (Class)</a>, <a href="EXAMPLE_MATRIX.htm" style="font-size: 8pt; font-family: Verdana, sans-serif;">Example 
+ #43</a>.</font></span></p>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-size:8pt;
+font-family:Verdana, sans-serif;
+border-width:4px;"><span style="padding: 0cm; font-size: 8pt; font-family: Verdana, sans-serif; "><font size="1" style="font-size:8pt;">&#160;</font></span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-size: 8pt; font-family: Verdana, sans-serif;"><i 
+	 style="font-style: italic;">Copyright © Datalogic ADC. All Right Reserved</i></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

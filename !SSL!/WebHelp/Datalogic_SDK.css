@@ -1,0 +1,118 @@
+﻿/*Created with Adobe RoboHelp 9.*/
+BODY {
+	font-family: Arial;
+	background-color: #ffffff;
+}
+H1 {
+	font-size: 18pt;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	font-family: Verdana, sans-serif;
+}
+LI.h1 {
+	font-size: 18pt;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Verdana, sans-serif;
+}
+H2 {
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana;
+	font-size: 14pt;
+}
+LI.h2 {
+	font-weight: bold;
+	font-style: normal;
+	font-family: Verdana;
+	font-size: 14pt;
+}
+H3 {
+	font-weight: bold;
+	font-size: 10pt;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+LI.h3 {
+	font-weight: bold;
+	font-size: 10pt;
+	font-family: Verdana, sans-serif;
+	text-decoration: none;
+}
+H4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+LI.h4 {
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+H5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+LI.h5 {
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+H6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+LI.h6 {
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+p {
+	margin-bottom: 0pt;
+	margin-top: 6pt;
+	text-align: left;
+	font-family: Verdana, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+}
+LI.p {
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+	text-align: Justify;
+	text-decoration: none;
+}
+A.expandspot {
+	color: #008000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.expandtext {
+	font-style: italic;
+	font-weight: normal;
+	color: #ff0000;
+}
+A.dropspot {
+	cursor: hand;
+	color: #008000;
+	font-style: italic;
+	text-decoration: none;
+}
+A.glossterm {
+	color: #800000;
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+}
+SPAN.glosstext {
+	font-style: italic;
+	font-weight: normal;
+	color: #0000ff;
+}
+OL,
+UL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

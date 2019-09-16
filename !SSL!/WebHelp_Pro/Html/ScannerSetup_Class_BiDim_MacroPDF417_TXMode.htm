@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Originator" content="ImportDoc" />
+<meta name="OriginalFile" content="C:\HTML Help Projects\SDK-WindowsCE5\DOC\ScannerSetup Class_BiDim_MacroPDF417_TXMode.doc" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Bi Dimensional - TX/Decode Mode Symbols</title>
+
+<style type="text/css">
+<!--
+A:visited { color:#0000ff; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body lang="IT" xml:lang="IT"><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../SDK.htm", "", ">", "Home", "../System_Overview.htm");
+document.write("Bi Dimensional - TX/Decode Mode Symbols<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="FR" xml:lang="FR" style="font-size: 14.0pt;">Transmit/Decode Mode Symbols</span></font></b></h2>
+<p class="Normal">&#160;</p>
+<p class="Normal" style="text-autospace: none;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">Select only one of the four options below for handling the decoding of Macro PDF. The decoder can handle up to 64K bytes of decoded data, including any optional field information, except in the mode Transmit Each Macro PDF Symbol Decoded in Sequential order, where there is no limit to the size of the Macro PDF set.</span></font></p>
+<ul style="list-style: disc;">
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="text-autospace: none; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Buffer All Symbols / Transmit Macro PDF When Complete activates transmission of all decode data from an entire Macro PDF sequence. Transmission does not occur until the entire Macro PDF sequence is scanned and decoded. This is the default option.</span></p>
+</li>
+</ul>
+<p class="Normal" style="margin-left: 18.0pt; text-autospace: none;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">If the decode data exceeds the limit of 64K bytes, there is no transmission because the entire sequence has not been scanned. Use the parameter Flush Macro PDF Buffer to purge the buffer.</span></font></p>
+<ul style="list-style: disc;">
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="text-autospace: none; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Transmit Any Symbol in Set / No Particular Order causes transmission of data from each Macro symbol as decoded, whether it is in sequential order or not.</span></p>
+</li>
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="text-autospace: none; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">Scan in Sequence Only / Transmit in Sequence Without Buffering causes transmission of data from each symbol within the Macro PDF sequence as decoded, provided the Macro PDF symbols are scanned in order. If you do not scan the symbols in order, an error occurs.</span></p>
+</li>
+<li class="p-Normal" style="margin-left: -20px;">
+<p class="Normal" style="text-autospace: none; margin-left: 0px;"><span lang="EN-US" xml:lang="EN-US">When Buffer Scans Out of Order / Transmit Scans in Order is enabled, decode data from each symbol within the Macro PDF sequence is transmitted when decoded, provided that the Macro PDF symbols are scanned in order. Decode data from symbols out of order in the Macro PDF sequence is buffered. The decoder can buffer up to 64K bytes.</span><span lang="EN-US" xml:lang="EN-US">&#160;</span></p>
+</li>
+</ul>
+<p class="Normal" style="text-align: left;">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Syntax</span></font></b></h3>
+<table style="border-collapse: collapse;" cellspacing="0">
+<col style="width: 15%;" />
+<col />
+<tr>
+<td style="width: 15%; vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal"><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-style: italic;">Name</span></font></i><span lang="EN-US" xml:lang="EN-US">:</span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="591">
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">BBCR_PARAM_MACROPDF_TRANSMIT_MODE</span></font></p>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal"><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-style: italic;">Set by</span></font></i><span lang="EN-US" xml:lang="EN-US">:</span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="591">
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">Value</span></font></p>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal"><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-style: italic;">Values</span></font></i><span lang="EN-US" xml:lang="EN-US">:</span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="591">
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">BBCR_PARAM_MACROPDF_TRANSMIT_WHEN_COMPLETE BBCR_PARAM_MACROPDF_TRANSMIT_ANY_SYMBOL_IN_SET <span style="letter-spacing: -.2pt;">BBCR_PARAM_MACROPDF_TRANSMIT_IN_SEQUENCE_WITHOUT_BUFFERING</span></span></font> <span lang="EN-US" xml:lang="EN-US">BBCR_PARAM_MACROPDF_TRANSMIT_SCANS_IN_ORDER</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 15%; vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal"><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-style: italic;">Default</span></font></i><span lang="EN-US" xml:lang="EN-US">:</span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="591">
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">BBCR_PARAM_MACROPDF_TRANSMIT_WHEN_COMPLETE</span></font></p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Requirements</span></font></b></h3>
+<table style="border-collapse: collapse;" cellspacing="0">
+<col style="width: 15%;" />
+<col width="586" />
+<tr>
+<td style="width: 15%; vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="Normal"><b><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-weight: bold;">Header:</span></font></b></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="586">
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">declared in <i><span style="font-style: italic;">BBCR_PARAMETERS.H</span></i>, include <i><span style="font-style: italic;">SE_PARAMETERS.H.</span></i></span></font></p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

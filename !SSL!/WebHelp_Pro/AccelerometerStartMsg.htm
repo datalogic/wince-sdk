@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>AccelerometerStartMsg</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDevice API\nFunction Reference\nAccelerometerStartMsg");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"BATINFO,_P_BATINFO1.htm\">Device API<\/a> > <a href=\"AccelerometerClose.htm\">Function Reference<\/a> > AccelerometerStartMsg<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">AccelerometerStartMsg</h2>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;"><span style="mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Request Windows Messages from Accelerometer GSensor</span>.</p>
+<p>&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" width="100%" bgcolor="#CCCCCC">
+<tr>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" width="642">
+<p class="Normal" style="font-size: 8.0pt; font-weight: bold; font-family: Verdana;">BOOL AccelerometerStartMsg(HANDLE hAccDevice, DWORD dwPollingInterval, HWND hWnd, UINT uMsg);</p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<h3 class="Normal"><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;"><font size="2" style="font-size:10pt;">Parameters</font></span></font></b></h3>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif;">HANDLE hAccDevice</p>
+<p style="margin-left: 40px; font-size: 8pt; font-family: Verdana, sans-serif;">Handle to the Accelerometer GSensor returned by AccelerometerOpen()</p>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif;">DWORD dwPollingInterval</p>
+<p style="margin-left: 40px; font-size: 8pt; font-family: Verdana, sans-serif;">The accelerometer polling interval in units of milliseconds. This value will be rounded to the <span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">nearest 10ms increment by the driver</span></p>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif;">HWND hWnd</p>
+<p style="margin-left: 40px; font-size: 8pt; font-family: Verdana, sans-serif;">Handle to a window whose window procedure is to receive a message when the request is fulfilled</p>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif;">UINT uMsg</p>
+<p style="margin-left: 40px; font-size: 8pt; font-family: Verdana, sans-serif;">Specifies the message to be posted when the request is fulfilled. This should be a value of WM_USER (defined in winuser.h) or higher</p>
+<p>&#160;</p>
+<h3 style="font-family: Verdana; font-size: 10.0pt;"><b><span lang="EN-US" xml:lang="EN-US">Return Value</span></b><b><span lang="EN-US" xml:lang="EN-US"><br /></span></b><br />
+<span style="font-size: 8.0pt; font-weight: normal;"><font size="1" style="font-size:8pt;">On success, TRUE is returned. On error, FALSE is returned.</font></span></h3>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Remarks<br />
+<br />
+<span style="font-size: 8pt; font-weight: normal;"><font size="1" style="font-size:8pt;">An application should either use AccelerometerStartMsg or AccelerometerStartEvent.</font></span></h3>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">When posted to the specified window, the lParam and wParam value of the message are set as follows:</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<table style="vertical-align: top;" cellspacing="0" width="45.118%">
+<col style="width: 41.086%;" />
+<col style="width: 58.914%;" />
+<tr style="vertical-align: top; height: 24px;">
+<td style="border: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">Value</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">Description</p>
+</td>
+</tr>
+<tr style="vertical-align: top; height: 24px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;">lParam</font></span> <span style="font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;"></font></span></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;">Handle to the Accelerometer GSensor (hAccDevice)</font></span> <span style="font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;"></font></span></td>
+</tr>
+<tr style="vertical-align: top; height: 24px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;">wParam</font></span> <span style="font-size: 8pt; font-family: Verdana, sans-serif;"><font size="1" style="font-size:8pt;"></font></span></td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding-right: 10px; padding-left: 10px;">
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">RESERVED</span></p>
+</td>
+</tr>
+</table>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

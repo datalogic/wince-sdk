@@ -1,0 +1,368 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>GS1 Databar Limited</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("General References\nDecoding Subsystem\nDecoding Parameters\nBar Code Parameters\nGS1 Databar Limited");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"System_Overview.htm\">General References<\/a> > <a href=\"Organization.htm\">Decoding Subsystem<\/a> > <a href=\"Overview.htm\">Decoding Parameters<\/a> > <a href=\"Codabar.htm\">Bar Code Parameters<\/a> > GS1 Databar Limited<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h1>GS1 Databar Limited</h1>
+<p>&#160;</p>
+<p>&#160;</p>
+<table style="border: Solid 2px #000000;" cellspacing="0" width="89.914%">
+<col style="width: 13.363%;" />
+<col style="width: 14.271%;" />
+<col style="width: 6.338%;" />
+<col style="width: 18.346%;" />
+<col style="width: 10.669%;" />
+<col style="width: 6.084%;" />
+<col width="61" />
+<col width="63" />
+<col style="width: 5.053%;" />
+<col style="width: 5.981%;" />
+<col style="width: 5.706%;" />
+<tr style="page-break-inside: avoid; height: 25px;">
+<td rowspan="2" style="border: solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Code Parameter</b></p>
+</td>
+<td rowspan="2" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_SommarioAppendix" style="text-align: center; font-weight: bold; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Description</p>
+</td>
+<td rowspan="2" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">I.D.#</b></p>
+</td>
+<td rowspan="2" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Toc2" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">C/C++ Define</b></p>
+</td>
+<td rowspan="2" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Toc2" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Accept. Input</b></p>
+</td>
+<td colspan="3" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Defaults</b></p>
+</td>
+<td colspan="3" style="border-top: solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Scanner Type</b></p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 38px;">
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Min</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Max</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000;">
+<p style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 8pt;">Factory</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">Laser</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_FootnoteText" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">2D Imager</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_FootnoteText" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span style="font-weight: bold;">Lorax</span></p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 24px;">
+<td colspan="4" style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">&#160;</p>
+</td>
+<td colspan="7" style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center;"><b style="font-weight: bold;">Enter 1 for On and 0 for Off</b></p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 55px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Pidipaginapari" style="font-weight: bold; text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Enable</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Intestazionepari" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Enables/disables the GS1 DataBar Limited symbology.</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">0808</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">#define GS1_LIMIT_ENABLE</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On or Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 97px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="wdnormal" style="margin-bottom: 6.0pt; text-align: center;"><b style="font-weight: bold;">Enable</b></p>
+<p class="wdnormal" style="margin-bottom: 6.0pt; text-align: center;"><b style="font-weight: bold;">Aggressive</b></p>
+<p class="wdnormal" style="margin-bottom: 6.0pt; text-align: center;"><b style="font-weight: bold;">Decoding</b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; font-size: 8pt; mso-bidi-language: AR-SA;"><span lang="EN-US" xml:lang="EN-US">Enables more aggressive decoding algorithms to be used in order to scan hard to read labels.</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Intestazionepari" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">0809</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span lang="EN-GB" xml:lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">#define GS1_LIMIT_LEVEL</font></span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On or Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">&#160;</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">&#160;</p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 102px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Pidipaginapari" style="font-weight: bold; text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Convert to UCC-EAN 128</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Instructs the decoder to transmit the label data as one or more UCC-128 labels. The transmission will use the UCC-128 AIM identifier.</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Intestazionepari" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">080C</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">#define GS1_LIMIT_TO_GS1_128</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On or Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">On</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Off</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 97px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Pidipaginapari" style="font-weight: bold; text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">Redundancy</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA;"><span lang="EN-US" xml:lang="EN-US">Required number of matching reads.</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Intestazionepari" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span lang="EN-GB" xml:lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">0822</font></span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span lang="EN-GB" xml:lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">#define GS1_14_REDUNDANCY</font></span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">01-04</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p style="text-align: center;">01</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p style="text-align: center;">02</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt; text-align: center;">01</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">&#160;</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">&#160;</p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 163px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Pidipaginapari" style="font-weight: bold; text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;"><span lang="EN-GB" xml:lang="EN-GB" style="font-size: 8.0pt; mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman';"><font size="1" style="font-size:8pt;">User ID</font></span></b></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA;">Specifies the symbology identifier (if any) that is sent when parameter Send Code ID (Index 0025) is set to 3. ASCII code zero (null) is used to indicate that an identifier is not to be sent for the symbology</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Intestazionepari" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">0823</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span lang="EN-GB" xml:lang="EN-GB" style="mso-bidi-font-size: 10.0pt; mso-fareast-font-family: 'Times New Roman';">#define GS1_LIMIT_USER_ID</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="wdnormal" style="margin-top: 5.0pt; margin-right: 6.0pt; margin-bottom: 6.0pt; margin-left: 6.0pt; text-align: center; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">Any</span></p>
+<p class="wdnormal" style="margin-top: 5.0pt; margin-right: 6.0pt; margin-bottom: 6.0pt; margin-left: 6.0pt; text-align: center; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">single</span></p>
+<p class="wdintestazionepari" style="margin-top: 5.0pt; margin-right: 6.0pt; margin-bottom: 6.0pt; margin-left: 6.0pt; text-align: center; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">ASCII</span></p>
+<p class="wdnormal" style="margin-top: 5.0pt; margin-right: 6.0pt; margin-bottom: 6.0pt; margin-left: 6.0pt; text-align: center; mso-ansi-language: EN-US;"><span lang="EN-US" xml:lang="EN-US">character</span></p>
+<p class="wdnormal" style="margin-top: 5.0pt; margin-right: 6.0pt; margin-bottom: 6.0pt; margin-left: 6.0pt; text-align: center;"><span lang="EN-US" xml:lang="EN-US" style="mso-ansi-language: EN-US;">(</span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: IT; mso-bidi-language: AR-SA;">00 = Off)</span></p>
+&#160;</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA;">'Q'</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_TitoloBarcodes" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA;">'Q'</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><span style="mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: IT; mso-fareast-language: IT; mso-bidi-language: AR-SA;">'Q'</span></p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;">√</p>
+</td>
+</tr>
+<tr style="page-break-inside: avoid; height: 70px;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-align: center; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: bold;">NOTE</b></p>
+</td>
+<td colspan="10" style="border-right: Solid 1px #000000; border-bottom: solid 1px #000000; padding: 0pt 3.5pt 0pt 3.5pt;">
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: normal;">If GS1 DataBar -14, GS1 DataBar -Expanded, GS1 DataBar -Limited, or GS1 DataBar -Composite symbologies are enabled for UCC-EAN 128, then that setting is also enabled for all other GS1 DataBar symbologies.</b></p>
+<p class="WD_Normal" style="text-autospace: none; margin-left: 6pt; margin-right: 6pt; margin-bottom: 6pt;"><b style="font-weight: normal;">For the 2D Imager,</b> <b style="font-weight: normal;">GS1 DataBar -Expanded User Code ID is used for GS1 DataBar -14.</b></p>
+</td>
+</tr>
+</table>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

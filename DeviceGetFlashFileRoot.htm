@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="DeviceGetFlashFileRoot" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DeviceGetFlashFileRoot</title>
+</head>
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">DeviceGetFlashFileRoot</h2>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="Normal" style="font-size: 8.0pt; font-family: Verdana, sans-serif;"><span lang="EN-US" xml:lang="EN-US">This function retrieves the Flash Drive file system name. For example, for the F4410, "FlashFX Disk" will be returned. The purpose of this function is to aid in writing applications that function across all the Datalogic device models.</span></p>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" width="100%" bgcolor="#CCCCCC">
+<tr>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" width="642">
+<p class="Normal" style="font-size: 8.0pt; font-weight: bold; font-family: Verdana, sans-serif;">BOOL cdecl DeviceGetFlashFileRoot( WCHAR * rootPath, int bufferLen );</p>
+</td>
+</tr>
+</table>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 class="Normal" style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Parameters</span></b></h3>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; font-family: Verdana, sans-serif; font-size: 8pt;">WCHAR * rootPath</p>
+<p style="margin-left: 40px; margin-top: 4.5pt; font-family: Verdana, sans-serif; font-size: 8pt;">Pointer to a buffer that will receive the Flash Drive file system name. The buffer should be at least FLASH_ROOT_SIZE (see section <a href="Minimum_Input_Array_Lengths.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Minimum Input Array Lengths</a>) characters in length. &#160;The string returned will be null terminated.</p>
+<p class="Normal" style="font-style: italic; margin-top: 4.5pt; font-family: Verdana, sans-serif; font-size: 8pt;">int bufferLen</p>
+<p style="margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;">Number of characters allocated for the rootPath buffer.</p>
+<h3 style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Return Value</span></b></h3>
+<p style="font-size: 8.0pt; font-family: Verdana, sans-serif;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-size: 10.0pt; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Remarks</span></b></h3>
+<p style="font-size: 8.0pt; font-family: Verdana, sans-serif;">If successful, then the buffer pointed to by rootPath contains the root path, if failed then rootPath contains an empty string (the first element is the null termination character).</p>
+</body>
+</html>

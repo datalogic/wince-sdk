@@ -1,0 +1,100 @@
+﻿[MAS SUPPORT]
+SupportMas_Prj=1
+[Target:WebHelp]
+SupportMas_Prj=1
+SSLayoutType=2
+ResultStatus=0
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp\SDK.htm
+Remove Folder with prompt=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp\SDK.htm
+BuildTimeHi=30764240
+BuildTimeLow=-100521258
+[Target:WebHelp Pro]
+SupportMas_Prj=1
+SSLayoutType=32
+MindReader Server=
+ActionID For Generation=1001
+ResultFileName=!SSL!\WebHelp_Pro\SDK.htm
+Remove Folder with prompt=1
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+ViewFileName=!SSL!\WebHelp_Pro\SDK.htm
+ResultStatus=0
+BuildTimeHi=30764240
+BuildTimeLow=1413062337
+[Target:RoboInfo Output]
+SupportMas_Prj=1
+[Target:Microsoft HTML Help]
+SupportMas_Prj=1
+SSLayoutType=1
+ResultStatus=0
+BuildTimeHi=30660309
+BuildTimeLow=-648397410
+ActionID For Generation=1002
+ResultFileName=C:\Users\cbrookshear\Development\git\wince-sdk\Desktop\SDK\Help\Common\SDK_NextGen.chm
+Remove Folder with prompt=1
+CreateProjectTime=21:35, April 17, 2018
+CreateProjectUser=cbrookshear
+SupportMas_MPJ=1
+ViewFileName=C:\Users\cbrookshear\Development\git\wince-sdk\Desktop\SDK\Help\Common\SDK_NextGen.chm
+Enable Result Dialog=1
+[Target:JavaHelp]
+SupportMas_Prj=1
+SSLayoutType=1
+[Target:Oracle Help]
+SupportMas_Prj=1
+SSLayoutType=16
+[Target:FlashHelp]
+SupportMas_Prj=1
+SSLayoutType=2
+[Target:Printed Documentation]
+SupportMas_Prj=1
+SSLayoutType=7
+[Target:XML Output]
+ResultFileName=!SSL!\XML_Output\SDK_NextGen.xml
+SSLayoutType=8129
+[Target:FlashHelp Pro]
+ResultFileName=!SSL!\FlashHelp_Pro\SDK_NextGen.htm
+SSLayoutType=2
+ServerProjectName=SDK NextGen
+CreateProjectTime=
+CreateProjectUser=
+SupportMas_MPJ=1
+[PreSingleSource]
+Html Help Project=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.hhp
+Table Of Content=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.hhc
+Index=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.hhk
+Topic Index=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\RHTopicKeyword$.hhk
+See Also Index=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.hha
+Browse Sequence=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.brs
+Glossary=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.glo
+Topic Properties=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trs
+Active Folders=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trf
+Baggage Files=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trb
+Skin List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trk
+Active Layout Names=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trl
+Template Files=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trt
+Project TOC List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trtocl
+Project Index List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.tridxl
+Project Glossary List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trglol
+Project CSS List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trcss
+Project Variable Set List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.trvset
+External URL Settings=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SearchOptions.xml
+Default Topic=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\System_Overview.htm
+Build Tags0=5957;Online | Print
+Build Tags=
+Build Expression=
+Language ID=1033
+Language Name=en_US
+Language=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\!Language!\en_US\RoboHHRE.lng
+Stop List=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\!Language!\en_US\SDK NextGen.stp
+Screen Template File Details=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\SDK NextGen.sctfdl
+CPSwfToHTML5Map=C:\Users\jlyons\OneDrive - Datalogic S.p.a\Desktop\wince-sdk\Desktop\SDK\Help\SDK_NextGen\__cpSwf2HTML5ZipMap
+[Layout Settings]
+MRULayoutCount=1
+MRULayout0=Microsoft HTML Help]06/30/17]0

@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc version="1.0">
+	<properties font="Verdana,8,0" windowstyles="8388645">
+	</properties>
+	<item name="General References">
+		<item name="Introduction" imagenumber="1">
+			<item name="System Overview" link="System_Overview.htm" imagenumber="11">
+			</item>
+			<item name="Supported Parameters" link="Supported_Parameters1.htm" imagenumber="11">
+			</item>
+		</item>
+		<item name="Decoding Subsystem" imagenumber="1">
+			<item name="Organization" link="Organization.htm" imagenumber="11">
+			</item>
+			<item name="Reading Decoded Data" link="Reading_Decoded_Data.htm" imagenumber="11">
+			</item>
+			<item name="Data Symbology" imagenumber="1">
+				<item name="Symbology Identification" link="Symbology_Identification.htm" imagenumber="11">
+				</item>
+				<item name="Datalogic Label Identifiers" link="Datalogic_Label_Identifiers.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Decoding Parameters" imagenumber="1">
+				<item name="Overview" link="Overview.htm" imagenumber="11">
+				</item>
+				<item name="General System Definitions" link="Programming_Codes_without_Parameters1.htm" imagenumber="11">
+				</item>
+				<item name="General Decoding Definitions" link="General_Decoding_Definitions.htm" imagenumber="11">
+				</item>
+				<item name="Bar Code Parameters" imagenumber="1">
+					<item name="Codabar" link="Codabar.htm" imagenumber="11">
+					</item>
+					<item name="Code 39" link="Code_39.htm" imagenumber="11">
+					</item>
+					<item name="Pharmacode 39 (Code 32)" link="Pharmacode_39_(Code_32).htm" imagenumber="11">
+					</item>
+					<item name="Trioptic" link="Trioptic.htm" imagenumber="11">
+					</item>
+					<item name="Code 93" link="Code_93.htm" imagenumber="11">
+					</item>
+					<item name="Code 128" link="Code_128.htm" imagenumber="11">
+					</item>
+					<item name="European Article Numbering-13 (EAN-13)" link="European_Article_Numbering-13_(EAN-13).htm" imagenumber="11">
+					</item>
+					<item name="European Article Numbering-8 (EAN-8)" link="European_Article_Numbering-8_(EAN-8).htm" imagenumber="11">
+					</item>
+					<item name="Universal Product Code-A (UPC-A)" link="Universal_Product_Code-A_(UPC-A).htm" imagenumber="11">
+					</item>
+					<item name="Universal Product Code-E (UPC-E)" link="Universal_Product_Code-E_(UPC-E).htm" imagenumber="11">
+					</item>
+					<item name="UPC / EAN Extensions" link="UPC___EAN_Extensions.htm" imagenumber="11">
+					</item>
+					<item name="Interleaved 2 of 5" link="Interleaved_2_of_5.htm" imagenumber="11">
+					</item>
+					<item name="Standard 2 of 5" link="Standard_2_of_5.htm" imagenumber="11">
+					</item>
+					<item name="Matrix 2 of 5" link="Matrix_2_of_5.htm" imagenumber="11">
+					</item>
+					<item name="MSI" link="MSI.htm" imagenumber="11">
+					</item>
+					<item name="GS1 Databar-14" link="GS1_Databar-14.htm" imagenumber="11">
+					</item>
+					<item name="GS1 Databar Limited" link="GS1_Databar_Limited.htm" imagenumber="11">
+					</item>
+					<item name="GS1 Databar Expanded" link="GS1_Databar_Expanded.htm" imagenumber="11">
+					</item>
+					<item name="Chinese 2 of 5 (China Post)" link="Html\Chinese_2_of_5_(China_Post).htm" imagenumber="11">
+					</item>
+				</item>
+				<item name="Programmable 2D Symbologies" imagenumber="1">
+					<item name="Aztec Code" link="Aztec_Code.htm" imagenumber="11">
+					</item>
+					<item name="Datamatrix" link="Datamatrix.htm" imagenumber="11">
+					</item>
+					<item name="Composite" link="Composite.htm" imagenumber="11">
+					</item>
+					<item name="Maxicode" link="Maxicode.htm" imagenumber="11">
+					</item>
+					<item name="PDF 417" link="PDF_417.htm" imagenumber="11">
+					</item>
+					<item name="MicroPDF 417" link="MicroPDF_417.htm" imagenumber="11">
+					</item>
+					<item name="QR Code" link="QR_Code.htm" imagenumber="11">
+					</item>
+				</item>
+				<item name="Postal Codes" imagenumber="1">
+					<item name="Postal Codes" link="Postal_Codes1.htm" imagenumber="11">
+					</item>
+				</item>
+				<item name="Imaging Controls" imagenumber="1">
+					<item name="Imaging Controls" link="Imaging_Controls.htm" imagenumber="11">
+					</item>
+				</item>
+			</item>
+		</item>
+	</item>
+	<item name="C SDK" imagenumber="1">
+		<item name="API History" link="SDK_C_Introduction.htm" imagenumber="11">
+		</item>
+		<item name="Compiling and Linking" link="Compiling_and_Linking1.htm" imagenumber="11">
+		</item>
+		<item name="Beacon API">
+			<item name="Data Structures">
+			</item>
+			<item name="Defined Values">
+				<item name="Beacon Constants" link="Beacon_Constants.htm">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="BeaconStartScan" link="BeaconStartScan.htm">
+				</item>
+				<item name="BeaconStopScan" link="BeaconStopScan.htm">
+				</item>
+				<item name="BeaconFlush" link="BeaconFlush.htm">
+				</item>
+				<item name="BeaconGetData" link="BeaconGetData.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Bluetooth API">
+			<item name="Data Structures">
+				<item name="BT_DISCOVERY_INFO,  *BT_DISCOVERY_INFO" link="Html\BT_DISCOVERY_INFO,__BT_DISCOVERY_INFO.htm" imagenumber="11">
+				</item>
+				<item name="BTPAIR, *P_BTPAIR" link="BTPAIR,_P_BTPAIR.htm" imagenumber="11">
+				</item>
+				<item name="BT_DEVICE,  *BT_DEVICE" link="Html\BT_DEVICE,__BT_DEVICE.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Defined Values">
+				<item name="Bluetooth Constants" link="Bluetooth_Constants_api2.htm" imagenumber="11">
+				</item>
+				<item name="Profile Definitions" link="Profile_Definitions.htm" imagenumber="11">
+				</item>
+				<item name="BTDIRECT" link="BTDIRECT.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="BtClearAllPairings" link="BtClearAllPairings.htm" imagenumber="11">
+				</item>
+				<item name="BtClearSerialPairing" link="BtClearSerialPairing.htm" imagenumber="11">
+				</item>
+				<item name="BtCreatePairing" link="BtCreatePairing.htm">
+				</item>
+				<item name="BtCreateSerialPairing" link="BtCreateSerialPairing1.htm" imagenumber="11">
+				</item>
+				<item name="BtDiscoverSerialDevices" link="Html\BtDiscoverSerialDevice.htm" imagenumber="11">
+				</item>
+				<item name="BtEnable" link="BtEnable1.htm" imagenumber="11">
+				</item>
+				<item name="BtGetPairingCount" link="BtGetPairingCount1.htm" imagenumber="11">
+				</item>
+				<item name="BtGetPairingInfo" link="BtGetPairingInfo1.htm" imagenumber="11">
+				</item>
+				<item name="BtGetRadioInfo" link="BtGetRadioInfo.htm">
+				</item>
+				<item name="BtInitialize" link="BtInitialize1.htm" imagenumber="11">
+				</item>
+				<item name="BtStatus" link="BtStatus1.htm" imagenumber="11">
+				</item>
+				<item name="BtTerminate" link="BtTerminate1.htm" imagenumber="11">
+				</item>
+			</item>
+		</item>
+		<item name="Common API">
+			<item name="Defined Values">
+				<item name="Misc Constants" link="CommonApiConstants.htm">
+				</item>
+				<item name="Input Data Types" link="InputDataTypes.htm">
+				</item>
+				<item name="Trigger Masks" link="TriggerMasks.htm">
+				</item>
+			</item>
+		</item>
+		<item name="Decode API" imagenumber="1">
+			<item name="Data Structures" imagenumber="1">
+				<item name="DCD_PARAM" link="DCD_PARAM.htm" imagenumber="11">
+				</item>
+				<item name="DCD_PARAM_LIMIT" link="DCD_PARAM_LIMIT.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Defined Values" imagenumber="1">
+				<item name="Device Capabilities Mask" link="Device_Capabilities_Mask.htm" imagenumber="11">
+				</item>
+				<item name="Device Enumeration" link="Device_Enumeration.htm" imagenumber="11">
+				</item>
+				<item name="Input Data Types Mask" link="Input_Data_Types_Mask.htm" imagenumber="11">
+				</item>
+				<item name="Wedge Type Mask" link="Wedge_Type_Mask.htm" imagenumber="11">
+				</item>
+				<item name="Parameter Limit Bits" link="Parameter_Limit_Bits.htm" imagenumber="11">
+				</item>
+				<item name="Request Types" link="Request_Types.htm" imagenumber="11">
+				</item>
+				<item name="Good Read Beep Types" link="Good_Read_Beep_Types.htm" imagenumber="11">
+				</item>
+				<item name="Trigger Identification Masked Values" link="Trigger_Identification_Masked_Values.htm" imagenumber="11">
+				</item>
+				<item name="CODE_ID Modifiers" link="CODE_ID_Modifiers.htm" imagenumber="11">
+				</item>
+				<item name="QR Code Encoding Formats" link="Html\QR_Code_Encoding_Formats.htm" imagenumber="11">
+				</item>
+				<item name="1D Inverse Label Types" link="1D_Inverse_Label_Types.htm">
+				</item>
+				<item name="Datamatrix DPM mode settings" link="Datamatrix_DPM_mode_settings.htm">
+				</item>
+			</item>
+			<item name="Enumerations" imagenumber="1">
+				<item name="CODE_ID" link="CODE_ID.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Error Codes" link="Error_Codes.htm" imagenumber="11">
+			</item>
+			<item name="Function Reference" imagenumber="1">
+				<item name="DecodeCancelNotifyPress" link="DecodeCancelNotifyPress.htm" imagenumber="11">
+				</item>
+				<item name="DecodeCancelNotifyRelease" link="DecodeCancelNotifyRelease.htm" imagenumber="11">
+				</item>
+				<item name="DecodeCancelNotifyStart" link="DecodeCancelNotifyStart.htm" imagenumber="11">
+				</item>
+				<item name="DecodeCancelNotifyStop" link="DecodeCancelNotifyStop.htm" imagenumber="11">
+				</item>
+				<item name="DecodeCancelRequest" link="DecodeCancelRequest.htm" imagenumber="11">
+				</item>
+				<item name="DecodeEnumDevices" link="DecodeEnumDevices.htm" imagenumber="11">
+				</item>
+				<item name="DecodeFlushData" link="DecodeFlushData.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetCodeID" link="DecodeGetCodeID.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetCodeIDMod" link="DecodeGetCodeIDMod.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetDeviceCaps" link="DecodeGetDeviceCaps.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetFriendlyName" link="DecodeGetFriendlyName.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetParam" link="DecodeGetParam.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetParamLimits" link="DecodeGetParamLimits.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetParams" link="DecodeGetParams.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetParamLength" link="DecodeGetParamLength.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetParamString" link="DecodeGetParamString.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetWedge" link="DecodeGetWedge.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGetXMLParams" link="DecodeGetXMLParams.htm" imagenumber="11">
+				</item>
+				<item name="DecodeGoodRead" link="DecodeGoodRead.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostPressEvent" link="DecodePostPressEvent.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostPressMsg" link="DecodePostPressMsg.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostReleaseEvent" link="DecodePostReleaseEvent.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostReleaseMsg" link="DecodePostReleaseMsg.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostRequestEvent" link="DecodePostRequestEvent.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostRequestEventEx" link="DecodePostRequest_Event_and_Msg_Ex.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostRequestMsg" link="DecodePostRequestMsg.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostRequestMsgEx" link="DecodePostRequestMsgEx.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostRequestWait " link="DecodePostRequestWait_.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostStartEvent" link="DecodePostStartEvent.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostStartMsg" link="DecodePostStartMsg.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostStopEvent" link="DecodePostStopEvent.htm" imagenumber="11">
+				</item>
+				<item name="DecodePostStopMsg" link="DecodePostStopMsg.htm" imagenumber="11">
+				</item>
+				<item name="DecodeReadString " link="DecodeReadString_.htm" imagenumber="11">
+				</item>
+				<item name="DecodeReadStringEx" link="DecodeReadStringEx.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSetParam" link="DecodeSetParam.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSetParams" link="DecodeSetParams.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSetParamString" link="DecodeSetParamString.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSetWedge" link="DecodeSetWedge.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSetXMLParams" link="DecodeSetXMLParams.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSoftTrigger" link="DecodeSoftTrigger.htm" imagenumber="11">
+				</item>
+				<item name="DecodeSoftTriggerStop" link="DecodeSoftTriggerStop.htm" imagenumber="11">
+				</item>
+				<item name="DecodeTestParams" link="DecodeTestParams.htm" imagenumber="11">
+				</item>
+			</item>
+		</item>
+		<item name="Device API">
+			<item name="Data Structures" imagenumber="1">
+				<item name="BATINFO, *P_BATINFO" link="BATINFO,_P_BATINFO1.htm" imagenumber="11">
+				</item>
+				<item name="BAT_THRESHOLD, *P_BAT_THRESHOLD" link="BAT_THRESHOLD,_P_BAT_THRESHOLD.htm" imagenumber="11">
+				</item>
+				<item name="DEVICE_METRICS" link="DEVICE_METRICS.htm" imagenumber="11">
+				</item>
+				<item name="CUSTOM_KEY" link="CUSTOM_KEY.htm" imagenumber="11">
+				</item>
+				<item name="GACC_DATA" link="GACC_DATA.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Defined Values" imagenumber="1">
+				<item name="Backlight Brightness " link="The_backlight_brightness_values.htm" imagenumber="11">
+				</item>
+				<item name="Backlight Enable" link="The_backlight_enable_values.htm" imagenumber="11">
+				</item>
+				<item name="Battery Level Error" link="Battery_Level_Error.htm" imagenumber="11">
+				</item>
+				<item name="Beep Time" link="Beep_Time.htm" imagenumber="11">
+				</item>
+				<item name="Beep Tone" link="Beep_Tone.htm" imagenumber="11">
+				</item>
+				<item name="Boot Types " link="The_Boot_Types.htm" imagenumber="11">
+				</item>
+				<item name="Haptic_ID" link="Haptic_ID.htm" imagenumber="11">
+				</item>
+				<item name="Hardware Options Mask Definitions" link="Hardware_Options_Mask_Definitions_api2.htm" imagenumber="11">
+				</item>
+				<item name="Keyboard Input State Bit definitions" link="Keyboard_input_state_bit_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Keyboard Models" link="The_Keyboard_model_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Keyboard Multitap Delay" link="Keyboard_multitap_delay_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Keyboard Remap Errors" link="Keyboard_Remap_Error_Definitions.htm" imagenumber="11">
+				</item>
+				<item name="Language Families" link="Language_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Led Identifiers" link="Led_Identifiers_api2.htm" imagenumber="11">
+				</item>
+				<item name="Metric Definitions" link="Metric_Definitions_api2.htm" imagenumber="11">
+				</item>
+				<item name="Minimum Input Array Lengths" link="Minimum_Input_Array_Lengths.htm" imagenumber="11">
+				</item>
+				<item name="Operating System Types" link="Operating_System_type_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Product Models" link="Product_Model_definitions.htm" imagenumber="11">
+				</item>
+				<item name="Trigger Action Assignment Bit Definitions" link="Trigger_action_assignment_values.htm" imagenumber="11">
+				</item>
+				<item name="USBFN_CLASS" link="USBFN_CLASS.htm">
+				</item>
+				<item name="USBFN_STATE" link="USBFN_STATE.htm">
+				</item>
+				<item name="Version Index " link="Version_Index_Definitions.htm" imagenumber="11">
+				</item>
+				<item name="Virtual Key Code Bit Definitions" link="The_Virtual_Key_Code_State_Flags.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="AccelerometerClose" link="AccelerometerClose.htm" imagenumber="11">
+				</item>
+				<item name="AccelerometerOpen" link="AccelerometerOpen.htm" imagenumber="11">
+				</item>
+				<item name="AccelerometerRead" link="AccelerometerRead.htm" imagenumber="11">
+				</item>
+				<item name="AccelerometerStartEvent" link="AccelerometerStartEvent.htm" imagenumber="11">
+				</item>
+				<item name="AccelerometerStartMsg" link="AccelerometerStartMsg.htm" imagenumber="11">
+				</item>
+				<item name="AccelerometerStop" link="AccelerometerStop.htm" imagenumber="11">
+				</item>
+				<item name="CvtBtStringToAddr" link="CvtBtStringToAddr.htm">
+				</item>
+				<item name="DeviceBlinkLED" link="DeviceBlinkLED.htm" imagenumber="11">
+				</item>
+				<item name="DeviceBuzzerStart" link="DeviceStartBuzzer.htm" imagenumber="11">
+				</item>
+				<item name="DeviceBuzzerStop" link="DeviceStopBuzzer.htm" imagenumber="11">
+				</item>
+				<item name="DeviceEnableLED" link="DeviceEnableLED.htm" imagenumber="11">
+				</item>
+				<item name="DeviceEnableModem" link="DeviceEnableModem.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetACSuspendTimeout" link="DeviceGetACSuspendTimeout.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetBatteryInfo" link="DeviceGetBatteryInfo.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetBatteryLevel" link="DeviceGetBatteryLevel.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetBatterySuspendTimeout" link="DeviceGetBatterySuspendTimeout.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetBatteryThreshold" link="DeviceGetBatteryThreshold.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetBootType" link="DeviceGetBootType.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetExtPowerStatus" link="DeviceGetExtPowerStatus.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetFlashFileRoot" link="DeviceGetFlashFileRoot.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetHardwareInfo" link="DeviceGetHardwareInfo.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetIsInCradle" link="DeviceGetIsInCradle.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetLanguage" link="DeviceGetLanguage.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetMetric" link="DeviceGetMetric.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetModel" link="DeviceGetModel.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetOSType" link="DeviceGetOSType.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetSerialNumber" link="DeviceGetSerialNumber.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetTouchScreenEnable" link="DeviceGetTouchScreenEnable.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetTriggerType" link="DeviceGetTriggerType.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetUsbFnDriver" link="DeviceGetUsbFnDriver.htm">
+				</item>
+				<item name="DeviceGetVersionCount" link="DeviceGetVersionCount.htm" imagenumber="11">
+				</item>
+				<item name="DeviceGetVersionInfo" link="DeviceGetVersionInfo.htm" imagenumber="11">
+				</item>
+				<item name="DevicePlayBeep" link="DevicePlayBeep.htm" imagenumber="11">
+				</item>
+				<item name="DeviceReset" link="DeviceReset.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetACSuspendTimeout" link="DeviceSetACSuspendTimeout.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetBatterySuspendTimeout" link="DeviceSetBatterySuspendTimeout.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetBatteryThreshold" link="DeviceSetBatteryThreshold.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetTouchScreenEnable" link="DeviceSetTouchScreenEnable.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetTriggerType" link="DeviceSetTriggerType.htm" imagenumber="11">
+				</item>
+				<item name="DeviceSetUsbFnDriver" link="DeviceSetUsbFnDriver.htm">
+				</item>
+				<item name="DeviceVibrate" link="PerformHapticFeedback.htm" imagenumber="11">
+				</item>
+				<item name="DisplayBkltEnable" link="DisplayBkltEnable2.htm" imagenumber="11">
+				</item>
+				<item name="DisplayGetBkltBrightness" link="DisplayGetBkltBrightness1.htm" imagenumber="11">
+				</item>
+				<item name="DisplayGetBkltState" link="DisplayGetBkltState1.htm" imagenumber="11">
+				</item>
+				<item name="DisplaySetBkltBrightness" link="DisplaySetBkltBrightness1.htm" imagenumber="11">
+				</item>
+				<item name="GPSGetPowerStatus" link="GPSGetPowerStatus.htm" imagenumber="11">
+				</item>
+				<item name="GPSSetPowerState" link="GPSSetPowerState.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomClearList" link="KeybdCustomClearList.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomGetEnableState" link="KeybdCustomGetEnableState.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomGetEntry" link="KeybdCustomGetEntry.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomGetList" link="KeybdCustomGetList.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomGetListLength" link="KeybdCustomGetListLength.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomSetEnableState" link="KeybdCustomSetEnableState.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomSetEntry" link="KeybdCustomSetEntry.htm" imagenumber="11">
+				</item>
+				<item name="KeybdCustomSetList" link="KeybdCustomSetList.htm" imagenumber="11">
+				</item>
+				<item name="KeybdGetKeyInputState" link="KeybdGetKeyInputState1.htm" imagenumber="11">
+				</item>
+				<item name="KeybdGetKeymapID" link="KeybdGetKeymapID.htm" imagenumber="11">
+				</item>
+				<item name="KeybdGetMultitapDelay" link="KeybdGetMultitapDelay.htm" imagenumber="11">
+				</item>
+				<item name="KeybdGetType" link="KeybdGetType.htm" imagenumber="11">
+				</item>
+				<item name="KeybdLoadKeymap" link="KeybdLoadKeymap.htm" imagenumber="11">
+				</item>
+				<item name="KeybdSetKeyInputState" link="KeybdSetKeyInputState.htm" imagenumber="11">
+				</item>
+				<item name="KeybdSetMultitapDelay" link="KeybdSetMultitapDelay.htm" imagenumber="11">
+				</item>
+				<item name="PhoneGetPowerStatus" link="PhoneGetPowerStatus.htm" imagenumber="11">
+				</item>
+				<item name="PhoneSetPowerState" link="PhoneSetPowerState.htm" imagenumber="11">
+				</item>
+				<item name="WiFiGetMacAddress" link="WiFiGetMacAddress.htm" imagenumber="11">
+				</item>
+				<item name="WiFiGetPowerStatus" link="WiFiGetPowerStatus.htm" imagenumber="11">
+				</item>
+				<item name="WiFiGetRssi" link="WiFiGetRssi.htm" imagenumber="11">
+				</item>
+				<item name="WiFiGetSignalQuality" link="WiFiGetSignalQuality.htm" imagenumber="11">
+				</item>
+				<item name="WiFiSetPowerState" link="WiFiSetPowerState.htm" imagenumber="11">
+				</item>
+			</item>
+		</item>
+		<item name="Joya Cradle API">
+			<item name="Data Structures">
+				<item name="JOYA_CRADLE_STATE_INFO" link="JOYA_CRADLE_STATE_INFO.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Defined Values">
+				<item name="JOYA_CRADLE_LED" link="JOYA_CRADLE_LED.htm" imagenumber="11">
+				</item>
+				<item name="JOYA_CRADLE_LOCK_TYPE" link="JOYA_CRADLE_LOCK_TYPE.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="JoyaCradleGetState" link="JoyaCradleGetState.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleGetIsInTrolleyHolder" link="JoyaCradleGetIsInTrolleyHolder.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleIsFastChargeEnabled" link="JoyaCradleIsFastChargeEnabled.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleLed" link="JoyaCradleLed.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleLock" link="JoyaCradleLock.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleReadConfigArea" link="JoyaCradleReadConfigArea.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleReadCustomArea" link="JoyaCradleFlashReadCustomArea.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleReset" link="JoyaCradleReset.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleWriteConfigArea" link="JoyaCradleWriteConfigArea.htm" imagenumber="11">
+				</item>
+				<item name="JoyaCradleWriteCustomArea" link="JoyaCradleFlashWriteCustomArea.htm" imagenumber="11">
+				</item>
+			</item>
+		</item>
+		<item name="SoftSpot API">
+			<item name="Data Structures">
+				<item name="SoftSpotAction" link="SoftSpotAction.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Defined Values">
+				<item name="SOFTSPOT_ACTION_TYPE" link="SOFTSPOT_ACTION_TYPE.htm" imagenumber="11">
+				</item>
+				<item name="SOFTSPOT_PROPERTY" link="SOFTSPOT_PROPERTY.htm" imagenumber="11">
+				</item>
+				<item name="SOFTSPOT_RESET_STATE" link="SOFTSPOT_RESET_STATE.htm" imagenumber="11">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="SoftSpotAddAction" link="SoftSpotAddAction.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotDeleteAction" link="SoftSpotDeleteAction.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotGetActionList" link="SoftSpotGetActionList.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotGetActionsCount" link="SoftSpotGetActionsCount.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotGetLockState" link="SoftSpotGetLockState.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotGetPosition" link="SoftSpotGetPosition.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotGetScale" link="SoftSpotGetScale.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotHide" link="SoftSpotHide.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotIsRunning" link="SoftSpotIsRunning.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotLock" link="SoftSpotLock.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotResetAllActions" link="SoftSpotResetAllActions.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotSetActionProperty" link="SoftSpotSetActionProperty.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotSetCurrentAction" link="SoftSpotSetCurrentAction.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotSetScale" link="SoftSpotSetScale.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotSetPosition" link="SoftSpotSetPosition.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotShow" link="SoftSpotShow.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotStart" link="SoftSpotStart.htm" imagenumber="11">
+				</item>
+				<item name="SoftSpotStop" link="SoftSpotStop.htm" imagenumber="11">
+				</item>
+			</item>
+		</item>
+		<item name="WiFi API">
+			<item name="Data Structures">
+				<item name="CF10G_STATUS" link="CF10G_STATUS.htm">
+				</item>
+				<item name="CRYPT" link="CRYPT.htm">
+				</item>
+				<item name="EAPConnectionConfig" link="EAPConnectionConfig.htm">
+				</item>
+				<item name="EAPCredentialsConfig" link="EAPCredentialsConfig.htm">
+				</item>
+				<item name="EapConfig - DEPRECATED" link="EapConfig.htm">
+				</item>
+				<item name="EAPFASTConfig" link="EAPFASTConfig_C.htm">
+				</item>
+				<item name="EAPTLSConfig" link="EAPTLSConfig_C.htm">
+				</item>
+				<item name="EAPTTLSConfig" link="EAPTTLSConfig_C.htm">
+				</item>
+				<item name="GlobalSettings" link="GlobalSettings.htm">
+				</item>
+				<item name="LEAPConfig" link="LEAPConfig_C.htm">
+				</item>
+				<item name="PEAPConfig" link="PEAPConfig_C.htm">
+				</item>
+				<item name="SDCConfig" link="SDCConfig.htm">
+				</item>
+				<item name="WEP_KEY" link="WEP_KEY.htm">
+				</item>
+			</item>
+			<item name="Defined Values">
+				<item name="AUTH" link="AUTH.htm">
+				</item>
+				<item name="Constants" link="WiFiConstants.htm">
+				</item>
+				<item name="CredentialsSource" link="CredentialsSource.htm">
+				</item>
+				<item name="CredentialsType" link="CredentialsType.htm">
+				</item>
+				<item name="EapTypes" link="EapTypes.htm">
+				</item>
+				<item name="EapInnerMethod" link="EapInnerMethod.htm">
+				</item>
+				<item name="Edot11Mode" link="Edot11Mode.htm">
+				</item>
+				<item name="ENCRYPTION" link="ENCRYPTION.htm">
+				</item>
+				<item name="SDCERR" link="SDCERR.htm">
+				</item>
+			</item>
+			<item name="Function Reference">
+				<item name="WiFiActivateConfig" link="ActivateConfig.htm">
+				</item>
+				<item name="WiFiAddConfig" link="AddConfig.htm">
+				</item>
+				<item name="WiFiDeleteConfig" link="DeleteConfig.htm">
+				</item>
+				<item name="WiFiEnableConfig" link="WiFiEnableConfig.htm">
+				</item>
+				<item name="WiFiGetActiveConfig" link="WiFiGetActiveConfig.htm">
+				</item>
+				<item name="WiFiGetAllConfigs" link="GetAllConfigs.htm">
+				</item>
+				<item name="WiFiGetConfig" link="GetConfig.htm">
+				</item>
+				<item name="WiFiGetFirmwareVersion" link="WiFiGetFirmwareVersion.htm">
+				</item>
+				<item name="WiFiGetGlobalSettings" link="WiFiGetGlobalSettings.htm">
+				</item>
+				<item name="WiFiGetNumConfigs" link="GetNumConfigs.htm">
+				</item>
+				<item name="WiFiGetCurrentStatus" link="GetCurrentStatus.htm">
+				</item>
+				<item name="WiFiGetGlobalDefaults" link="WiFiGetGlobalDefaultsC.htm">
+				</item>
+				<item name="WiFiGetRadioEnable" link="GetRadioEnable.htm">
+				</item>
+				<item name="WiFiSetAllConfigs" link="SetAllConfigs.htm">
+				</item>
+				<item name="WiFiRadioEnable" link="RadioEnable.htm">
+				</item>
+				<item name="WiFiRadioDisable" link="RadioDisable.htm">
+				</item>
+				<item name="WiFiSetGlobalSettings" link="WiFiSetGlobalSettingsC.htm">
+				</item>
+				<item name="WiFiAddEapConfig - DEPRECATED" link="AddEapConfig.htm">
+				</item>
+				<item name="WiFiConnectEap - DEPRECATED" link="ConnectEap.htm">
+				</item>
+				<item name="WiFiDeleteEapConfig - DEPRECATED" link="DeleteEapConfig.htm">
+				</item>
+				<item name="WiFiDisconnectEap - DEPRECATED" link="DisconnectEap.htm">
+				</item>
+				<item name="WiFiInitEapConfig - DEPRECATED" link="InitEapConfig.htm">
+				</item>
+			</item>
+		</item>
+	</item>
+	<item name="SDK .NET">
+		<item name="Namespaces">
+			<item name="Namespaces List" link="NS_NamespaceList.htm" imagenumber="11">
+			</item>
+			<item name="Datalogic.API">
+				<item name="DatalogicAPI (namespace)" link="NS_DatalogicApi.htm" imagenumber="11">
+				</item>
+				<item name="Classes">
+					<item name="Classes List" link="CL_ClassList.htm" imagenumber="11">
+					</item>
+					<item name="Decode">
+						<item name="Decode (Class)" link="CL_Decode.htm" imagenumber="11">
+						</item>
+						<item name="DecodeGetXMLParams" link="DecodeGetXMLParams_.htm" imagenumber="11">
+						</item>
+						<item name="DecodeSetXMLParams" link="DecodeSetXMLParams_.htm" imagenumber="11">
+						</item>
+						<item name="EnumDevices" link="MT_Decode_EnumDevices.htm" imagenumber="11">
+						</item>
+						<item name="GetParam" link="MT_Decode_GetParam.htm" imagenumber="11">
+						</item>
+						<item name="GetParams" link="MT_Decode_GetParams.htm" imagenumber="11">
+						</item>
+						<item name="GetParamLimits" link="MT_Decode_GetParamLimits.htm" imagenumber="11">
+						</item>
+						<item name="GetParamString" link="MT_Decode_GetParamString.htm" imagenumber="11">
+						</item>
+						<item name="GetWedge" link="MT_Decode_GetWedge.htm" imagenumber="11">
+						</item>
+						<item name="PlayGoodReadBeep" link="MT_Decode_PlayGoodReadBeep.htm" imagenumber="11">
+						</item>
+						<item name="SetParam" link="MT_Decode_SetParam.htm" imagenumber="11">
+						</item>
+						<item name="SetParams" link="MT_Decode_SetParams.htm" imagenumber="11">
+						</item>
+						<item name="SetParamString" link="MT_Decode_SetParamString.htm" imagenumber="11">
+						</item>
+						<item name="SetWedge" link="MT_Decode_SetWedge.htm" imagenumber="11">
+						</item>
+						<item name="TestParams" link="MT_Decode_TestParams.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="DecodeEvent">
+						<item name="DecodeEvent (Class)" link="CL_DecodeEvent.htm" imagenumber="11">
+						</item>
+						<item name="DecodeEvent (1)" link="MT_DecodeEvent_DecodeEvent.htm" imagenumber="11">
+						</item>
+						<item name="DecodeEvent (2)" link="MT_DecodeEvent_DecodeEvent2.htm" imagenumber="11">
+						</item>
+						<item name="Dispose" link="MT_DecodeEvent_Dispose.htm" imagenumber="11">
+						</item>
+						<item name="StartScanListener" link="MT_DecodeEvent_StartScanListener.htm" imagenumber="11">
+						</item>
+						<item name="StopScanListener" link="MT_DecodeEvent_StopScanListener.htm" imagenumber="11">
+						</item>
+						<item name="Scanned (event)" link="EV_DecodeEvent_Scanned.htm" imagenumber="11">
+						</item>
+						<item name="ScanPress (event)" link="EV_DecodeEvent_ScanPress.htm" imagenumber="11">
+						</item>
+						<item name="ScanRelease (event)" link="EV_DecodeEvent_ScanRelease.htm" imagenumber="11">
+						</item>
+						<item name="ScanStart (event)" link="EV_DecodeEvent_ScanStart.htm" imagenumber="11">
+						</item>
+						<item name="ScanStop (event)" link="EV_DecodeEvent_ScanStop.htm" imagenumber="11">
+						</item>
+						<item name="TimeOut (event)" link="EV_DecodeEvent_TimeOut.htm" imagenumber="11">
+						</item>
+						<item name="IsListening (property)" link="PR_DecodeEvent_IsListening.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="DecodeEventArgs">
+						<item name="DecodeEventArgs (Class)" link="CL_DecodeEventArgs.htm" imagenumber="11">
+						</item>
+						<item name="DecodeEventArgs" link="MT_DecodeEventArgs_DecodeEventArgs.htm" imagenumber="11">
+						</item>
+						<item name="RequestID (property)" link="PR_DecodeEventArgs_RequestID.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="DecodeException">
+						<item name="DecodeException (Class)" link="CL_DecodeException.htm" imagenumber="11">
+						</item>
+						<item name="DecodeException (1)" link="MT_DecodeException_DecodeException.htm" imagenumber="11">
+						</item>
+						<item name="DecodeException (2)" link="MT_DecodeException_DecodeException2.htm" imagenumber="11">
+						</item>
+						<item name="DecodeException (3)" link="MT_DecodeException_DecodeException3.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="DecodeHandle">
+						<item name="DecodeHandle (Class)" link="CL_DecodeHandle.htm" imagenumber="11">
+						</item>
+						<item name="DecodeHandle (1)" link="MT_DecodeHandle_DecodeHandle.htm" imagenumber="11">
+						</item>
+						<item name="DecodeHandle (2)" link="MT_DecodeHandle_DecodeHandle2.htm" imagenumber="11">
+						</item>
+						<item name="CancelNotifyPress" link="MT_DecodeHandle_CancelNotifyPress.htm" imagenumber="11">
+						</item>
+						<item name="CancelNotifyRelease" link="MT_DecodeHandle_CancelNotifyRelease.htm" imagenumber="11">
+						</item>
+						<item name="CancelNotifyStart" link="MT_DecodeHandle_CancelNotifyStart.htm" imagenumber="11">
+						</item>
+						<item name="CancelNotifyStop" link="MT_DecodeHandle_CancelNotifyStop.htm" imagenumber="11">
+						</item>
+						<item name="CancelRequest" link="MT_DecodeHandle_CancelRequest.htm" imagenumber="11">
+						</item>
+						<item name="Dispose" link="MT_DecodeHandle_Dispose.htm" imagenumber="11">
+						</item>
+						<item name="FlushData" link="MT_DecodeHandle_FlushData.htm" imagenumber="11">
+						</item>
+						<item name="GetAimIdentifier" link="MT_DecodeHandle_GetAimIdentifier.htm" imagenumber="11">
+						</item>
+						<item name="GetCodeId" link="MT_DecodeHandle_GetCodeId.htm" imagenumber="11">
+						</item>
+						<item name="GetDeviceCaps" link="MT_DecodeHandle_GetDeviceCaps.htm" imagenumber="11">
+						</item>
+						<item name="GetFriendlyName" link="MT_DecodeHandle_GetFriendlyName.htm" imagenumber="11">
+						</item>
+						<item name="PostPressMsg" link="MT_DecodeHandle_PostPressMsg.htm" imagenumber="11">
+						</item>
+						<item name="PostReleaseMsg" link="MT_DecodeHandle_PostReleaseMsg.htm" imagenumber="11">
+						</item>
+						<item name="PostRequestMsg" link="MT_DecodeHandle_PostRequestMsg.htm" imagenumber="11">
+						</item>
+						<item name="PostRequestMsgEx" link="MT_DecodeHandle_PostRequestMsgEx.htm" imagenumber="11">
+						</item>
+						<item name="PostRequestWait" link="MT_DecodeHandle_PostRequestWait.htm" imagenumber="11">
+						</item>
+						<item name="PostStartMsg" link="MT_DecodeHandle_PostStartMsg.htm" imagenumber="11">
+						</item>
+						<item name="PostStopMsg" link="MT_DecodeHandle_PostStopMsg.htm" imagenumber="11">
+						</item>
+						<item name="ReadString (1)" link="MT_DecodeHandle_ReadString2.htm" imagenumber="11">
+						</item>
+						<item name="ReadString (2)" link="MT_DecodeHandle_ReadString.htm" imagenumber="11">
+						</item>
+						<item name="ReadString (3)" link="ReadString_(3).htm" imagenumber="11">
+						</item>
+						<item name="SoftTrigger" link="MT_DecodeHandle_SoftTrigger.htm" imagenumber="11">
+						</item>
+						<item name="SoftTriggerStop" link="MT_DecodeHandle_SoftTriggerStop.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="Device">
+						<item name="Device (Class)" link="CL_Device.htm" imagenumber="11">
+						</item>
+						<item name="Device.AccEventArgs" imagenumber="1">
+							<item name="Device.AccEventArgs (Class)" link="Device.AccEventArgs_(Class).htm" imagenumber="11">
+							</item>
+							<item name="Device.AccEventArgs " link="AccEventArgs_(Constructor).htm" imagenumber="11">
+							</item>
+							<item name="Data (property)" link="Data_(property).htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device.AccStream " imagenumber="1">
+							<item name="DataReady (event)" link="DataReady_(event).htm" imagenumber="11">
+							</item>
+							<item name="Device.AccStream (Class)" link="Device.AccStream_(Class).htm" imagenumber="11">
+							</item>
+							<item name="Device.AccStream (1)" link="Device.AccStream_(1).htm" imagenumber="11">
+							</item>
+							<item name="Device.AccStream (2)" link="Device.AccStream_(2).htm" imagenumber="11">
+							</item>
+							<item name="Dispose" link="Dispose.htm" imagenumber="11">
+							</item>
+							<item name="Enable (property)" link="Enable_(property).htm" imagenumber="11">
+							</item>
+							<item name="Interval (property)" link="Interval_(property).htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device Delegates" imagenumber="1">
+							<item name="AccDataReady" link="AccDataReady.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device Enumerations">
+							<item name="Enumerations List" link="EN_Device_EnumerationList.htm" imagenumber="11">
+							</item>
+							<item name="BeepTime" link="BeepTime.htm" imagenumber="11">
+							</item>
+							<item name="BeepTone" link="BeepTone.htm" imagenumber="11">
+							</item>
+							<item name="BootType" link="EN_Device_BootType.htm" imagenumber="11">
+							</item>
+							<item name="BTDirect" link="EN_Device_BTDirect.htm" imagenumber="11">
+							</item>
+							<item name="DeviceModel" link="EN_Device_DeviceModel.htm" imagenumber="11">
+							</item>
+							<item name="DisplayBrightness" link="EN_Device_DisplayBrightness.htm" imagenumber="11">
+							</item>
+							<item name="DisplayBacklight" link="EN_Device_DisplayBacklight.htm" imagenumber="11">
+							</item>
+							<item name="DLKeys" link="EN_Device_DLKeys.htm" imagenumber="11">
+							</item>
+							<item name="HapticId" link="HapticId.htm" imagenumber="11">
+							</item>
+							<item name="HardwareOptions" link="EN_Device_HardwareOptions.htm" imagenumber="11">
+							</item>
+							<item name="KbdMultitapDelay" link="EN_Device_KbdMultitapDelay.htm" imagenumber="11">
+							</item>
+							<item name="KbdRemapError" link="EN_Device_KbdRemapError.htm" imagenumber="11">
+							</item>
+							<item name="KbdState" link="EN_Device_KbdState.htm" imagenumber="11">
+							</item>
+							<item name="KbdType" link="EN_Device_KbdType.htm" imagenumber="11">
+							</item>
+							<item name="Language" link="EN_Device_Language.htm" imagenumber="11">
+							</item>
+							<item name="LEDs" link="LEDs.htm" imagenumber="11">
+							</item>
+							<item name="OperatingSystem" link="EN_Device_OperatingSystem.htm" imagenumber="11">
+							</item>
+							<item name="OSType" link="EN_Device_OSType.htm" imagenumber="11">
+							</item>
+							<item name="PerformanceMetrics" link="EN_Device_PerformanceMetrics.htm" imagenumber="11">
+							</item>
+							<item name="TriggerId" link="EN_Device_TriggerId.htm" imagenumber="11">
+							</item>
+							<item name="TriggerInputType" link="EN_Device_TriggerInputType.htm" imagenumber="11">
+							</item>
+							<item name="UsbFnClass" link="UsbFnClass.htm">
+							</item>
+							<item name="UsbFnState" link="UsbFnState.htm">
+							</item>
+							<item name="VersionIndex" link="EN_Device_VersionIndex.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device Structs">
+							<item name="BatteryThreshold" link="ST_Device_BatteryThreshold.htm" imagenumber="11">
+							</item>
+							<item name="DLCustomKey" link="ST_Device_DLCustomKey.htm" imagenumber="11">
+							</item>
+							<item name="AccData" link="AccData.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device.BatteryInfo">
+							<item name="Device.BatteryInfo (Class)" link="CL_Device_BatteryInfo.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device.BTDevice" imagenumber="1">
+							<item name="Device.BTDevice (Class)" link="Html\Device.BTDevice_(Class).htm" imagenumber="11">
+							</item>
+							<item name="Device.BTDevice (1)" link="Html\Device.BTDevice_(1).htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device.BTPair">
+							<item name="Device.BTPair (Class)" link="CL_Device_BTPair.htm" imagenumber="11">
+							</item>
+							<item name="Device.BTPair (1)" link="MT_Device_BTPair_BTPair.htm" imagenumber="11">
+							</item>
+							<item name="Device.BTPair (2)" link="MT_Device_BTPair_BTPair2.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="Device.DLVersionInfo">
+							<item name="Device.DLVersionInfo (Class)" link="CL_Device_DLVersionInfo.htm" imagenumber="11">
+							</item>
+							<item name="Device.DLVersionInfo" link="MT_Device_DLVersionInfo_DLVersionInfo.htm" imagenumber="11">
+							</item>
+						</item>
+						<item name="BlinkLED" link="BlinkLED.htm" imagenumber="11">
+						</item>
+						<item name="BtClearAllPairings" link="MT_Device_BtClearAllPairings.htm" imagenumber="11">
+						</item>
+						<item name="BtClearSerialPairing" link="MT_Device_BtClearSerialPairing.htm" imagenumber="11">
+						</item>
+						<item name="BtCreateSerialPairing" link="MT_Device_BtCreateSerialPairing.htm" imagenumber="11">
+						</item>
+						<item name="BtDiscoverSerialDevices" link="Html\BtDiscoverSerialDevices.htm" imagenumber="11">
+						</item>
+						<item name="BtEnable" link="MT_Device_BtEnable.htm" imagenumber="11">
+						</item>
+						<item name="BtGetPairingCount" link="MT_Device_BtGetPairingCount.htm" imagenumber="11">
+						</item>
+						<item name="BtGetPairingInfo" link="MT_Device_BtGetPairingInfo.htm" imagenumber="11">
+						</item>
+						<item name="BtInitialize" link="MT_Device_BtInitialize.htm" imagenumber="11">
+						</item>
+						<item name="BtStatus" link="MT_Device_BtStatus.htm" imagenumber="11">
+						</item>
+						<item name="BtTerminate" link="MT_Device_BtTerminate.htm" imagenumber="11">
+						</item>
+						<item name="DeviceBuzzerStart" link="DeviceBuzzerStart.htm" imagenumber="11">
+						</item>
+						<item name="DeviceBuzzerStop" link="DeviceBuzzerStop.htm" imagenumber="11">
+						</item>
+						<item name="DeviceVibrate" link="DeviceVibrate.htm" imagenumber="11">
+						</item>
+						<item name="DisplayBkltEnable" link="MT_Device_DisplayBkltEnable.htm" imagenumber="11">
+						</item>
+						<item name="DisplayGetBkltBrightness" link="MT_Device_DisplayGetBkltBrightness.htm" imagenumber="11">
+						</item>
+						<item name="DisplayGetBkltState" link="MT_Device_DisplayGetBkltState.htm" imagenumber="11">
+						</item>
+						<item name="DisplaySetBkltBrightness" link="MT_Device_DisplaySetBkltBrightness.htm" imagenumber="11">
+						</item>
+						<item name="EnableLED" link="EnableLED.htm" imagenumber="11">
+						</item>
+						<item name="EnableModem" link="EnableModem.htm" imagenumber="11">
+						</item>
+						<item name="GetACSuspendTimeout" link="GetACSuspendTimeout.htm" imagenumber="11">
+						</item>
+						<item name="GetBatteryInfo" link="MT_Device_GetBatteryInfo.htm" imagenumber="11">
+						</item>
+						<item name="GetBatteryLevel" link="MT_Device_GetBatteryLevel.htm" imagenumber="11">
+						</item>
+						<item name="GetBatterySuspendTimeout" link="GetBatterySuspendTimeout.htm" imagenumber="11">
+						</item>
+						<item name="GetBatteryThreshold" link="MT_Device_GetBatteryThreshold.htm" imagenumber="11">
+						</item>
+						<item name="GetBootType" link="MT_Device_GetBootType.htm" imagenumber="11">
+						</item>
+						<item name="GetExtPowerStatus" link="MT_Device_GetExtPowerStatus.htm" imagenumber="11">
+						</item>
+						<item name="GetFirmwareVersion" link="MT_Device_GetFirmwareVersion.htm" imagenumber="11">
+						</item>
+						<item name="GetFlashFileRoot" link="MT_Device_GetFlashFileRoot.htm" imagenumber="11">
+						</item>
+						<item name="GetGPSPowerStatus" link="MT_Device_GetGPSPowerStatus.htm" imagenumber="11">
+						</item>
+						<item name="GetHardwareInfo" link="MT_Device_GetHardwareInfo.htm" imagenumber="11">
+						</item>
+						<item name="GetIsInCradle" link="MT_Device_GetIsInCradle.htm" imagenumber="11">
+						</item>
+						<item name="GetLanguage" link="MT_Device_GetLanguage.htm" imagenumber="11">
+						</item>
+						<item name="GetMetric" link="MT_Device_GetMetric.htm" imagenumber="11">
+						</item>
+						<item name="GetModel" link="MT_Device_GetModel.htm" imagenumber="11">
+						</item>
+						<item name="GetModelName" link="MT_Device_GetModelName.htm" imagenumber="11">
+						</item>
+						<item name="GetOSType" link="MT_Device_GetOSType.htm" imagenumber="11">
+						</item>
+						<item name="GetOSType2" link="MT_Device_GetOSType2.htm" imagenumber="11">
+						</item>
+						<item name="GetPhonePowerStatus" link="MT_Device_GetPhonePowerStatus.htm" imagenumber="11">
+						</item>
+						<item name="GetReportedVersionsInfo" link="MT_Device_GetReportedVersionsInfo.htm" imagenumber="11">
+						</item>
+						<item name="GetSerialNumber" link="MT_Device_GetSerialNumber.htm" imagenumber="11">
+						</item>
+						<item name="GetTerminalAPIVersion" link="MT_Device_GetTerminalAPIVersion.htm" imagenumber="11">
+						</item>
+						<item name="GetTouchScreenEnable" link="MT_Device_GetTouchScreenEnable.htm" imagenumber="11">
+						</item>
+						<item name="GetTriggerType" link="MT_Device_GetTriggerType.htm" imagenumber="11">
+						</item>
+						<item name="GetUsbFnDriver" link="GetUsbFnDriver.htm">
+						</item>
+						<item name="GetWiFiPowerStatus" link="MT_Device_GetWiFiPowerStatus.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomGetEnableState" link="KeybdCustomGetEnableState1.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomClearList" link="KeybdCustomClearList1.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomGetEntry " link="KeybdCustomGetEntry_.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomGetList" link="KeybdCustomGetList1.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomSetEnableState" link="KeybdCustomSetEnableState1.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomSetEntry" link="KeybdCustomSetEntry1.htm" imagenumber="11">
+						</item>
+						<item name="KeybdCustomSetList" link="KeybdCustomSetList_NET.htm" imagenumber="11">
+						</item>
+						<item name="KeybdGetKeyInputState" link="MT_Device_KeybdGetKeyInputState.htm" imagenumber="11">
+						</item>
+						<item name="KeybdGetKeymapID" link="MT_Device_KeybdGetKeymapID.htm" imagenumber="11">
+						</item>
+						<item name="KeybdGetMultitapDelay" link="MT_Device_KeybdGetMultitapDelay.htm" imagenumber="11">
+						</item>
+						<item name="KeybdGetType" link="MT_Device_KeybdGetType.htm" imagenumber="11">
+						</item>
+						<item name="KeybdLoadKeymap" link="MT_Device_KeybdLoadKeymap.htm" imagenumber="11">
+						</item>
+						<item name="KeybdSetKeyInputState" link="MT_Device_KeybdSetKeyInputState.htm" imagenumber="11">
+						</item>
+						<item name="KeybdSetMultitapDelay" link="MT_Device_KeybdSetMultitapDelay.htm" imagenumber="11">
+						</item>
+						<item name="PlayBeep" link="PlayBeep.htm" imagenumber="11">
+						</item>
+						<item name="Reset" link="MT_Device_Reset.htm" imagenumber="11">
+						</item>
+						<item name="SetACSuspendTimeout" link="SetACSuspendTimeout.htm" imagenumber="11">
+						</item>
+						<item name="SetBatterySuspendTimeout" link="SetBatterySuspendTimeout.htm" imagenumber="11">
+						</item>
+						<item name="SetBatteryThreshold" link="MT_Device_SetBatteryThreshold.htm" imagenumber="11">
+						</item>
+						<item name="SetGPSPowerState" link="MT_Device_SetGPSPowerState.htm" imagenumber="11">
+						</item>
+						<item name="SetPhonePowerState" link="MT_Device_SetPhonePowerState.htm" imagenumber="11">
+						</item>
+						<item name="SetTouchScreenEnable" link="MT_Device_SetTouchScreenEnable.htm" imagenumber="11">
+						</item>
+						<item name="SetTriggerType" link="MT_Device_SetTriggerType.htm" imagenumber="11">
+						</item>
+						<item name="SetUsbFnDriver" link="SetUsbFnDriver.htm">
+						</item>
+						<item name="SetWiFiPowerState" link="MT_Device_SetWiFiPowerState.htm" imagenumber="11">
+						</item>
+						<item name="WiFiGetMacAddress" link="MT_Device_WiFiGetMacAddress.htm" imagenumber="11">
+						</item>
+						<item name="WiFiGetRssi" link="MT_Device_WiFiGetRssi.htm" imagenumber="11">
+						</item>
+						<item name="WiFiGetSignalQuality" link="MT_Device_WiFiGetSignalQuality.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="EAPFASTConfig">
+						<item name="EAPFASTConfig" link="EAPFASTConfig.htm">
+						</item>
+					</item>
+					<item name="EAPTLSConfig">
+						<item name="EAPTLSConfig" link="EAPTLSConfig.htm">
+						</item>
+					</item>
+					<item name="EAPTTLSConfig">
+						<item name="EAPTTLSConfig" link="EAPTTLSConfig.htm">
+						</item>
+					</item>
+					<item name="EapWiFiConfig - DEPRECATED">
+						<item name="EapWiFiConfig - DEPRECATED" link="EapWiFiConfigDotNet.htm">
+						</item>
+					</item>
+					<item name="JoyaCradle">
+						<item name="JoyaCradleGetState" link="JoyaCradleGetState_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleLock" link="JoyaCradleLock_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleGetIsInTrolleyHolder " link="JoyaCradleGetIsInTrolleyHolder_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleIsFastChargeEnabled" link="JoyaCradleIsFastChargeEnabled_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleLed " link="JoyaCradleLed_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleReadConfigArea" link="JoyaCradleReadConfigArea_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleReadCustomArea" link="JoyaCradleReadCustomArea.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleReset" link="JoyaCradleReset_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleWriteConfigArea" link="JoyaCradleWriteConfigArea_.htm" imagenumber="11">
+						</item>
+						<item name="JoyaCradleWriteCustomArea" link="JoyaCradleWriteCustomArea.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="MACAddress">
+						<item name="MACAddress (class)" link="MACAddress_(class).htm">
+						</item>
+					</item>
+					<item name="LEAPConfig">
+						<item name="LEAPConfig" link="LEAPConfig.htm">
+						</item>
+					</item>
+					<item name="Param">
+						<item name="Param (Class)" link="CL_Param.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="PEAPConfig">
+						<item name="PEAPConfig" link="PEAPConfig.htm">
+						</item>
+					</item>
+					<item name="SizeConsts">
+						<item name="SizeConsts (class)" link="SizeConsts_(class).htm">
+						</item>
+					</item>
+					<item name="SoftSpot">
+						<item name="SoftSpot class" link="SoftSpot_class.htm" imagenumber="11">
+						</item>
+						<item name="AddAction" link="AddAction.htm" imagenumber="11">
+						</item>
+						<item name="DeleteAction" link="DeleteAction.htm" imagenumber="11">
+						</item>
+						<item name="GetActionsCount" link="GetActionsCount.htm" imagenumber="11">
+						</item>
+						<item name="GetActionList" link="GetActionList.htm" imagenumber="11">
+						</item>
+						<item name="GetLockState" link="GetLockState.htm" imagenumber="11">
+						</item>
+						<item name="GetScale" link="GetScale.htm" imagenumber="11">
+						</item>
+						<item name="GetPosition" link="GetPosition.htm" imagenumber="11">
+						</item>
+						<item name="Hide" link="Hide.htm" imagenumber="11">
+						</item>
+						<item name="IsRunning" link="IsRunning.htm" imagenumber="11">
+						</item>
+						<item name="Lock" link="Lock.htm" imagenumber="11">
+						</item>
+						<item name="ResetAllActions" link="ResetAllActions.htm" imagenumber="11">
+						</item>
+						<item name="SetActionProperty" link="SetActionProperty.htm" imagenumber="11">
+						</item>
+						<item name="SetCurrentAction" link="SetCurrentAction.htm" imagenumber="11">
+						</item>
+						<item name="SetPosition" link="SetPosition.htm" imagenumber="11">
+						</item>
+						<item name="SetScale" link="SetScale.htm" imagenumber="11">
+						</item>
+						<item name="Show" link="Show.htm" imagenumber="11">
+						</item>
+						<item name="Start" link="Start.htm" imagenumber="11">
+						</item>
+						<item name="Stop" link="Stop.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="SoftSpotAction">
+						<item name="SoftSpotAction class" link="SoftSpotAction_class.htm" imagenumber="11">
+						</item>
+						<item name="SoftSpotAction [1]" link="SoftSpotAction_Constructor_1.htm" imagenumber="11">
+						</item>
+						<item name="SoftSpotAction [2]" link="SoftSpotAction_constructor_2.htm" imagenumber="11">
+						</item>
+					</item>
+					<item name="StandardWiFiConfig">
+						<item name="StandardWiFiConfig (class)" link="StandardWiFiConfig.htm">
+						</item>
+					</item>
+					<item name="WiFi">
+						<item name="WiFi (class)" link="CL_WiFi.htm">
+						</item>
+						<item name="ActivateConfig" link="WiFiActivateConfig.htm">
+						</item>
+						<item name="AddConfig" link="WiFiAddConfig.htm">
+						</item>
+						<item name="DeleteConfig" link="WiFiDeleteConfig.htm">
+						</item>
+						<item name="EnableConfig" link="EnableConfig.htm">
+						</item>
+						<item name="GetActiveConfig" link="WiFiGetActiveConfig_DotNet.htm">
+						</item>
+						<item name="GetAllConfigs" link="WiFiGetAllConfigs.htm">
+						</item>
+						<item name="GetConfig" link="WiFiGetConfig.htm">
+						</item>
+						<item name="GetCurrentStatus" link="WiFiGetCurrentStatus.htm">
+						</item>
+						<item name="GetFirmwareVersion" link="GetFirmwareVersion.htm">
+						</item>
+						<item name="GetGlobalDefaults" link="WiFiGetGlobalDefaults.htm">
+						</item>
+						<item name="GetGlobalSettings" link="GetGlobalSettings.htm">
+						</item>
+						<item name="SetGlobalSettings" link="WiFiSetGlobalSettings.htm">
+						</item>
+						<item name="GetNumConfigs" link="WiFiGetNumConfigs.htm">
+						</item>
+					</item>
+					<item name="WiFiException">
+						<item name="WiFiException (Class)" link="WiFiException_(Class).htm">
+						</item>
+						<item name="WiFiException (1)" link="WiFiException_(1).htm">
+						</item>
+						<item name="WiFiException (2)" link="WiFiException_(2).htm">
+						</item>
+						<item name="WiFiException (3)" link="WiFiException(3).htm">
+						</item>
+						<item name="WiFiException (4)" link="WiFiException_(4).htm">
+						</item>
+					</item>
+					<item name="WiFiGlobalSettings">
+						<item name="WiFiGlobalSettings (Class)" link="WiFiGlobalSettings_(Class).htm">
+						</item>
+					</item>
+					<item name="WiFiStatus">
+						<item name="WiFiStatus (class)" link="WiFiStatus_(class).htm">
+						</item>
+					</item>
+				</item>
+				<item name="Delegates">
+					<item name="Delegates List" link="Delegates_List.htm">
+					</item>
+					<item name="DecodeScanned" link="DE_DecodeScanned.htm" imagenumber="11">
+					</item>
+					<item name="DecodeScanPress" link="DE_DecodeScanPress.htm" imagenumber="11">
+					</item>
+					<item name="DecodeScanRelease" link="DE_DecodeScanRelease.htm" imagenumber="11">
+					</item>
+					<item name="DecodeScanStop" link="DE_DecodeScanStop.htm" imagenumber="11">
+					</item>
+					<item name="DecodeScanStart" link="DE_DecodeScanStart.htm" imagenumber="11">
+					</item>
+					<item name="DecodeTimeOut" link="DE_DecodeTimeOut.htm" imagenumber="11">
+					</item>
+				</item>
+				<item name="Enumerations">
+					<item name="Enumerations List" link="EN_EnumerationList.htm" imagenumber="11">
+					</item>
+					<item name="Authentication" link="AuthenticationDotNet.htm">
+					</item>
+					<item name="BTProfile" link="BTProfile.htm">
+					</item>
+					<item name="CodeId" link="EN_CodeId.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModCode39" link="CodeIdModCode39.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModStandard25" link="CodeIdModStandard25.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModInterleaved25" link="CodeIdModInterleaved25.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModCodabar " link="CodeIdModCodabar_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModCode128 " link="CodeIdModCode128_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModUPC_EAN " link="CodeIdModUPC_EAN_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModMSI " link="CodeIdModMSI_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModMicroPDF417 " link="CodeIdModMicroPDF417_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModQRCode" link="CodeIdModQRCode.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModMaxiCode " link="CodeIdModMaxiCode_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModDataMatrix " link="CodeIdModDataMatrix_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModComposite " link="CodeIdModComposite_.htm" imagenumber="11">
+					</item>
+					<item name="CodeIdModAztec " link="CodeIdModAztec_.htm" imagenumber="11">
+					</item>
+					<item name="CredentialsSource" link="CredentialsSourceDotNet.htm">
+					</item>
+					<item name="CredentialsType" link="CredentialsTypeDotNet.htm">
+					</item>
+					<item name="DecodeDatamatrixDpm" link="DecodeDatamatrixDpm.htm">
+					</item>
+					<item name="DecodeDeviceCap" link="EN_DecodeDeviceCap.htm" imagenumber="11">
+					</item>
+					<item name="DecodeErrorCode" link="EN_DecodeErrorCode.htm" imagenumber="11">
+					</item>
+					<item name="DecodeGoodReadBeepType" link="EN_DecodeGoodReadBeepType.htm" imagenumber="11">
+					</item>
+					<item name="DecodeInputType" link="EN_DecodeInputType.htm" imagenumber="11">
+					</item>
+					<item name="DecodeInverseLabelType" link="DecodeInverseLabelType.htm">
+					</item>
+					<item name="DecodeParamLimitIndicator" link="EN_DecodeParamLimitIndicator.htm" imagenumber="11">
+					</item>
+					<item name="DecodeRequest" link="EN_DecodeRequest.htm" imagenumber="11">
+					</item>
+					<item name="DeviceModel" link="EN_Device_DeviceModel.htm">
+					</item>
+					<item name="EapInnerMethod" link="EapInnerMethodDotNet.htm">
+					</item>
+					<item name="EapTypes" link="EapTypesDotNet.htm">
+					</item>
+					<item name="Edot11Mode" link="Edot11ModeDotNet.htm">
+					</item>
+					<item name="Encryption" link="EncryptionDotNet.htm">
+					</item>
+					<item name="ExtPrefixSymbology" link="ExtPrefixSymbology.htm" imagenumber="11">
+					</item>
+					<item name="QRCodeEncoding" link="Html\QRCodeEncoding.htm" imagenumber="11">
+					</item>
+					<item name="SDCErr" link="SDCErrDotNet.htm">
+					</item>
+					<item name="WedgeType" link="EN_WedgeType.htm" imagenumber="11">
+					</item>
+					<item name="WlanInterfaceState" link="WlanInterfaceStateDotNet.htm">
+					</item>
+				</item>
+				<item name="Interfaces">
+					<item name="WiFiConfig - DEPRECATED" link="WiFiConfig.htm">
+					</item>
+				</item>
+				<item name="Structures">
+					<item name="Structures List" link="ST_StructAndOtherLists.htm" imagenumber="11">
+					</item>
+					<item name="DecodeParam" link="ST_DecodeParam.htm" imagenumber="11">
+					</item>
+					<item name="DecodeParamLimit" link="ST_DecodeParamLimit.htm" imagenumber="11">
+					</item>
+					<item name="EAPConnectionConfig" link="EAPConnectionConfig_(struct).htm">
+					</item>
+					<item name="EAPCredentialsConfig" link="EAPCredentialsConfig_(struct).htm">
+					</item>
+					<item name="EAPFASTConfigStruct" link="EAPFASTConfigStruct_(struct).htm">
+					</item>
+					<item name="EAPTLSConfigStruct" link="EAPTLSConfigStruct_(struct).htm">
+					</item>
+					<item name="EAPTTLSConfigStruct" link="EAPTTLSConfigStruct_(struct).htm">
+					</item>
+					<item name="LEAPConfigStruct" link="LEAPConfigStruct_(struct).htm">
+					</item>
+					<item name="PEAPConfigStruct" link="PEAPConfigStruct_(struct).htm">
+					</item>
+					<item name="SDCConfig" link="SDCConfig_(struct).htm">
+					</item>
+				</item>
+			</item>
+		</item>
+		<item name="Examples">
+			<item name="Examples Table" link="EXAMPLE_MATRIX.htm" imagenumber="11">
+			</item>
+		</item>
+	</item>
+</toc>

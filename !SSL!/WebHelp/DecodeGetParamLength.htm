@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeGetParamLength</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodeGetParamLength");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodeGetParamLength<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;"><span style="font-family: Verdana, sans-serif; font-size: 14pt;"><font size="4" style="font-size:14pt;">DecodeGetParamLength</font></span></h2>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD cdecl DecodeGetParamLength(DWORD index);</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD index</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">The index of the label programming parameter to get the length of.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-size: 10pt; font-family: Verdana, sans-serif;">Returns:</h3>
+<h3 style="font-family: Verdana, sans-serif; font-size: 8pt; font-weight: normal;">On success, the string length (number of WCHARs) of the parameter's value is returned.<br />
+On error, including a parameter index that does not support string values, -1 is returned.</h3>
+<p style="margin-left: 40px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="mso-list: none; tab-stops: 35.4pt; mso-bidi-font-weight: normal; font-size: 10pt; font-family: Verdana, sans-serif;"><b><span lang="EN-US" xml:lang="EN-US">Remarks:</span></b></h3>
+<h3 style="mso-list: none; tab-stops: 35.4pt; mso-bidi-font-weight: normal; font-size: 8pt; font-family: Verdana, sans-serif; font-weight: normal;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">This method is meant to be used with index arguments that reference parameters that are a string of Unicode characters as indicated in <a href="mk:@MSITStore:C:/Program%20Files/Datalogic/SDK/Help/SDK_NextGen.chm::/General_Decoding_Definitions.htm" style="font-size: 8pt; font-family: Verdana, sans-serif; font-weight: normal;">General Decoding Definitions</a>.</font></span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;It can be used to find the size of the WCHAR buffer needed for a call to DecodeGetParamString.</span><span lang="EN-US" xml:lang="EN-US" style="mso-spacerun: yes;">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;The WCHAR buffer should be at least the parameter length plus one for the null string termination.</span></h3>
+<h3 style="mso-list: none; tab-stops: 35.4pt; mso-bidi-font-weight: normal; font-size: 8pt; font-family: Verdana, sans-serif; font-weight: normal;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">This method is for use with the following index arguments:</font></span></h3>
+<h3 style="mso-list: none; font-family: Verdana, sans-serif; tab-stops: 35.4pt; mso-bidi-font-weight: normal; mso-ansi-language: IT; font-size: 8pt; font-weight: normal;">LABEL_PREFIX<br />
+LABEL_SUFFIX<br />
+LABEL_SEPARATOR.</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt; font-weight: normal;">&#160;</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

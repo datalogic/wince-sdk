@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodeSetParams</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodeSetParams");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodeSetParams<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">DecodeSetParams</h2>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">This sets the values of one or more label programming parameters. &#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0; font-family: Verdana, sans-serif; font-size: 8pt;">BOOL cdecl DecodeSetParams( DCD_PARAM * paramArray, int paramCount );</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DCD_PARAM * paramArray</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Pointer to an array of DCD_PARAM structures (see section <a href="DCD_PARAM.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Data Structures</a>) indicating the parameters to set. Each array element contains the index of a parameter to set, and its new value.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">int paramCount</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Number of elements in the array pointed to by paramArray.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Returns:</h3>
+<p style="margin-left: 40px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Remarks:</h3>
+<p class="hcp7" style="margin-left: 30.0pt; text-align: left; mso-pagination: widow-orphan lines-together; page-break-after: avoid; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US">If any unsupported index is used, or if an attempt is made to set a parameter to a value outside its valid limits, none of the parameter changes will take effect, and FALSE is returned. When the function fails, GetLastError will return one of the error codes listed in Section</span> <a href="Error_Codes.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Error Codes</a>.</p>
+<p style="margin-left: 30.0pt; mso-pagination: widow-orphan lines-together; page-break-after: avoid; mso-layout-grid-align: none; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">Parameters which do not have values (such as DEFAULTS_FACTORY) may be included in the input array.</font></span><span lang="EN-US" xml:lang="EN-US" class="hcp8">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;In this case, the value member is ignored, and the value of all parameters are updated immediately based on the parameter chosen.</span><span lang="EN-US" xml:lang="EN-US" class="hcp8">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;Additional parameters which follow in the array will be processed after the global change takes effect.</span><span lang="EN-US" xml:lang="EN-US" class="hcp8">&#160;</span><span lang="EN-US" xml:lang="EN-US">&#160;</span></p>
+<p style="margin-left: 30.0pt; mso-pagination: widow-orphan lines-together; page-break-after: avoid; mso-layout-grid-align: none; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">For example, calling DecodeSetParams with the following input:</font></span></p>
+<p style="line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; margin-left: 80px; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">{CODE39_MIN_LENGTH, 5}</font></span></p>
+<p style="line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; margin-left: 80px; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">{DEFAULT_FACTORY, 0}</font></span></p>
+<p style="line-height: normal; mso-layout-grid-align: none; text-autospace: none; mso-ansi-language: EN-US; margin-left: 80px; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">{CODE39_MAX_LENGTH, 10}</font></span></p>
+<p style="mso-ansi-language: EN-US; margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">will result in all parameters set to factory defaults, with Code 39 minimum length set to 1 (the factory default) and Code 39 maximum length set to 10.</font></span></p>
+<p style="mso-ansi-language: EN-US; margin-left: 40px; font-family: Verdana, sans-serif; font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US"><font size="1" style="font-size:8pt;">A</font></span>n empty array assigned to the argument ‘paramArray’ is an invalid input.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodePostRequestMsg</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodePostRequestMsg");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodePostRequestMsg<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">DecodePostRequestMsg</h2>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">This posts a request for data from a decoding device. The function will return immediately, and post a message to the specified window when the request is fulfilled.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD cdecl DecodePostRequestMsg(HANDLE hFile, DWORD reqType, HWND hWnd, UINT uMsg);</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">HANDLE hFile</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Handle to the decoding device to post to. The CreateFile function returns this handle.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">DWORD reqType</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Type of request being posted. It is either a number of samples to collect or an OR'ing of any of the values listed in section <a href="Request_Types.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Request Types</a>. &#160;This OR’ing is made up of the Number of data samples to collect (1-255) with whether it is a recurring request. &#160;For a recurring event the number of samples is ignored.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">HWND hWnd</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Handle to a window whose window procedure is to receive a message when the request is fulfilled.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic; font-family: Verdana, sans-serif; font-size: 8pt;">UINT uMsg</p>
+<p style="margin-left: 80px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Specifies the message to be posted when the request is fulfilled. This should be a value of WM_USER (defined in winuser.h) or higher.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Returns:</h3>
+<p style="margin-left: 40px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">On success, a request ID is returned. On error, -1 is returned.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 10pt;">Remarks:</h3>
+<p style="margin-left: 40px; text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">This should be used in a subsequent call to <a href="DecodeReadString_.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeReadString</a> and/or <a href="DecodeCancelRequest.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeCancelRequest.</a></p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">When posted to the specified window, the lParam and wParam value of the message are set as follows:</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">&#160;</p>
+
+<table style="vertical-align: top;" cellspacing="0" width="100%">
+<col style="width: 13.872%;" />
+<col style="width: 86.128%;" />
+<tr style="vertical-align: top;">
+<td style="border: Solid 1px #000000; width: 13.872%; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Value</p>
+</td>
+<td style="border-top: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 86.128%; padding-right: 10px; padding-left: 10px;">
+<p style="font-weight: bold; font-family: Verdana, sans-serif; font-size: 10pt;">Description</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.872%; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">lParam</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 86.128%; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">The request ID of the posted request to which the input data belongs</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="border-left: Solid 1px #000000; border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 13.872%; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">wParam</p>
+</td>
+<td style="border-right: Solid 1px #000000; border-bottom: Solid 1px #000000; width: 86.128%; padding-right: 10px; padding-left: 10px;">
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">The size, in bytes, of the input data fulfilling the request. For string data, this is the number of WCHARs and includes the terminating null character</p>
+</td>
+</tr>
+</table>
+
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

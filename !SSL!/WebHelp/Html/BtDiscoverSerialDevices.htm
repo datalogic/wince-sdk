@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>BtDiscoverSerialDevices</title>
+<link rel="StyleSheet" href="../default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nDevice\nBtDiscoverSerialDevices");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../SDK.htm", "", ">", "Home", "../System_Overview.htm");
+document.write("<a href=\"../NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"../NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"../NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"../CL_ClassList.htm\">Classes<\/a> > <a href=\"../CL_Device.htm\">Device<\/a> > BtDiscoverSerialDevices<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><span style="font-family: Verdana, sans-serif; font-size: 10pt; background-color: #33cccc;"><font size="2" style="font-size:10pt;"><i style="font-style: italic;">Datalogic .NET SDK</i></font></span></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><span style="font-weight: bold;">BtDiscoverSerialDevices</span> (Method)</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Syntax</i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; background-color: #c0c0c0;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">&#160;&#160;&#160;public</font></span> <span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 10pt;"><font size="2" color="blue" style="font-size:10.000000pt;">static</font></span> <span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">BTDevice []</font></span> <span style="font-family: 'Courier New', monospace; font-size: 10pt;"><font size="2" style="font-size:10pt;">BtDiscoverSerialDevices</font></span> <span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">();</font></span></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Class&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="../CL_Device.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Device</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="../NS_DatalogicApi.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Datalogic.API</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> Datalogic.API.DLL</font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">This function returns information about all discoverable devices in range that support the serial (SPP) profile. &#160;This function can be used with BtCreateSerialPairing() to form a connection to a serial BT device, such a printer.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Parameters Table</i></b></p>
+<table style="margin-left: 1.9pt;" cellspacing="0" width="56.868%">
+<col style="width: 10.848%;" />
+<col style="width: 17.351%;" />
+<col style="width: 21.641%;" />
+<col width="375" />
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Type</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Parameter</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">Description</b></p>
+</td>
+</tr>
+<tr style="height: 16.5pt;">
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" height="22">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[returns]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" height="22">
+<p class="WD_Normal" style="font-size: 10.0pt; font-family: 'Courier New';">BTDevice</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" height="22">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" height="22">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">On success, data on discovered serial devices.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[on error]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-size: 10.0pt; font-family: 'Courier New';">null</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">null is returned to indicate failure.</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Example</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: solid #000000 1.0px; border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="645">
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;private</font></span> <span style="color: #0000ff; font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" color="blue" style="font-size:9.000000pt;">void</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"></font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">btnBTDiscover_Click</font></span><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">(</font></span><span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="blue" style="font-size:9.000000pt;">object</font></span> <span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">sender,</font></span> <span style="color: #2B91AF; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="#2b91af" style="font-size:9.000000pt;">EventArgs</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">e)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">bool</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">enabled;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="color: #008000; font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" color="green" style="font-size:9.000000pt;">//Get the current BT status, only discover when BT enabled</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="blue" style="font-size:9.000000pt;">if</font></span> <span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;"></font></span><span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">(!Device.BtStatus(</font></span><span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="blue" style="font-size:9.000000pt;">out</font></span> <span lang="EN-US" xml:lang="EN-US" style="mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">enabled))</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;</font></span><span lang="EN-US" xml:lang="EN-US" style="mso-no-proof: yes; font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:9pt;">enabled =</font></span> <span style="color: #0000ff; font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" color="blue" style="font-size:9.000000pt;">false</font></span><span lang="EN-US" xml:lang="EN-US" style="mso-no-proof: yes; font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:9pt;">;</font></span></p>
+<p class="MsoNormal" style="margin: 0cm; margin-bottom: .0001pt; mso-spacerun: yes; mso-no-proof: yes; font-size: 9pt; font-family: 'Courier New', monospace;"><span lang="EN-US" xml:lang="EN-US">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</span><span lang="EN-US" xml:lang="EN-US" style="color: #0000ff;"><font color="blue" >if</font></span> <span lang="EN-US" xml:lang="EN-US">(enabled)</span></p>
+<p class="MsoNormal" style="margin: 0cm; margin-bottom: .0001pt;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt; font-family: 'Courier New'; mso-no-proof: yes;"><font size="2" style="font-size:10pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="color: #008000; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="green" style="font-size:9.000000pt;">//</font></span> <span style="color: #008000;"><font color="green" ></font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt; color: #008000;"><font size="1" color="green" style="font-size:9.000000pt;">Clear all items from the discovery list</font></span></p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BtDiscoverList.Clear();</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BtDiscoverList.Columns.Add(columnHeader3);</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BtDiscoverList.Columns.Add(columnHeader4);</p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// Perform the discovery</font></span></p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Cursor.Current = Cursors.WaitCursor;</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;devices = Device.<span style="font-weight: bold;">BtDiscoverSerialDevices</span>();</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Cursor.Current = Cursors.Default;</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="blue" style="font-size:9.000000pt;">if</font></span> <span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">(devices ==</font></span> <span style="color: #0000ff; font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" color="blue" style="font-size:9.000000pt;">null</font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:9pt;">MessageBox.Show(</font></span><span style="font-size: 9pt; font-family: 'Courier New', monospace; color: #a31515;"><font size="1" color="#a31515" style="font-size:9.000000pt;">"Error: Could not perform discovery"</font></span><span style="font-size: 9pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:9pt;">);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >else</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt; color: #008000;"><font size="1" color="green" style="font-size:9.000000pt;">// Update the discovery list</font></span>.<span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"><br /></font></span> <span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">string</font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">[] itemStr =</font></span> <span style="font-family: 'Courier New', monospace; font-size: 9pt; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">new string</font></span><span style="font-family: 'Courier New', monospace; font-size: 9pt;"><font size="1" style="font-size:9pt;">[2];</font></span></p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >for</font></span> (<span style="color: #0000ff;"><font color="blue" >int</font></span> i = 0; i &lt; devices.Length; i++)</p>
+<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; font-family: 'Courier New';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;itemStr[0] = devices[i].Name;</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;itemStr[1] = devices[i].AddrStr;</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;BtDiscoverList.Items.Add(<span style="color: #0000ff;"><font color="blue" >new</font></span> ListViewItem(itemStr));</p>
+<p class="WD_Normal" style="text-autospace: none; font-family: 'Courier New', monospace; font-size: 9pt;"><span lang="EN-US" xml:lang="EN-US" style="font-family: 'Courier New'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></p>
+<p class="WD_Normal" style="text-autospace: none; font-size: 9pt; font-family: 'Courier New'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin;"><span lang="EN-US" xml:lang="EN-US" style="mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></p>
+<p class="WD_Normal" style="text-autospace: none; font-size: 9pt; font-family: 'Courier New'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US;"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-language: AR-SA; mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></p>
+<p class="WD_Normal" style="text-autospace: none; font-size: 9pt; font-family: 'Courier New'; mso-fareast-font-family: Calibri; mso-fareast-theme-font: minor-latin; mso-ansi-language: EN-US; mso-fareast-language: EN-US;"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-language: AR-SA; mso-no-proof: yes;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="border-left: solid 1.0px #000000; border-right: solid 1.0px #000000; border-bottom: solid 1.0px #000000; vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="645">
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">See Also</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><a href="Device.BTDevice_(Class).htm">Device.BTDevice (Sub-Class)</a>, <a href="../MT_Device_BtCreateSerialPairing.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Device.BtCreateSerialPairing (Method)</a>, <a href="../EXAMPLE_MATRIX.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Example #034</a>.</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:8pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 8pt; "><font size="1" style="font-size:8pt;">&#160;</font></span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><i style="font-style: italic;">Copyright © Datalogic ADC. All Right Reserved</i></p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

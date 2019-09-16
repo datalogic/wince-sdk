@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>InitEapConfig</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+</head>
+
+<body>
+<h2 class="MsoNormal" style="mso-bidi-font-style: normal; mso-bidi-font-weight: normal; 
+	 font-family: Verdana, sans-serif; font-size: 14pt; text-align: center; 
+	 color: #ff0000;"><span><span style="mso-bidi-font-style: normal; mso-bidi-font-weight: normal; 
+									 font-family: Verdana, sans-serif; 
+									 font-size: 14pt; color: #ff0000;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 14pt;">D</span>EPRECATED</span></span></h2>
+<h2>This function is present in the SDK, but the <a href="SDCConfig.htm">SDCConfig 
+ struct</a> should be used instead to setup EAP profiles. There is no initialization 
+ function for the SDCConfig struct.</h2>
+<p>&#160;</p>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">WiFiInitEapConfig</h2>
+<p style="font-family: Verdana; font-size: 8.0pt;">Initializes fields in 
+ struct to default values. Required.</p>
+<p>&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" 
+		 width="100%" bgcolor="#CCCCCC">
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" 
+			 width="642"><p class="Normal" style="font-size: 8.0pt; font-weight: bold; 
+							 font-family: Verdana;">SDCERR WiFiInitEapConfig(EapConfig 
+		 *cfg);</p></td>
+	</tr>
+</table>
+<p class="Normal">&#160;</p>
+<h3 class="Normal"><b style="font-weight: bold;"><font style="font-family: Verdana;" 
+														 face="Verdana"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Parameters</span></font></b></h3>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif;">EAPConfig 
+ *cfg</p>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif; 
+	 margin-left: 40px;">The EAP configuration struct to initialize </p>
+<p class="Normal" style="font-style: italic; font-size: 8pt; font-family: Verdana, sans-serif; 
+	 margin-left: 40px;">&#160;</p>
+<p class="Normal" style="font-size: 8pt; font-family: Verdana, sans-serif; 
+	 margin-left: 0px; font-style: normal;"><span style="font-weight: bold;">cfg 
+ </span>is initialized with the following values:</p>
+<p class="Normal" style="font-size: 8pt; font-family: Verdana, sans-serif; 
+	 margin-left: 0px; font-style: normal;">&#160;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">SSID[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">Broadcast = 1;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">Protect = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">ImportPACFilePath[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">pacAIDinfo[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">Cckm = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">CipherAlg = DOT11_CIPHER_ALGO_IHV_END;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">SharedKey[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">AuthAlg = DOT11_AUTH_ALGO_IHV_END;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">EapType = PPP_EAP_MSCHAPv2;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">PmkCache = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">CredType = CT_NOT_USED;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">CredSource = CS_NOT_USED;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">ValidateServer = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">ServerCertName[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">ClientCertName[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">InnerMethod = INNER_NOT_USED;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">AutoPAC = 1;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">EncryptID = 1;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">UserName[0] = 0;</p>
+<p class="Normal" style="margin-left: 40px; font-family: 'Courier New', monospace; 
+	 font-size: 10pt;">Password[0] = 0;</p>
+<h3><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;">Return Value</span></font></b></h3>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">SDCERR_SUCCESS 
+ on success.</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">SDCERR_<span 
+	 style="font-family: Verdana; font-size: 8.0pt;">FAIL on failure</span></p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<h3 style="font-size: 10pt; font-family: Verdana, sans-serif;">Remarks</h3>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">Supported 
+ devices: Skorpio X4, Falcon X4</p>
+</body>
+</html>

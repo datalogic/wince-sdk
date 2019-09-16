@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="BTPAIR, P_BTPAIR" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>BTPAIR, P_BTPAIR</title>
+</head>
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">BTPAIR, *P_BTPAIR</h2>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">The structure holds the Bluetooth pair connection information. &#160;See sections Enumerations and Defined Values for information on BTDIRECT, BT_ADDR_STR_SIZE, BT_MAX_NAME_SIZE, and BT_MAX_PORT_SIZE.</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 10pt; font-weight: bold;">Members:</p>
+<table style="vertical-align: top;" cellspacing="0" width="75.796%">
+<col style="width: 50.929%;" />
+<col style="width: 49.071%;" />
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">BT_ADDR addr; &#160;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: Verdana, sans-serif; font-size: 8pt;">64-bit UUID</span></td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: 'Courier New', monospace; font-size: 10pt;">DWORD cod;</p>
+</td>
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: Verdana, sans-serif; font-size: 8pt;">Class of Device</span></td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">WCHAR addrStr[BT_ADDR_STR_SIZE]; &#160;&#160;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">String version of UUID</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">WCHAR name[BT_MAX_NAME_SIZE]; &#160;&#160;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: Verdana, sans-serif; font-size: 8pt;">Device Name</span></td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL auth; &#160;&#160;&#160;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">Authentication Enable</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">BOOL encrypt;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">Encryption Enable</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">WCHAR port[BT_MAX_PORT_SIZE];</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">Virtual Port</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">int portIndex;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">COM port index 0 to MAX_PORT_NUM</p>
+</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding-right: 10px; padding-left: 10px;"><span style="font-family: 'Courier New', monospace; font-size: 10pt;">BTDIRECT &#160;direction; &#160;&#160;&#160;</span></td>
+<td style="padding-right: 10px; padding-left: 10px;">
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">Pairing's direction –</p>
+<p style="margin-top: 3pt; margin-bottom: 3pt; font-family: Verdana, sans-serif; font-size: 8pt;">see section Enumerations</p>
+</td>
+</tr>
+</table>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+</body>
+</html>

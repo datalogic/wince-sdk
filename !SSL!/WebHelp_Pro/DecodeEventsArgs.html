@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>DecodeEventsArgs</title>
+
+<style href="" type="text/css">
+<!--
+a { text-decoration:underline; }
+-->
+</style>
+
+<style type="text/css">
+<!--
+A:hover { text-decoration:none;
+color:blue; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+</head>
+<body link="blue" vlink="blue" alink="blue"><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("DecodeEventsArgs<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="ehlpdhtm.js"></script>
+
+<font face="calibri"><!-- Header ====================================--></font>
+<div style="background-color:LightBlue"><font face="calibri"><i>Datalogic .NET SDK</i><br />
+<b>DecodeEventArgs (Class)</b></font>
+<hr /></div>
+<!--============================================-->
+<!-- Syntax Section ============================-->
+<font face="calibri"><br />
+<i><b>Syntax</b></i><br /></font>
+<div style="background-color:LightGray"><font face="calibri"><br />
+<code><font color="blue">public sealed class</font> DecodeEventArgs : <font color="blue">EventArgs</font></code></font>
+<hr /></div>
+<!--===========================================--><!-- Quick Info Section =======================-->
+<div><font face="calibri"><!--style="background-color:LightGray"--></font>
+<table>
+<tr>
+<td><b>Namespace:</b></td>
+<td><a href="Datalogic.API.html">Datalogic.API</a></td>
+</tr>
+<tr>
+<td><b>Assembly:</b></td>
+<td>Datalogic.API.dll</td>
+</tr>
+<tr>
+<td><b>Level Architecture:</b></td>
+<td>Mobility Kit</td>
+</tr>
+</table>
+<hr /></div>
+<!--===========================================-->
+<div><font face="calibri"><!-- Item Overview =============================-->
+<br />
+<br />
+<i><b>Overview</b></i><br />
+The DecodeEvent class exposes the ability to attach events raised by the decoder. Use the delegate Datalogic.API.DecodeScanned to connect methods to the Datalogic.API.DecodeEvent.Scanned events.<br />
+<br />
+<br />
+<!--============================================-->
+ <!-- Table of contents =========================--></font>
+<table>
+<tr>
+<td bgcolor="#DCDCDC"><b>Public Members</b></td>
+</tr>
+<!-- add row here ==========================-->
+<tr>
+<td><code>Int32</code></td>
+<td><code><a href="DecodeEventArgs_RequestId.html">RequestID</a></code></td>
+</tr>
+<!-- ... -->
+<!--========================================-->
+<tr>
+<td bgcolor="#DCDCDC"><b>Public Methods</b></td>
+</tr>
+<!-- add row here ==========================-->
+<tr>
+<td></td>
+<td>None</td>
+</tr>
+<tr><!-- ... -->
+<!--========================================--></tr>
+<tr>
+<td bgcolor="#DCDCDC"><b>Constructor</b></td>
+</tr>
+<!-- add row here ==========================-->
+<tr>
+<td></td>
+<td><code><a href="DecodeEventArgsConstructor.html">DecodeEventArgs(Int32 reqID)</a></code></td>
+</tr>
+<tr><!-- ... -->
+<!--========================================--></tr>
+<tr>
+<td bgcolor="#DCDCDC"><b>Inherited From</b></td>
+</tr>
+<!-- add row here ==========================-->
+<tr>
+<td></td>
+<td><a href="DecodeEventsArgs.html">EventArgs</a></td>
+</tr>
+<tr><!--========================================--></tr>
+<tr>
+<td bgcolor="#DCDCDC"><b>Delegates</b></td>
+</tr>
+<tr>
+<td><code>void</code></td>
+<td><code><a href="">DecodeScanned(object sender, DecodeEventArgs e)</a></code></td>
+</tr>
+<tr>
+<td><code>void</code></td>
+<td><code><a href="">DecodeTimeOut(object sender, DecodeEventArgs e)</a></code></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</table>
+<!--============================================--></div>
+<!-- Platforms Section =========================-->
+<font face="calibri"><br />
+<br />
+<i><b>Platforms</b></i><br />
+Supported platforms:<br />
+ELF WinCE6, WinMOBILE; FALCONX3 WinCE6, WinMOBILE; SkorpioX3 WinCE6. <!--============================================-->
+ <!-- Version Info Section ======================-->
+<br />
+<br />
+<i><b>Version Information</b></i><br />
+Current version is xx.yy.zz <!--============================================-->
+ <!-- See Also Section ==========================-->
+<br />
+<br />
+<i><b>See Also</b></i><br />
+<a href="">Link 1,</a> <a href="">Link 2,</a> <a href="">Other links ...</a><br />
+<br />
+<!--============================================-->
+ <!-- Copyright info--></font>
+<div>
+<hr />
+<font face="calibri"><i>Copyright © Datalogic ADC. All right reserved.</i></font></div>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

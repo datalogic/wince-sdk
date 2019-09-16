@@ -1,0 +1,292 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="MT_DecodeHandle_PostStartMsg.doc" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>MT_DecodeHandle_PostStopMsg</title>
+<link rel="stylesheet" href="MT_DecodeHandle_PostStopMsg.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nDecodeHandle\nPostStopMsg");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"CL_ClassList.htm\">Classes<\/a> > <a href=\"CL_DecodeHandle.htm\">DecodeHandle<\/a> > PostStopMsg<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><i>Datalogic .NET SDK</i></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><b>PostStopMsg (Method)</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Syntax</i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; background-color: #c0c0c0;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+<p class="WD_Normal" style="
+text-indent:35.4pt;
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="text-indent: 35.4pt; padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">public</font></span> <span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><span style="color: #0000ff;"><font color="blue" >bool</font></span> PostStopMsg(MessageWindow wnd, <span style="color: #0000ff;"><font color="blue" >uint</font></span> uDataMsg);<br />
+<br /></font></span></span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b>Class&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="CL_DecodeHandle.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">DecodeHandle</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b>Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="NS_DatalogicApi.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Datalogic.API</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b>Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> Datalogic.API.DLL</font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Posts a request to be notified when a scan attempt is stopped.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Parameters Table</i></b></p>
+<table style="margin-left: 1.9pt;" cellspacing="0">
+<col width="86" />
+<col width="105" />
+<col width="84" />
+<col width="326" />
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b>Type</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b>Parameter</b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b>Description</b></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">MessageWindow</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">wnd</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">A reference to an instance of the Microsoft.WindowsCE.Forms.MessageWindow class whose&#160;&#160;window procedure is to receive a message when a scan attempt is stopped.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">uint</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">uDataMsg</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Specifies the message to be posted when the scan attempt is stopped. This should be a value of WM_USER (defined in winuser.h) or higher.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[return]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">bool</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[on error]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-size: 10.0pt; font-family: 'Courier New';">FALSE</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: solid #000000 1.0px; border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="652">
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >private</font></span> <span style="color: #0000ff;"><font color="blue" >void</font></span> btnSetPostStop_Click(<span style="color: #0000ff;"><font color="blue" >object</font></span> sender, <span style="color: #2B91AF;"><font color="#2b91af" >EventArgs</font></span> e)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// hDcd = new DecodeHandle(...); Global instance of DecodeHandle class</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >bool</font></span> bPostSuccess = hDcd.PostStopMsg(wndMsg, <span style="color: #2B91AF;"><font color="#2b91af" >Constants</font></span>.WM_STOPSCAN);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;MySetTextBox(<span style="color: #A31515;"><font color="#a31515" >"Set-PostStopMsg"</font></span>);</font></span></p>
+<p class="WD_Normal"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Remarks</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">For each decoding device, only one event or message can be in effect at any time.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">If a stop event is posted you need to cancel the stop notification to post the stop event with a new event handle or a windows message.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>See Also</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><a href="http://msdn.microsoft.com/en-us/library/microsoft.windowsce.forms%28v=VS.80%29.aspx" style="font-family: Verdana, sans-serif; font-size: 8pt;">Microsoft.WindowsCE.Forms.MessageWindow</a>, <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms644931%28v=vs.85%29.aspx" style="font-family: Verdana, sans-serif; font-size: 8pt;">WM_USER</a>, <a href="EV_DecodeEvent_ScanStart.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeEvent.ScanStart (Event)</a>, <a href="MT_DecodeEvent_StopScanListener.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeEvent.StopScanListener (Method)</a>, <a href="EXAMPLE_MATRIX.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Example #018</a>.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:8pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 8pt; "><font size="1" style="font-size:8pt;">&#160;</font></span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><i>Copyright © Datalogic ADC. All Right Reserved</i></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="Compiling and Linking1" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Compiling and Linking1</title>
+</head>
+
+<body>
+<h2 style="font-size: 14pt; font-family: Verdana, sans-serif;">Compiling 
+ and Linking</h2>
+<p style="text-align: left; font-family: Verdana, sans-serif;">The C SDK 
+ is made up of Win32 style function calls, which are accessed using header 
+ files (.h) and library files (.lib).</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-weight: bold;">Header 
+ files</p>
+<p style="text-align: left; font-family: Verdana, sans-serif;">The C SDK 
+ provides the following header files:</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">beaconAPI.h 
+ - Bluetooth beacon API</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">commonApi.h 
+ -common constant #define values</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">decodeApi.h 
+ (Decode API) - core Decoding API definitions and functions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">decodeParam.h 
+ (Decode API) - enumerations and #defines provided for backwards compatibility</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">deviceApi.h 
+ (Device API) -core Device API definitions and functions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">dlbt_api.h 
+ (Bluetooth API) - Bluetooth API definitions and functions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">dlkeys.h 
+ -remappable key definitions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">JoyaCradleApi.h 
+ (Joya Cradle API) - Joya Cradle API definitions and functions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px; font-size: 10pt;">SoftSpotApi.h 
+ (SoftSpot API) - SoftSpot API definitions and functions</p>
+<p style="font-family: Verdana, sans-serif; margin-left: 40px;"><span style="font-size: 10pt;">wifiApi.h 
+ (Wi-Fi API) - Wi-Fi adapter API definitions and functions</span></p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 12pt; 
+	 font-weight: bold;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 12pt; 
+	 font-weight: bold;">Library files</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 12pt;">You 
+ must also link to library file(s) to compile your application. Two options 
+ are provided:</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-weight: bold;">Option 1</span> - link using the provided 
+ static library <span style="font-weight: bold;">(Recommended)</span></p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">This 
+ has the following advantages:</p>
+<ul style="list-style: disc;">
+	<li style="font-family: Verdana, sans-serif; font-size: 10pt;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">You only need 
+	 to reference a single file to use all APIs.</p></li>
+	<li style="font-size: 8pt; font-family: Verdana, sans-serif;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">The static 
+	 library will first verify that a desired function is implemented on 
+	 a target device before calling it.</p></li>
+	<li style="font-size: 8pt; font-family: Verdana, sans-serif;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">If you attempt 
+	 to call an unsupported function, an error code will be returned and 
+	 GetLastError() will return ERROR_FUNC_NOT_FOUND.</p></li>
+	<li style="font-size: 8pt; font-family: Verdana, sans-serif;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">It is useful 
+	 if you are writing an application that will be compiled and executed 
+	 on a variety of Datalogic devices.</p></li>
+</ul>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">To 
+ use the static library in your project, do the following:</p>
+<ol style="list-style: decimal;">
+	<li style="font-size: 8pt; font-family: Verdana, sans-serif;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">In your Visual 
+	 Studio C++ project, add DatalogicAPI.lib to your list of import libraries.</p></li>
+	<li style="font-size: 8pt; font-family: Verdana, sans-serif;"><p style="text-align: left; 
+		 font-family: Verdana, sans-serif; font-size: 10pt;">One way to 
+	 accomplish this would be to right click on your project and click 
+	 Properties. Click Configuration Properties &gt; Linker &gt; Input 
+	 and enter DatalogicAPI.lib in the &quot;Additional Dependencies&quot; 
+	 field. Using this method, make sure Configuration Properties &gt; 
+	 Linker &gt; General &gt; Additional Library Directories also points 
+	 to the path containing DatalogicAPI.lib.</p></li>
+</ol>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-weight: bold;">Option 2</span> - link using the provided 
+ import libraries</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">This 
+ option was the only option previously provided. It is a good choice for:</p>
+<ul style="list-style: disc;">
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">Existing 
+	 projects only targeting a Datalogic device running Windows Mobile 
+	 6 or Windows CE 6.</p></li>
+</ul>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">To 
+ use the import library in your project, do the following:</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">1. 
+ In your Visual Studio C++ project, add the appropriate .lib file(s) to 
+ your list of import libraries:</p>
+<ul style="list-style: disc;">
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">decodeApi.lib 
+	 = Decode API</p></li>
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">DeviceApi.lib 
+	 = Device API, Bluetooth API</p></li>
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">JoyaCradleApi.lib 
+	 = Joya Cradle API</p></li>
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">SoftSpotApi.lib 
+	 = SoftSpot API</p></li>
+	<li><p style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">wifiApi.lib 
+	 = Wi-Fi API</p></li>
+</ul>
+<ol start="2" style="list-style: decimal;">
+	<li style="font-family: Verdana, sans-serif; font-size: 10pt; margin-left: -20px;"><p 
+		 style="text-align: left; font-family: Verdana, sans-serif; font-size: 10pt;">&#160;One 
+	 way to accomplish this would be to right click on your project and 
+	 click Properties. Click Configuration Properties &gt; Linker &gt; 
+	 Input and enter the required .lib file(s) in the &quot;Additional 
+	 Dependencies&quot; field. Using this method, make sure Configuration 
+	 Properties &gt; Linker &gt; General &gt; Additional Library Directories 
+	 also points to the path containing the .lib file(s).</p></li>
+</ol>
+</body>
+</html>

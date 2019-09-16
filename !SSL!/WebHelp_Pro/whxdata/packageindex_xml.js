@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"utf-8\"?><cki><ck fm=\"!\" to=\"[\"/><ck fm=\"]\" to=\"datalogic\"/><ck fm=\"datalogicapi\" to=\"hardwar\"/><ck fm=\"hardware_bt\" to=\"on\"/><ck fm=\"onboard\" to=\"stripcheck\"/><ck fm=\"strlen\" to=\"●\"/></cki>";

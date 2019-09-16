@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Originator" content="ImportDoc" />
+<meta name="OriginalFile" content="C:\HTML Help Projects\SDK-WindowsCE5\DOC\RFID_Win32FileAPI.doc" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Win32 File API</title>
+
+<style type="text/css">
+<!--
+A:visited { color:#0000ff; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="../whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="../whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="../whtopic.js" charset="utf-8"></script>
+
+</head>
+<body lang="IT" xml:lang="IT"><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("../SDK.htm", "", ">", "Home", "../System_Overview.htm");
+document.write("Win32 File API<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('../SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="../ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 14.0pt;">Win32 File API</span></font></b></h2>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">It allows writing a certain number of bytes on the RFID memory from the program C/C++.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><u style="text-decoration: underline;"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">CreateFile</span></font></u> <span lang="EN-US" xml:lang="EN-US">is used in the following way:</span></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" width="99.109%" bgcolor="#CCCCCC">
+<col width="734" />
+<tr>
+<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="734">
+<p class="Normal"><b><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-weight: bold; font-style: italic;">HANDLE hRFID = CreateFile(_T("SED1:"), GENERIC_WRITE, 0, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);</span></font></i></b></p>
+</td>
+</tr>
+</table>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">CreateFile retrieves a handle to the Datalogic Windows CE Scanner Driver. To write data on the RFID memory call the <u>WriteFile</u> function. For example:</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><b><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-weight: bold; font-style: italic;">WriteFile(hRFID, pBuffer, nDataToWrite, &amp;dwWritten, NULL);</span></font></i></b></p>
+<p class="Normal">&#160;</p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">where <i><span style="font-style: italic;">pBuffer</span></i> is</span></font> <span lang="EN-US" xml:lang="EN-US">pointer</span> <span lang="EN-US" xml:lang="EN-US">to the memory containing the data to be written on the RFID label</span> <span lang="EN-US" xml:lang="EN-US">and</span> <i><span lang="EN-US" xml:lang="EN-US" style="font-style: italic;">nDataToWrite</span></i> <span lang="EN-US" xml:lang="EN-US">specifies the</span> <span lang="EN-US" xml:lang="EN-US">integer indicating the dimension in bytes of the data to be written.</span></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">A value different from zero is returned in case of function success.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">A zero value is returned in case of failure (RFID label writing error). A writing error can occur when the number of data to be written exceeds the maximum number of data allowed for the label or when the label is out of range of the RFID antenna on the device.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;"><span lang="EN-US" xml:lang="EN-US">Each time the WriteFile function is called, after getting a handle with the function CreateFile, the driver writes on the RFID memory starting from the address 0 (the addressing mode is specified in the configuration, see the <a href="ScannerSetup_Class_RFID_DataAddressinMode.htm">RF_PARAM_DATA_BUFFER_ADDRESSING_MODE parameter</a> in the RFID Parameters).</span></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">To modify the starting address, invoke the <u>SetFilePointer</u> function, for example:</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><b><i><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; font-weight: bold; font-style: italic;">SetFilePointer(hRFID, nAddress, NULL, FILE_BEGIN);</span></font></i></b></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">where <i><span style="font-style: italic;">nAddress</span></i> is the address of the RFID memory where the data will be entered during the following writing.</span></font></p>
+<p class="Normal">&#160;</p>
+<p class="Normal"><font style="font-family: Verdana;" face="Verdana"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt;">For more details concerning the syntax of these three functions, refer to the Microsoft® documentation.</span></font></p>
+<p class="Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

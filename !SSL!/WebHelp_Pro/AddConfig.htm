@@ -1,0 +1,557 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>AddConfig</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nWiFi API\nFunction Reference\nWiFiAddConfig");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"CF10G_STATUS.htm\">WiFi API<\/a> > <a href=\"ActivateConfig.htm\">Function Reference<\/a> > WiFiAddConfig<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;"><span><font size="4" style="font-size:14pt;">WiFiAddConfig</font></span></h2>
+<p style="font-family: Verdana; font-size: 8.0pt;">Adds a new Wi-Fi connection 
+ profile or modifies one that already exists.</p>
+<p>&#160;</p>
+<table style="margin-left: 3.5pt; border-collapse: collapse;" cellspacing="0" 
+		 width="100%" bgcolor="#CCCCCC">
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 3.5pt 0cm 3.5pt; background-color: Transparent;" 
+			 width="642"><p class="Normal" style="font-size: 8.0pt; font-weight: bold; 
+							 font-family: Verdana;">SDCERR WiFiAddConfig(SDCConfig 
+		 *cfg);</p></td>
+	</tr>
+</table>
+<p class="Normal">&#160;</p>
+<h3 class="Normal"><b style="font-weight: bold;"><font style="font-family: Verdana;" 
+														 face="Verdana"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;"><font size="2" style="font-size:10pt;">Parameters</font></span></font></b></h3>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif; margin-left: 0px;">SDCConfig 
+ *cfg</p>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif; margin-left: 40px;">Settings 
+ for the desired profile</p>
+<h3><b style="font-weight: bold;"><font style="font-family: Verdana;" face="Verdana"><span 
+	 lang="EN-US" xml:lang="EN-US" style="font-size: 10.0pt;"><font size="2" style="font-size:10pt;">Return Value</font></span></font></b></h3>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">SDCERR_SUCCESS 
+ on success.</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">SDCERR_INVALID_CONFIG 
+ if configuration is bad</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<p class="Normal" style="font-family: Verdana; font-size: 8.0pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Example: 
+ Adding a WPA2-PSK network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;SDCConfig 
+		 cfg;</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;memset(&amp;cfg, 
+		 0, sizeof(SDCConfig));</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;strcpy(cfg.SSID, 
+		 &quot;myNetwork&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;strcpy(cfg.configName, 
+		 &quot;myNetwork&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;strcpy(cfg.PSK.buffer, 
+		 &quot;myPassword&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.PSK.size = strlen(cfg.PSK.buffer)+1;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.authType = WPA2PSK;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.encr = AES;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.Broadcast = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;SDCERR 
+		 err = WiFiAddConfig(&amp;cfg);</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;printf(&quot;result=%d\n&quot;, 
+		 err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b style="font-weight: bold;"><i 
+	 style="font-style: italic;">Example: Adding an open network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span><span style="text-autospace: none; 
+														 font-size: 9.0pt; 
+														 font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;SDCConfig 
+		 cfg;</font></span></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;memset(&amp;cfg, 
+		 0, sizeof(SDCConfig));</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;strcpy(cfg.SSID, 
+		 &quot;myNetwork&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;strcpy(cfg.configName, 
+		 &quot;myNetwork&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.authType = OPEN;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.encr = NONE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;cfg.Broadcast = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';"><span style="text-autospace: none; 
+												 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;SDCERR 
+		 err = WiFiAddConfig(&amp;cfg);</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New';">&#160;&#160;printf(&quot;result=%d\n&quot;, 
+		 err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b style="font-weight: bold;"><i 
+	 style="font-style: italic;">Example: Adding a PEAP Network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;"><span style="text-autospace: none; 
+		 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">SDCConfig cfg = 
+		 {}; // zero out. alternatively: memset(&amp;cfg, 0, sizeof(cfg));</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">PEAPConfig 
+		 peapCfg = {};</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.PEAP = 
+		 &amp;peapCfg;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.configName, 
+		 &quot;peap&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.SSID, 
+		 SSID_EAPPEAP);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.Broadcast 
+		 = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EapType 
+		 = PPP_EAP_PEAP; </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.PEAP-&gt;Cred.CredType 
+		 = PASSWORD;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.PEAP-&gt;Cred.CredSource 
+		 = FROM_PROFILE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.PEAP-&gt;Cred.UserName, 
+		 &quot;eappeap&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.PEAP-&gt;Cred.Password, 
+		 &quot;eappeap&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.PEAP-&gt;InnerMethod 
+		 = EAP_MsChapV2;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">SDCERR err 
+		 = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">printf(&quot;result=%d\n&quot;, 
+		 err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding a EAP-TLS Network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;"><span style="text-autospace: none; 
+		 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">SDCConfig cfg = 
+		 {};</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">EAPTLSConfig 
+		 tlsCfg = {};</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EAPTLS 
+		 = &amp;tlsCfg;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.configName, 
+		 &quot;eaptls&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.SSID, 
+		 SSID_EAPTLS);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.Broadcast 
+		 = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EapType 
+		 = PPP_EAP_TLS; </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">//strcpy(cfg.EAPTLS-&gt;Conn.OuterIdentity, 
+		 &quot;eaptls&quot;); &#160;// optional</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EAPTLS-&gt;Conn.ValidateServer 
+		 = FALSE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EAPTLS-&gt;Conn.FastReconnect 
+		 = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">SDCERR err 
+		 = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">printf(&quot;result=%d\n&quot;, 
+		 err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p style="font-size: 10pt; font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b><i>Example: 
+ Adding a EAP-TTLS Network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;"><span style="text-autospace: none; 
+		 font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">SDCConfig cfg = 
+		 {};</font></span></p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">EAPTLSConfig 
+		 tlsCfg = {};</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EAPTLS 
+		 = &amp;tlsCfg;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.configName, 
+		 &quot;eaptls&quot;);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">strcpy(cfg.SSID, 
+		 SSID_EAPTTLS);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.EapType 
+		 = DL_EAP_TTLS; </p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">cfg.Broadcast 
+		 = TRUE;</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">// TODO add 
+		 cert!</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">SDCERR err 
+		 = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="text-autospace: none; font-size: 9.0pt; 
+			 font-family: 'Courier New'; margin-left: 40px;">printf(&quot;result=%d\n&quot;, 
+		 err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p style="font-size: 10pt; font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><span 
+	 style="font-family: Verdana, sans-serif; font-size: 10pt;"><font size="2" style="font-size:10pt;"><b><i>Example: 
+ Adding a LEAP Network</i></b></font></span></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;"><span style="font-family: Verdana, sans-serif; 
+										 font-size: 10pt;"><font size="2" style="font-size:10pt;">SDCConfig cfg 
+		 = {};</font></span></p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">LEAPConfig leapCfg = {};</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.LEAP = &amp;leapCfg;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.configName, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.SSID, SSID_LEAP);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Broadcast = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EapType = DL_EAP_LEAP;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Cckm = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.LEAP-&gt;Cred.CredSource = FROM_PROFILE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.LEAP-&gt;Cred.UserName, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.LEAP-&gt;Cred.Password, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">SDCERR err = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">printf(&quot;result=%d\n&quot;, err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<h3 style="font-size: 10pt; font-family: Verdana, sans-serif;"><b><i>Example: 
+ Adding a LEAP Network</i></b></h3>
+<table style="margin-left: 1.9pt; border: none;" cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;"><span style="font-family: Verdana, sans-serif; 
+										 font-size: 10pt;"><font size="2" style="font-size:10pt;">SDCConfig cfg 
+		 = {};</font></span></p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">LEAPConfig leapCfg = {};</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.LEAP = &amp;leapCfg;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.configName, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.SSID, SSID_LEAP);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Broadcast = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EapType = DL_EAP_LEAP;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Cckm = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.LEAP-&gt;Cred.CredSource = FROM_PROFILE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.LEAP-&gt;Cred.UserName, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.LEAP-&gt;Cred.Password, &quot;leap&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">SDCERR err = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">printf(&quot;result=%d\n&quot;, err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b><i>Example: 
+ Adding a EAP-FAST Network</i></b></p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" 
+		 cellspacing="0">
+	<col width="629" />
+	<tr>
+		<td style="vertical-align: top; border-left: solid #000000 1.0px; 
+			 border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; 
+			 border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; 
+			 padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="text-autospace: none;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;"><span style="font-family: Verdana, sans-serif; 
+										 font-size: 10pt;"><font size="2" style="font-size:10pt;">SDCConfig cfg 
+		 = {};</font></span></p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">EAPFASTConfig eapFastCfg = {};</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EAPFAST = &amp;eapFastCfg;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.configName, &quot;EAPFAST&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.SSID, SSID_EAPFAST);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Broadcast = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EapType = DL_EAP_FAST;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.Cckm = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EAPFAST-&gt;Cred.CredType = PASSWORD;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EAPFAST-&gt;Cred.CredSource = FROM_PROFILE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.EAPFAST-&gt;Cred.UserName, 
+		 &quot;eapfast&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">strcpy(cfg.EAPFAST-&gt;Cred.Password, 
+		 &quot;eapfast&quot;);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EAPFAST-&gt;InnerMethod = EAP_MsChapV2;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">cfg.EAPFAST-&gt;AutoPAC = TRUE;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">&#160;</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">SDCERR err = WiFiAddConfig(&amp;cfg);</p>
+		<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; 
+			 margin-left: 40px;">printf(&quot;result=%d\n&quot;, err);</p>
+		<p class="WD_Normal" style="text-autospace: none;">&#160;</p></td>
+	</tr>
+</table>
+<h3 style="font-size: 10pt; font-family: Verdana, sans-serif;">&#160;</h3>
+<h3 style="font-size: 10pt; font-family: Verdana, sans-serif;">Remarks</h3>
+<p style="font-size: 8pt; font-family: Verdana, sans-serif;">Supported 
+ devices: Skorpio X4, Falcon X4</p>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

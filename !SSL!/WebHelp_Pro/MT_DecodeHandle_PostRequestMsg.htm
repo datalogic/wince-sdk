@@ -1,0 +1,357 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="MT_DecodeHandle_PostReleaseMsg.doc" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>MT_DecodeHandle_PostRequestMsg</title>
+<link rel="stylesheet" href="MT_DecodeHandle_PostRequestMsg.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nDecodeHandle\nPostRequestMsg");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"CL_ClassList.htm\">Classes<\/a> > <a href=\"CL_DecodeHandle.htm\">DecodeHandle<\/a> > PostRequestMsg<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><i style="font-style: italic;">Datalogic .NET SDK</i></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;">PostRequestMsg (Method)</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Syntax</i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; background-color: #c0c0c0;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">&#160;&#160;</font></span>&#160;<span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> <span style="color: #0000ff;"><font color="blue" >int</font></span> PostRequestMsg(<span style="color: #2B91AF;"><font color="#2b91af" >DecodeRequest</font></span> reqType, <span style="color: #2B91AF;"><font color="#2b91af" >MessageWindow</font></span> wnd, <span style="color: #0000ff;"><font color="blue" >uint</font></span> uMsg)</font></span></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Class&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="CL_DecodeHandle.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">DecodeHandle</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> <a href="NS_DatalogicApi.htm" style="font-family: Verdana, sans-serif; font-size: 10pt;">Datalogic.API</a></font></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</b> Datalogic.API.DLL</font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Posts a request for data from a decoding device. The method will return immediately, and post a message to the specified window when the request is fulfilled.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Parameters Table</i></b></p>
+<table style="margin-left: 1.9pt;" cellspacing="0" width="53.181%">
+<col style="width: 13.918%;" />
+<col style="width: 20.847%;" />
+<col style="width: 19.078%;" />
+<col width="323" />
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal"><b style="font-weight: bold;"><span style="font-family: Calibri;">Type</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal"><b style="font-weight: bold;"><span style="font-family: Calibri;">Parameter</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#D9D9D9">
+<p class="WD_Normal"><b style="font-weight: bold;"><span style="font-family: Calibri;">Description</span></b></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">DecodeRequest</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">reqType</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Type of request being posted. It is a logical OR'ing of any of the values.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">MessageWindow</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">wnd</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">A reference to an instance of the Microsoft.WindowsCE.Forms.MessageWindow class whose window procedure is to receive a message when the request is fulfilled.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[in]</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">uint</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">uMsg</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Specifies the message to be posted when the request is fulfilled. This should be a value of WM_USER (defined in winuser.h) or higher.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[return]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">int</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">On success, a request ID is returned. This should be used in a subsequent call Datalogic.API.DecodeHandle.ReadString and/or Datalogic.API.DecodeHandle.CancelRequest.</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">[on error]</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">-1</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">&#160;</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">-</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">Example</i></b></p>
+<p class="WD_Normal" style="font-size: 8pt; font-family: Verdana, sans-serif;">This example shows the noteworthy code lines to rise and manage a Request message: the message is sent to a customized MessageWindows that is able to manage our custom message (see WM_SCANNED) adding functionalities to WinProc method of standard MessageWindow Class.</p>
+<p class="WD_Normal" style="font-size: 8pt; font-family: Verdana, sans-serif;">(See Example page for the complete and executable example)</p>
+<p class="WD_Normal">&#160;</p>
+<table style="margin-left: 1.9pt; border: none; border-collapse: separate;" cellspacing="0">
+<col width="705" />
+<tr>
+<td style="vertical-align: top; border-left: solid #000000 1.0px; border-right: solid #000000 1.0px; border-top: solid #000000 1.0px; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;">
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #008000;"><font size="1" color="green" style="font-size:9.000000pt;">// Standard using ...</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">using</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">Microsoft.WindowsCE.Forms;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">using</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">Datalogic.API;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">namespace</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">Example</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> <span style="color: #0000ff;"><font color="blue" >class</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >MainDlg</font></span> : System.Windows.Forms.<span style="color: #2B91AF;"><font color="#2b91af" >Form</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// Private variables used for our sample</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >private</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >WndMessageWindow</font></span> wndMsg;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >&#160;&#160;&#160;private</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >DecodeHandle</font></span> hDcd;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >private</font></span> <span style="color: #0000ff;"><font color="blue" >int</font></span> reqID;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// Other...</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> MainDlg() { <span style="color: #008000;"><font color="green" >/*...*/</font></span> }</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;private</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"><span style="color: #0000ff;"><font color="blue" >void</font></span> MainDlg_Load(<span style="color: #0000ff;"><font color="blue" >object</font></span> sender, System.<span style="color: #2B91AF;"><font color="#2b91af" >EventArgs</font></span> e)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;try</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hDcd = <span style="color: #0000ff;"><font color="blue" >new</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >DecodeHandle</font></span>(<span style="color: #2B91AF;"><font color="#2b91af" >DecodeDeviceCap</font></span>.Exists |</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #2B91AF;"><font color="#2b91af" >DecodeDeviceCap</font></span>.Barcode);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<span style="color: #0000ff;"><font color="blue" >catch</font></span>(<span style="color: #2B91AF;"><font color="#2b91af" >DecodeException</font></span>){ <span style="color: #008000;"><font color="green" >/*...*/</font></span> }</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #2B91AF;"><font size="1" color="#2b91af" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #2B91AF;"><font size="1" color="#2b91af" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeRequest</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">reqType = (<span style="color: #2B91AF;"><font color="#2b91af" >DecodeRequest</font></span>)1 | <span style="color: #2B91AF;"><font color="#2b91af" >DecodeRequest</font></span>.PostRecurring;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;reqID = hDcd.PostRequestMsg(reqType, wndMsg, <span style="color: #2B91AF;"><font color="#2b91af" >Constants</font></span>.WM_SCANNED);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #339966;"><font size="1" color="#339966" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;/* Other methods and settings ...*/&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #339966;"><font size="1" color="#339966" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// ...</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;public</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"><span style="color: #0000ff;"><font color="blue" >class</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >WndMessageWindow</font></span> : <span style="color: #2B91AF;"><font color="#2b91af" >MessageWindow</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// Reference to the window we will subclass.</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >private</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >MainDlg</font></span> dlgParent;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> WndMessageWindow(<span style="color: #2B91AF;"><font color="#2b91af" >MainDlg</font></span> frm)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >this</font></span>.dlgParent = frm;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >protected</font></span> <span style="color: #0000ff;"><font color="blue" >override</font></span> <span style="color: #0000ff;"><font color="blue" >void</font></span> WndProc(<span style="color: #0000ff;"><font color="blue" >ref</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >Message</font></span> msg)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >switch</font></span>(msg.Msg)</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >case</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >Constants</font></span>.WM_SCANNED:</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #008000;"><font color="green" >// Action to be performed ...</font></span>&#160;&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >break</font></span>;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >base</font></span>.WndProc(<span style="color: #0000ff;"><font color="blue" >ref</font></span> msg);</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="1" color="blue" style="font-size:9.000000pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;internal</font></span> <span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;"><span style="color: #0000ff;"><font color="blue" >sealed</font></span> <span style="color: #0000ff;"><font color="blue" >class</font></span> <span style="color: #2B91AF;"><font color="#2b91af" >Constants</font></span></font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> <span style="color: #0000ff;"><font color="blue" >const</font></span> <span style="color: #0000ff;"><font color="blue" >int</font></span> WM_APP = 0x8000;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="color: #0000ff;"><font color="blue" >public</font></span> <span style="color: #0000ff;"><font color="blue" >const</font></span> <span style="color: #0000ff;"><font color="blue" >int</font></span> WM_SCANNED = WM_APP + 1;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}<span style="color: #339966;"><font color="#339966" ><br />
+&#160;&#160;&#160;</font></span>&#160;}</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;"><span style="font-size: 9.0pt; font-family: 'Courier New';"><font size="1" style="font-size:9pt;">}</font></span><span style="color: #339966;"><font color="#339966" >&#160;&#160;&#160;</font></span></p>
+<p class="WD_Normal" style="text-autospace: none;">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><i style="font-style: italic;">See Also</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><a href="MT_DecodeHandle_ReadString.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeHandle.ReadString (Method)</a>, <a href="EN_DecodeRequest.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeRequest (Enum)</a>, <a href="http://msdn.microsoft.com/en-us/library/microsoft.windowsce.forms.messagewindow%28v=vs.80%29.aspx" style="font-family: Verdana, sans-serif; font-size: 8pt;">Microsoft.WindowsCE.Forms.MessageWindow</a>, <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms644931%28v=vs.85%29.aspx" style="font-family: Verdana, sans-serif; font-size: 8pt;">WM_USER</a>, &#160;<a href="MT_DecodeHandle_CancelRequest.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">DecodeHandle.CancelRequest(Method)</a> , <a href="EXAMPLE_MATRIX.htm" style="font-family: Verdana, sans-serif; font-size: 8pt;">Example #008</a>.</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:8pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 8pt; "><font size="1" style="font-size:8pt;">&#160;</font></span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><i style="font-style: italic;">Copyright © Datalogic ADC. All Right Reserved</i></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

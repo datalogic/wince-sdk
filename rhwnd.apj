@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<windows>
+		<window>
+			<name>Datalogic</name>
+			<caption>Windows Mobile SDK for Datalogic Mobile Computers</caption>
+			<tocfile></tocfile>
+			<indexfile></indexfile>
+			<defaultfile></defaultfile>
+			<homefile>Html\Cover.htm</homefile>
+			<jump1filename>http://www.datalogic.com</jump1filename>
+			<jump1text>Datalogic</jump1text>
+			<jump2filename>http://www.msdn.microsoft.com/embedded</jump2filename>
+			<jump2text>Microsoft®</jump2text>
+			<flags>136224</flags>
+			<navpanewidth>0</navpanewidth>
+			<buttons>800862</buttons>
+			<windowplacement>
+				<left>0</left>
+				<top>0</top>
+				<right>1024</right>
+				<bottom>768</bottom>
+			</windowplacement>
+			<windowstyle>0</windowstyle>
+			<windowstyleex>0</windowstyleex>
+			<expandedstate>0</expandedstate>
+			<defaulttab>0</defaulttab>
+			<tabposition>0</tabposition>
+			<showwindow>0</showwindow>
+		</window>
+	</windows>
+</rhpml>

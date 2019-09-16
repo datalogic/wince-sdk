@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DecodePostStartEvent</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nDecode API\nFunction Reference\nDecodePostStartEvent");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > <a href=\"DCD_PARAM.htm\">Decode API<\/a> > <a href=\"DecodeCancelNotifyPress.htm\">Function Reference<\/a> > DecodePostStartEvent<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2>DecodePostStartEvent</h2>
+<p style="text-align: left;">&#160;</p>
+<p class="Text2" style="mso-highlight: yellow; background-color: Transparent;"><span style="mso-highlight: yellow; background-color: Transparent;">These events occur at a system level of visibility, but are separate for each decoding</span> <span style="mso-highlight: yellow;">device. For each decoding device, only one event can be in effect at any time.&#160;If a start event is posted, then you need to cancel the start notification to post the start event with a new event handle or a windows message.</span></p>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left; font-weight: bold; background-color: #c0c0c0;">BOOL DecodePostStartEvent(HANDLE hFile, HANDLE hEvent);</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Parameters:</h3>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hFile</p>
+<p style="margin-left: 80px;">Handle to the decoding device from which a scanning start notification is requested.&#160;&#160;The CreateFile function returns this handle.</p>
+<p style="margin-left: 40px; text-align: left; font-style: italic;">HANDLE hEvent</p>
+<p style="margin-left: 80px; text-align: left;">Handle to the event to signal when scanning starts. &#160;If set to NULL, the notification is cancelled (see Remarks section).</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Returns:</h3>
+<p style="margin-left: 40px; text-align: left;">A value of TRUE is returned on success, otherwise FALSE is returned to indicate failure.</p>
+<p style="text-align: left;">&#160;</p>
+<h3>Remarks:</h3>
+<p style="margin-left: 40px; text-align: left;">An event notification cannot be requested if a message has already been requested. &#160;Setting hEvent to NULL can be used to cancel a previous event notification request, but only if the same file handle is used to both request and cancel the notification.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

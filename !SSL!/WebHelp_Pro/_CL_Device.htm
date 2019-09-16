@@ -1,0 +1,995 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="_CL_Device.doc" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>DeviceClass</title>
+<link rel="stylesheet" href="_CL_Device.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("DeviceClass<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc;"><i><span style="font-family: Calibri;">Datalogic .NET SDK</span></i></p>
+<p class="WD_Normal" style="background-color: #33cccc;"><b><span style="font-family: Calibri;">Device (Class)</span></b></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal"><b><i><span style="font-family: Calibri;">Syntax</span></i></b></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm; background-color: #c0c0c0;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; "><span style="font-size: 10.0pt; font-family: 'Courier New'; color: #0000ff;"><font size="2" color="blue" style="font-size:10.000000pt;">&#160;&#160;&#160;public</font></span> <span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><span style="color: #0000ff;"><font color="blue" >sealed partial class</font></span> Device</font></span></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+background-color:#c0c0c0;
+border-width:4px;"><span style="padding: 0cm; background-color: #c0c0c0; ">&#160;</span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+border-width:4px;"><span style="padding: 0cm; "><b><span style="font-family: Calibri;">Namespace&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</span></b> <span style="font-family: Calibri;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/NS_DatalogicAPI.htm">Datalogic.API</a></span></span></p>
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+border-width:4px;"><span style="padding: 0cm; "><b><span style="font-family: Calibri;">Assembly&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:</span></b> <span style="font-family: Calibri;">Datalogic.API.DLL</span></span></p>
+</div>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal"><b><i><span style="font-family: Calibri;">Overview</span></i></b></p>
+<p class="WD_Normal"><span style="font-family: Calibri;">This class exposes the methods need to access the device’s system and keyboard information.</span></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Constructors</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="648">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="648">
+<p class="WD_Normal"><span style="font-family: Calibri;">None</span></p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Public Members</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Type</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Name</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Value</span></b></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">const Int32</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">DLError</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">-1</font></span></p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Public Subclass</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Type</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Name</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">sealed</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/CL_Device_DLVersionInfo.htm">DLVersionInfo</a></font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">sealed</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="156">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/CL_Device_BatteryInfo.htm">BatteryInfo</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">sealed</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="156">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/CL_Device_BTPair.htm">BTPair</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="492">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="265">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Public Struct</span></b></p>
+</td>
+<td colspan="2" style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="263">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="300">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="337">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Type</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="191">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Name</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="300">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="337">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">[StructLayout(LayoutKind.Sequential)]</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="191">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/ST_Device_BatteryTreshold.htm">BatteryThreshold</a></font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="300">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="337">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="191">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/CL_Device_DLCustomKey.htm">DLCustomKey</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="300">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr style="height: 0px;">
+<td style="border-left: none; border-right: none; border-top: none; border-bottom: none; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="260">&#160;</td>
+<td style="border-left: none; border-right: none; border-top: none; border-bottom: none; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="71">&#160;</td>
+<td style="border-left: none; border-right: none; border-top: none; border-bottom: none; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">&#160;</td>
+<td style="border-left: none; border-right: none; border-top: none; border-bottom: none; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="237">&#160;</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Public Enumeration</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Type</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Name</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Value</span></b></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">[Flags]</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_TriggerId.htm">TriggerId</a></font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">[Flags]</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_TriggerInputType.htm">TriggerInputType</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">[Flags]</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_HardwareOptions.htm">HardwareOptions</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">[Flags]</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_KbdState.htm">KbdState</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_VersionIndex.htm">VersionIndex</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_PerformanceMetrics.htm">PerformanceMetrics</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_KbdType.htm">KbdType</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_KbdMultitapdelay.htm">KbdMultitapDelay</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_KbdRemapError.htm">KbdRemapError</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_BootType.htm">BootType</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_DeviceModel.htm">DeviceModel</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_DisplayBrightness.htm">DisplayBrightness</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_DisplayBacklight.htm">DisplayBacklight</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_OperatingSystem.htm">OperatingSystem</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_Language.htm">Language</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_BTDirect.htm">BTDirect</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="172">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/EN_Device_DLKeys.htm">DLKeys</a></font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="477">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="228">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Public Methods</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">Static KbdType</font></span></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdGetType.htm">KeybdGetType()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static KbdMultitapDelay</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdGetMultitapDelay.htm">KeybdGetMultitapDelay()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdSetMultitapDelay.htm">KeybdSetMultitapDelay(KbdMultitapDelay DelaySetting)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static KbdRemapError</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdLoadKeymap.htm">KeybdLoadKeymap(String keyMapPath)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static String</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdGetKeymapID.htm">KeybdGetKeymapID()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static UInt32</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdGetKeyInputState.htm">KeybdGetKeyInputState()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_KeybdSetKeyInputState.htm">KeybdSetKeyInputState(UInt32 State)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static BootType</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetBootType.htm">GetBootType()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static String</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetFirmwareVersion.htm">GetFirmwareVersion()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DLVersionInfo []</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetReportedVersionsInfo.htm">GetReportedVersionsInfo()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static string</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetFlashFileRoot.htm">GetFlashFileRoot()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetTouchScreenEnable.htm">SetTouchScreenEnable(Boolean bEnable)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetTouchScreenEnable.htm">GetTouchScreenEnable(out Boolean enabled)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DeviceModel</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetModel.htm">GetModel()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static String</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetSerialNumber.htm">GetSerialNumber()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetBatteryInfo.htm">GetBatteryInfo(out BatteryInfo info)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetBatteryThreshold.htm">SetBatteryThreshold(BatteryThreshold batThreshold)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetBatteryThreshold.htm">GetBatteryThreshold(out BatteryThreshold batThreshold)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetHardwareInfo.htm">GetHardwareInfo(out Int32 hardware)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Int32</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetMetric.htm">GetMetric(PerformanceMetrics metricId)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static TriggerInputType</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetTriggerType.htm">GetTriggerType(TriggerId trigger)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetTriggerType.htm">SetTriggerType(TriggerId trigger, TriggerInputType inputType)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static string</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetTerminalAPIVersion.htm">GetTerminalAPIVersion()</a>&#160;&#160;&#160;&#160;&#160;</font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DisplayBrightness</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_DisplayGetBkltBrightness.htm">DisplayGetBkltBrightness()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DisplayBrightness</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_DisplaySetBkltBrightness.htm">DisplaySetBkltBrightness(DisplayBrightness brightness)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DisplayBacklight</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_DisplayGetBkltState.htm">DisplayGetBkltState()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static DisplayBacklight</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_DisplayBkltEnable.htm">DisplayBkltEnable(DisplayBacklight Enable)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static OperatingSystem</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetOSType.htm">GetOSType()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Language</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetLanguage.htm">GetLanguage()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetPhonePowerState.htm">SetPhonePowerState(Boolean on)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetPhonePowerStatus.htm">GetPhonePowerStatus()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetGPSPowerState.htm">SetGPSPowerState(Boolean on)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetGPSPowerStatus.htm">GetGPSPowerStatus()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_SetWiFiPowerState.htm">SetWiFiPowerState(Boolean on)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetWiFiPowerStatus.htm">GetWiFiPowerStatus()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtInitialize.htm">BtInitialize()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtTerminate.htm">BtTerminate()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtStatus.htm">BtStatus(out Boolean status)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtEnable.htm">BtEnable(Boolean On)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Int32</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtGetPairingCount.htm">BtGetPairingCount()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static BTPair</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtGetPairingInfo.htm">BtGetPairingInfo(int PairCount)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtCreateSerialPairing.htm">BtCreateSerialPairing(char[] addrStr, Int32 portIndex)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtClearSerialPairing.htm">BtClearSerialPairing(char[] addrStr)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_BtClearAllPairings.htm">BtClearAllPairings()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetIsInCradle.htm">GetIsInCradle()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static String</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetModelName.htm">GetModelName()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Int32</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetBatteryLevel.htm">GetBatteryLevel()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_GetExtPowerStatus.htm">GetExtPowerStatus()</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_WiFiGetMacAddress.htm">WiFiGetMacAddress(out Byte [] macAddress)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_WiFiGetRssi.htm">WiFiGetRssi(out Int32 rssi)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static Boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_WiFiGetSignalQuality.htm">WiFiGetSignalQuality(out UInt32 quality)</a></font></span></p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="228">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;">static boolean</font></span></p>
+</td>
+<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#BFBFBF" width="600">
+<p class="WD_Normal"><span style="font-size: 10.0pt; font-family: 'Courier New';"><font size="2" style="font-size:10pt;"><a href="file://C:/DOCUME~1/M3B18~1.DEB/Desktop/HELP SDK/RoboHelp Project Integration/Contenuti/MT_Device_Reset.htm">Reset(BootType bootType)</a></font></span></p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<table cellspacing="0">
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" bgcolor="#CCCCCC" width="180">
+<p class="WD_Normal"><b><span style="font-family: Calibri;">Inherited from</span></b></p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: solid #000000 1.0px; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="648">
+<p class="WD_Normal">&#160;</p>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="180">
+<p class="WD_Normal">&#160;</p>
+</td>
+<td style="vertical-align: top; border-left: none; border-right: none; border-top: none; border-bottom: none; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" width="648">
+<p class="WD_Normal"><span style="font-family: Calibri;">ApplicationException</span></p>
+</td>
+</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal"><b><i><span style="font-family: Calibri;">See Also</span></i></b></p>
+<p class="WD_Normal"><span style="font-family: Calibri;"><a href="http://msdn.microsoft.com/en-us/library/system.applicationexception.aspx">Msdn ApplicationException Class reference</a>.</span></p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+border-width:4px;"><span style="padding: 0cm; ">&#160;</span></p>
+</div>
+<p class="WD_Normal" style="text-align: center;"><i><span style="font-family: Calibri;">Copyright © Datalogic ADC. All Right Reserved</span></i></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

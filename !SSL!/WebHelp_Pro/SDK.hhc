@@ -1,0 +1,3345 @@
+﻿<html>
+<!-- Sitemap 1.0 -->
+<object type="text/site properties">
+  <param name="FrameName" value="bsscright">
+  <param name="SiteType" value="toc">
+  <param name="Font" value="Verdana,8,0">
+</object>
+<ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="General References">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Introduction">
+      <param name="ImageNumber" value="1">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="System Overview">
+        <param name="Local" value="System_Overview.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Supported Parameters">
+        <param name="Local" value="Supported_Parameters1.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Decoding Subsystem">
+      <param name="ImageNumber" value="1">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Organization">
+        <param name="Local" value="Organization.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Reading Decoded Data">
+        <param name="Local" value="Reading_Decoded_Data.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Symbology">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Symbology Identification">
+          <param name="Local" value="Symbology_Identification.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Datalogic Label Identifiers">
+          <param name="Local" value="Datalogic_Label_Identifiers.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Decoding Parameters">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Overview">
+          <param name="Local" value="Overview.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General System Definitions">
+          <param name="Local" value="Programming_Codes_without_Parameters1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="General Decoding Definitions">
+          <param name="Local" value="General_Decoding_Definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bar Code Parameters">
+          <param name="ImageNumber" value="1">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Codabar">
+            <param name="Local" value="Codabar.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Code 39">
+            <param name="Local" value="Code_39.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Pharmacode 39 (Code 32)">
+            <param name="Local" value="Pharmacode_39_(Code_32).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Trioptic">
+            <param name="Local" value="Trioptic.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Code 93">
+            <param name="Local" value="Code_93.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Code 128">
+            <param name="Local" value="Code_128.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="European Article Numbering-13 (EAN-13)">
+            <param name="Local" value="European_Article_Numbering-13_(EAN-13).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="European Article Numbering-8 (EAN-8)">
+            <param name="Local" value="European_Article_Numbering-8_(EAN-8).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Universal Product Code-A (UPC-A)">
+            <param name="Local" value="Universal_Product_Code-A_(UPC-A).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Universal Product Code-E (UPC-E)">
+            <param name="Local" value="Universal_Product_Code-E_(UPC-E).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="UPC / EAN Extensions">
+            <param name="Local" value="UPC___EAN_Extensions.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Interleaved 2 of 5">
+            <param name="Local" value="Interleaved_2_of_5.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Standard 2 of 5">
+            <param name="Local" value="Standard_2_of_5.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Matrix 2 of 5">
+            <param name="Local" value="Matrix_2_of_5.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="MSI">
+            <param name="Local" value="MSI.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="GS1 Databar-14">
+            <param name="Local" value="GS1_Databar-14.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="GS1 Databar Limited">
+            <param name="Local" value="GS1_Databar_Limited.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="GS1 Databar Expanded">
+            <param name="Local" value="GS1_Databar_Expanded.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Chinese 2 of 5 (China Post)">
+            <param name="Local" value="Html/Chinese_2_of_5_(China_Post).htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Programmable 2D Symbologies">
+          <param name="ImageNumber" value="1">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Aztec Code">
+            <param name="Local" value="Aztec_Code.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Datamatrix">
+            <param name="Local" value="Datamatrix.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Composite">
+            <param name="Local" value="Composite.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Maxicode">
+            <param name="Local" value="Maxicode.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="PDF 417">
+            <param name="Local" value="PDF_417.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="MicroPDF 417">
+            <param name="Local" value="MicroPDF_417.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="QR Code">
+            <param name="Local" value="QR_Code.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Postal Codes">
+          <param name="ImageNumber" value="1">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Postal Codes">
+            <param name="Local" value="Postal_Codes1.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Imaging Controls">
+          <param name="ImageNumber" value="1">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Imaging Controls">
+            <param name="Local" value="Imaging_Controls.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="C SDK">
+    <param name="ImageNumber" value="1">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="API History">
+      <param name="Local" value="SDK_C_Introduction.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Compiling and Linking">
+      <param name="Local" value="Compiling_and_Linking1.htm">
+      <param name="ImageNumber" value="11">
+    </object>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Beacon API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Beacon Constants">
+          <param name="Local" value="Beacon_Constants.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BeaconStartScan">
+          <param name="Local" value="BeaconStartScan.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BeaconStopScan">
+          <param name="Local" value="BeaconStopScan.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BeaconFlush">
+          <param name="Local" value="BeaconFlush.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BeaconGetData">
+          <param name="Local" value="BeaconGetData.htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Bluetooth API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BT_DISCOVERY_INFO,  *BT_DISCOVERY_INFO">
+          <param name="Local" value="Html/BT_DISCOVERY_INFO,__BT_DISCOVERY_INFO.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BTPAIR, *P_BTPAIR">
+          <param name="Local" value="BTPAIR,_P_BTPAIR.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BT_DEVICE,  *BT_DEVICE">
+          <param name="Local" value="Html/BT_DEVICE,__BT_DEVICE.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Bluetooth Constants">
+          <param name="Local" value="Bluetooth_Constants_api2.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Profile Definitions">
+          <param name="Local" value="Profile_Definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BTDIRECT">
+          <param name="Local" value="BTDIRECT.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtClearAllPairings">
+          <param name="Local" value="BtClearAllPairings.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtClearSerialPairing">
+          <param name="Local" value="BtClearSerialPairing.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtCreatePairing">
+          <param name="Local" value="BtCreatePairing.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtCreateSerialPairing">
+          <param name="Local" value="BtCreateSerialPairing1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtDiscoverSerialDevices">
+          <param name="Local" value="Html/BtDiscoverSerialDevice.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtEnable">
+          <param name="Local" value="BtEnable1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtGetPairingCount">
+          <param name="Local" value="BtGetPairingCount1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtGetPairingInfo">
+          <param name="Local" value="BtGetPairingInfo1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtGetRadioInfo">
+          <param name="Local" value="BtGetRadioInfo.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtInitialize">
+          <param name="Local" value="BtInitialize1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtStatus">
+          <param name="Local" value="BtStatus1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BtTerminate">
+          <param name="Local" value="BtTerminate1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Common API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Misc Constants">
+          <param name="Local" value="CommonApiConstants.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Input Data Types">
+          <param name="Local" value="InputDataTypes.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Trigger Masks">
+          <param name="Local" value="TriggerMasks.htm">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Decode API">
+      <param name="ImageNumber" value="1">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DCD_PARAM">
+          <param name="Local" value="DCD_PARAM.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DCD_PARAM_LIMIT">
+          <param name="Local" value="DCD_PARAM_LIMIT.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Device Capabilities Mask">
+          <param name="Local" value="Device_Capabilities_Mask.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Device Enumeration">
+          <param name="Local" value="Device_Enumeration.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Input Data Types Mask">
+          <param name="Local" value="Input_Data_Types_Mask.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Wedge Type Mask">
+          <param name="Local" value="Wedge_Type_Mask.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Parameter Limit Bits">
+          <param name="Local" value="Parameter_Limit_Bits.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Request Types">
+          <param name="Local" value="Request_Types.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Good Read Beep Types">
+          <param name="Local" value="Good_Read_Beep_Types.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Trigger Identification Masked Values">
+          <param name="Local" value="Trigger_Identification_Masked_Values.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CODE_ID Modifiers">
+          <param name="Local" value="CODE_ID_Modifiers.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="QR Code Encoding Formats">
+          <param name="Local" value="Html/QR_Code_Encoding_Formats.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="1D Inverse Label Types">
+          <param name="Local" value="1D_Inverse_Label_Types.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Datamatrix DPM mode settings">
+          <param name="Local" value="Datamatrix_DPM_mode_settings.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Enumerations">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CODE_ID">
+          <param name="Local" value="CODE_ID.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Error Codes">
+        <param name="Local" value="Error_Codes.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeCancelNotifyPress">
+          <param name="Local" value="DecodeCancelNotifyPress.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeCancelNotifyRelease">
+          <param name="Local" value="DecodeCancelNotifyRelease.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeCancelNotifyStart">
+          <param name="Local" value="DecodeCancelNotifyStart.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeCancelNotifyStop">
+          <param name="Local" value="DecodeCancelNotifyStop.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeCancelRequest">
+          <param name="Local" value="DecodeCancelRequest.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeEnumDevices">
+          <param name="Local" value="DecodeEnumDevices.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeFlushData">
+          <param name="Local" value="DecodeFlushData.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetCodeID">
+          <param name="Local" value="DecodeGetCodeID.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetCodeIDMod">
+          <param name="Local" value="DecodeGetCodeIDMod.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetDeviceCaps">
+          <param name="Local" value="DecodeGetDeviceCaps.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetFriendlyName">
+          <param name="Local" value="DecodeGetFriendlyName.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetParam">
+          <param name="Local" value="DecodeGetParam.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetParamLimits">
+          <param name="Local" value="DecodeGetParamLimits.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetParams">
+          <param name="Local" value="DecodeGetParams.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetParamLength">
+          <param name="Local" value="DecodeGetParamLength.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetParamString">
+          <param name="Local" value="DecodeGetParamString.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetWedge">
+          <param name="Local" value="DecodeGetWedge.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGetXMLParams">
+          <param name="Local" value="DecodeGetXMLParams.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeGoodRead">
+          <param name="Local" value="DecodeGoodRead.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostPressEvent">
+          <param name="Local" value="DecodePostPressEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostPressMsg">
+          <param name="Local" value="DecodePostPressMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostReleaseEvent">
+          <param name="Local" value="DecodePostReleaseEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostReleaseMsg">
+          <param name="Local" value="DecodePostReleaseMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostRequestEvent">
+          <param name="Local" value="DecodePostRequestEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostRequestEventEx">
+          <param name="Local" value="DecodePostRequest_Event_and_Msg_Ex.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostRequestMsg">
+          <param name="Local" value="DecodePostRequestMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostRequestMsgEx">
+          <param name="Local" value="DecodePostRequestMsgEx.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostRequestWait ">
+          <param name="Local" value="DecodePostRequestWait_.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostStartEvent">
+          <param name="Local" value="DecodePostStartEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostStartMsg">
+          <param name="Local" value="DecodePostStartMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostStopEvent">
+          <param name="Local" value="DecodePostStopEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodePostStopMsg">
+          <param name="Local" value="DecodePostStopMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeReadString ">
+          <param name="Local" value="DecodeReadString_.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeReadStringEx">
+          <param name="Local" value="DecodeReadStringEx.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSetParam">
+          <param name="Local" value="DecodeSetParam.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSetParams">
+          <param name="Local" value="DecodeSetParams.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSetParamString">
+          <param name="Local" value="DecodeSetParamString.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSetWedge">
+          <param name="Local" value="DecodeSetWedge.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSetXMLParams">
+          <param name="Local" value="DecodeSetXMLParams.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSoftTrigger">
+          <param name="Local" value="DecodeSoftTrigger.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeSoftTriggerStop">
+          <param name="Local" value="DecodeSoftTriggerStop.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DecodeTestParams">
+          <param name="Local" value="DecodeTestParams.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Device API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BATINFO, *P_BATINFO">
+          <param name="Local" value="BATINFO,_P_BATINFO1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="BAT_THRESHOLD, *P_BAT_THRESHOLD">
+          <param name="Local" value="BAT_THRESHOLD,_P_BAT_THRESHOLD.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DEVICE_METRICS">
+          <param name="Local" value="DEVICE_METRICS.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CUSTOM_KEY">
+          <param name="Local" value="CUSTOM_KEY.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="GACC_DATA">
+          <param name="Local" value="GACC_DATA.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+        <param name="ImageNumber" value="1">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Backlight Brightness ">
+          <param name="Local" value="The_backlight_brightness_values.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Backlight Enable">
+          <param name="Local" value="The_backlight_enable_values.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Battery Level Error">
+          <param name="Local" value="Battery_Level_Error.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Beep Time">
+          <param name="Local" value="Beep_Time.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Beep Tone">
+          <param name="Local" value="Beep_Tone.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Boot Types ">
+          <param name="Local" value="The_Boot_Types.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Haptic_ID">
+          <param name="Local" value="Haptic_ID.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Hardware Options Mask Definitions">
+          <param name="Local" value="Hardware_Options_Mask_Definitions_api2.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Keyboard Input State Bit definitions">
+          <param name="Local" value="Keyboard_input_state_bit_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Keyboard Models">
+          <param name="Local" value="The_Keyboard_model_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Keyboard Multitap Delay">
+          <param name="Local" value="Keyboard_multitap_delay_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Keyboard Remap Errors">
+          <param name="Local" value="Keyboard_Remap_Error_Definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Language Families">
+          <param name="Local" value="Language_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Led Identifiers">
+          <param name="Local" value="Led_Identifiers_api2.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Metric Definitions">
+          <param name="Local" value="Metric_Definitions_api2.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Minimum Input Array Lengths">
+          <param name="Local" value="Minimum_Input_Array_Lengths.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Operating System Types">
+          <param name="Local" value="Operating_System_type_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Product Models">
+          <param name="Local" value="Product_Model_definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Trigger Action Assignment Bit Definitions">
+          <param name="Local" value="Trigger_action_assignment_values.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="USBFN_CLASS">
+          <param name="Local" value="USBFN_CLASS.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="USBFN_STATE">
+          <param name="Local" value="USBFN_STATE.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Version Index ">
+          <param name="Local" value="Version_Index_Definitions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Virtual Key Code Bit Definitions">
+          <param name="Local" value="The_Virtual_Key_Code_State_Flags.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerClose">
+          <param name="Local" value="AccelerometerClose.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerOpen">
+          <param name="Local" value="AccelerometerOpen.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerRead">
+          <param name="Local" value="AccelerometerRead.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerStartEvent">
+          <param name="Local" value="AccelerometerStartEvent.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerStartMsg">
+          <param name="Local" value="AccelerometerStartMsg.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AccelerometerStop">
+          <param name="Local" value="AccelerometerStop.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CvtBtStringToAddr">
+          <param name="Local" value="CvtBtStringToAddr.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceBlinkLED">
+          <param name="Local" value="DeviceBlinkLED.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceBuzzerStart">
+          <param name="Local" value="DeviceStartBuzzer.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceBuzzerStop">
+          <param name="Local" value="DeviceStopBuzzer.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceEnableLED">
+          <param name="Local" value="DeviceEnableLED.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceEnableModem">
+          <param name="Local" value="DeviceEnableModem.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetACSuspendTimeout">
+          <param name="Local" value="DeviceGetACSuspendTimeout.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetBatteryInfo">
+          <param name="Local" value="DeviceGetBatteryInfo.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetBatteryLevel">
+          <param name="Local" value="DeviceGetBatteryLevel.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetBatterySuspendTimeout">
+          <param name="Local" value="DeviceGetBatterySuspendTimeout.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetBatteryThreshold">
+          <param name="Local" value="DeviceGetBatteryThreshold.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetBootType">
+          <param name="Local" value="DeviceGetBootType.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetExtPowerStatus">
+          <param name="Local" value="DeviceGetExtPowerStatus.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetFlashFileRoot">
+          <param name="Local" value="DeviceGetFlashFileRoot.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetHardwareInfo">
+          <param name="Local" value="DeviceGetHardwareInfo.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetIsInCradle">
+          <param name="Local" value="DeviceGetIsInCradle.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetLanguage">
+          <param name="Local" value="DeviceGetLanguage.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetMetric">
+          <param name="Local" value="DeviceGetMetric.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetModel">
+          <param name="Local" value="DeviceGetModel.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetOSType">
+          <param name="Local" value="DeviceGetOSType.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetSerialNumber">
+          <param name="Local" value="DeviceGetSerialNumber.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetTouchScreenEnable">
+          <param name="Local" value="DeviceGetTouchScreenEnable.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetTriggerType">
+          <param name="Local" value="DeviceGetTriggerType.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetUsbFnDriver">
+          <param name="Local" value="DeviceGetUsbFnDriver.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetVersionCount">
+          <param name="Local" value="DeviceGetVersionCount.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceGetVersionInfo">
+          <param name="Local" value="DeviceGetVersionInfo.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DevicePlayBeep">
+          <param name="Local" value="DevicePlayBeep.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceReset">
+          <param name="Local" value="DeviceReset.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetACSuspendTimeout">
+          <param name="Local" value="DeviceSetACSuspendTimeout.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetBatterySuspendTimeout">
+          <param name="Local" value="DeviceSetBatterySuspendTimeout.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetBatteryThreshold">
+          <param name="Local" value="DeviceSetBatteryThreshold.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetTouchScreenEnable">
+          <param name="Local" value="DeviceSetTouchScreenEnable.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetTriggerType">
+          <param name="Local" value="DeviceSetTriggerType.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceSetUsbFnDriver">
+          <param name="Local" value="DeviceSetUsbFnDriver.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DeviceVibrate">
+          <param name="Local" value="PerformHapticFeedback.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DisplayBkltEnable">
+          <param name="Local" value="DisplayBkltEnable2.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DisplayGetBkltBrightness">
+          <param name="Local" value="DisplayGetBkltBrightness1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DisplayGetBkltState">
+          <param name="Local" value="DisplayGetBkltState1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DisplaySetBkltBrightness">
+          <param name="Local" value="DisplaySetBkltBrightness1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="GPSGetPowerStatus">
+          <param name="Local" value="GPSGetPowerStatus.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="GPSSetPowerState">
+          <param name="Local" value="GPSSetPowerState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomClearList">
+          <param name="Local" value="KeybdCustomClearList.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomGetEnableState">
+          <param name="Local" value="KeybdCustomGetEnableState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomGetEntry">
+          <param name="Local" value="KeybdCustomGetEntry.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomGetList">
+          <param name="Local" value="KeybdCustomGetList.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomGetListLength">
+          <param name="Local" value="KeybdCustomGetListLength.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomSetEnableState">
+          <param name="Local" value="KeybdCustomSetEnableState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomSetEntry">
+          <param name="Local" value="KeybdCustomSetEntry.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdCustomSetList">
+          <param name="Local" value="KeybdCustomSetList.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdGetKeyInputState">
+          <param name="Local" value="KeybdGetKeyInputState1.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdGetKeymapID">
+          <param name="Local" value="KeybdGetKeymapID.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdGetMultitapDelay">
+          <param name="Local" value="KeybdGetMultitapDelay.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdGetType">
+          <param name="Local" value="KeybdGetType.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdLoadKeymap">
+          <param name="Local" value="KeybdLoadKeymap.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdSetKeyInputState">
+          <param name="Local" value="KeybdSetKeyInputState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="KeybdSetMultitapDelay">
+          <param name="Local" value="KeybdSetMultitapDelay.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="PhoneGetPowerStatus">
+          <param name="Local" value="PhoneGetPowerStatus.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="PhoneSetPowerState">
+          <param name="Local" value="PhoneSetPowerState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetMacAddress">
+          <param name="Local" value="WiFiGetMacAddress.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetPowerStatus">
+          <param name="Local" value="WiFiGetPowerStatus.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetRssi">
+          <param name="Local" value="WiFiGetRssi.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetSignalQuality">
+          <param name="Local" value="WiFiGetSignalQuality.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiSetPowerState">
+          <param name="Local" value="WiFiSetPowerState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Joya Cradle API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JOYA_CRADLE_STATE_INFO">
+          <param name="Local" value="JOYA_CRADLE_STATE_INFO.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JOYA_CRADLE_LED">
+          <param name="Local" value="JOYA_CRADLE_LED.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JOYA_CRADLE_LOCK_TYPE">
+          <param name="Local" value="JOYA_CRADLE_LOCK_TYPE.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleGetState">
+          <param name="Local" value="JoyaCradleGetState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleGetIsInTrolleyHolder">
+          <param name="Local" value="JoyaCradleGetIsInTrolleyHolder.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleIsFastChargeEnabled">
+          <param name="Local" value="JoyaCradleIsFastChargeEnabled.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleLed">
+          <param name="Local" value="JoyaCradleLed.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleLock">
+          <param name="Local" value="JoyaCradleLock.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleReadConfigArea">
+          <param name="Local" value="JoyaCradleReadConfigArea.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleReadCustomArea">
+          <param name="Local" value="JoyaCradleFlashReadCustomArea.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleReset">
+          <param name="Local" value="JoyaCradleReset.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleWriteConfigArea">
+          <param name="Local" value="JoyaCradleWriteConfigArea.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="JoyaCradleWriteCustomArea">
+          <param name="Local" value="JoyaCradleFlashWriteCustomArea.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="SoftSpot API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotAction">
+          <param name="Local" value="SoftSpotAction.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SOFTSPOT_ACTION_TYPE">
+          <param name="Local" value="SOFTSPOT_ACTION_TYPE.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SOFTSPOT_PROPERTY">
+          <param name="Local" value="SOFTSPOT_PROPERTY.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SOFTSPOT_RESET_STATE">
+          <param name="Local" value="SOFTSPOT_RESET_STATE.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotAddAction">
+          <param name="Local" value="SoftSpotAddAction.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotDeleteAction">
+          <param name="Local" value="SoftSpotDeleteAction.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotGetActionList">
+          <param name="Local" value="SoftSpotGetActionList.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotGetActionsCount">
+          <param name="Local" value="SoftSpotGetActionsCount.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotGetLockState">
+          <param name="Local" value="SoftSpotGetLockState.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotGetPosition">
+          <param name="Local" value="SoftSpotGetPosition.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotGetScale">
+          <param name="Local" value="SoftSpotGetScale.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotHide">
+          <param name="Local" value="SoftSpotHide.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotIsRunning">
+          <param name="Local" value="SoftSpotIsRunning.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotLock">
+          <param name="Local" value="SoftSpotLock.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotResetAllActions">
+          <param name="Local" value="SoftSpotResetAllActions.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotSetActionProperty">
+          <param name="Local" value="SoftSpotSetActionProperty.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotSetCurrentAction">
+          <param name="Local" value="SoftSpotSetCurrentAction.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotSetScale">
+          <param name="Local" value="SoftSpotSetScale.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotSetPosition">
+          <param name="Local" value="SoftSpotSetPosition.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotShow">
+          <param name="Local" value="SoftSpotShow.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotStart">
+          <param name="Local" value="SoftSpotStart.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SoftSpotStop">
+          <param name="Local" value="SoftSpotStop.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="WiFi API">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Data Structures">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CF10G_STATUS">
+          <param name="Local" value="CF10G_STATUS.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CRYPT">
+          <param name="Local" value="CRYPT.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EAPConnectionConfig">
+          <param name="Local" value="EAPConnectionConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EAPCredentialsConfig">
+          <param name="Local" value="EAPCredentialsConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EapConfig - DEPRECATED">
+          <param name="Local" value="EapConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EAPFASTConfig">
+          <param name="Local" value="EAPFASTConfig_C.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EAPTLSConfig">
+          <param name="Local" value="EAPTLSConfig_C.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EAPTTLSConfig">
+          <param name="Local" value="EAPTTLSConfig_C.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="GlobalSettings">
+          <param name="Local" value="GlobalSettings.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="LEAPConfig">
+          <param name="Local" value="LEAPConfig_C.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="PEAPConfig">
+          <param name="Local" value="PEAPConfig_C.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SDCConfig">
+          <param name="Local" value="SDCConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WEP_KEY">
+          <param name="Local" value="WEP_KEY.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Defined Values">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="AUTH">
+          <param name="Local" value="AUTH.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Constants">
+          <param name="Local" value="WiFiConstants.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CredentialsSource">
+          <param name="Local" value="CredentialsSource.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="CredentialsType">
+          <param name="Local" value="CredentialsType.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EapTypes">
+          <param name="Local" value="EapTypes.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="EapInnerMethod">
+          <param name="Local" value="EapInnerMethod.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Edot11Mode">
+          <param name="Local" value="Edot11Mode.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="ENCRYPTION">
+          <param name="Local" value="ENCRYPTION.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="SDCERR">
+          <param name="Local" value="SDCERR.htm">
+        </object>
+        </ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Function Reference">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiActivateConfig">
+          <param name="Local" value="ActivateConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiAddConfig">
+          <param name="Local" value="AddConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiDeleteConfig">
+          <param name="Local" value="DeleteConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiEnableConfig">
+          <param name="Local" value="WiFiEnableConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetActiveConfig">
+          <param name="Local" value="WiFiGetActiveConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetAllConfigs">
+          <param name="Local" value="GetAllConfigs.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetConfig">
+          <param name="Local" value="GetConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetFirmwareVersion">
+          <param name="Local" value="WiFiGetFirmwareVersion.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetGlobalSettings">
+          <param name="Local" value="WiFiGetGlobalSettings.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetNumConfigs">
+          <param name="Local" value="GetNumConfigs.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetCurrentStatus">
+          <param name="Local" value="GetCurrentStatus.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetGlobalDefaults">
+          <param name="Local" value="WiFiGetGlobalDefaultsC.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiGetRadioEnable">
+          <param name="Local" value="GetRadioEnable.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiSetAllConfigs">
+          <param name="Local" value="SetAllConfigs.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiRadioEnable">
+          <param name="Local" value="RadioEnable.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiRadioDisable">
+          <param name="Local" value="RadioDisable.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiSetGlobalSettings">
+          <param name="Local" value="WiFiSetGlobalSettingsC.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiAddEapConfig - DEPRECATED">
+          <param name="Local" value="AddEapConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiConnectEap - DEPRECATED">
+          <param name="Local" value="ConnectEap.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiDeleteEapConfig - DEPRECATED">
+          <param name="Local" value="DeleteEapConfig.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiDisconnectEap - DEPRECATED">
+          <param name="Local" value="DisconnectEap.htm">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="WiFiInitEapConfig - DEPRECATED">
+          <param name="Local" value="InitEapConfig.htm">
+        </object>
+        </ul>
+      </ul>
+    </ul>
+  <li><object type="text/sitemap">
+    <param name="Name" value="SDK .NET">
+  </object>
+  <ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Namespaces">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Namespaces List">
+        <param name="Local" value="NS_NamespaceList.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Datalogic.API">
+      </object>
+      <ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="DatalogicAPI (namespace)">
+          <param name="Local" value="NS_DatalogicApi.htm">
+          <param name="ImageNumber" value="11">
+        </object>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Classes">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Classes List">
+            <param name="Local" value="CL_ClassList.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Decode">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Decode (Class)">
+              <param name="Local" value="CL_Decode.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeGetXMLParams">
+              <param name="Local" value="DecodeGetXMLParams_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeSetXMLParams">
+              <param name="Local" value="DecodeSetXMLParams_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EnumDevices">
+              <param name="Local" value="MT_Decode_EnumDevices.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetParam">
+              <param name="Local" value="MT_Decode_GetParam.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetParams">
+              <param name="Local" value="MT_Decode_GetParams.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetParamLimits">
+              <param name="Local" value="MT_Decode_GetParamLimits.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetParamString">
+              <param name="Local" value="MT_Decode_GetParamString.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetWedge">
+              <param name="Local" value="MT_Decode_GetWedge.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PlayGoodReadBeep">
+              <param name="Local" value="MT_Decode_PlayGoodReadBeep.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetParam">
+              <param name="Local" value="MT_Decode_SetParam.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetParams">
+              <param name="Local" value="MT_Decode_SetParams.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetParamString">
+              <param name="Local" value="MT_Decode_SetParamString.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetWedge">
+              <param name="Local" value="MT_Decode_SetWedge.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="TestParams">
+              <param name="Local" value="MT_Decode_TestParams.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeEvent">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeEvent (Class)">
+              <param name="Local" value="CL_DecodeEvent.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeEvent (1)">
+              <param name="Local" value="MT_DecodeEvent_DecodeEvent.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeEvent (2)">
+              <param name="Local" value="MT_DecodeEvent_DecodeEvent2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Dispose">
+              <param name="Local" value="MT_DecodeEvent_Dispose.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="StartScanListener">
+              <param name="Local" value="MT_DecodeEvent_StartScanListener.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="StopScanListener">
+              <param name="Local" value="MT_DecodeEvent_StopScanListener.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Scanned (event)">
+              <param name="Local" value="EV_DecodeEvent_Scanned.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ScanPress (event)">
+              <param name="Local" value="EV_DecodeEvent_ScanPress.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ScanRelease (event)">
+              <param name="Local" value="EV_DecodeEvent_ScanRelease.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ScanStart (event)">
+              <param name="Local" value="EV_DecodeEvent_ScanStart.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ScanStop (event)">
+              <param name="Local" value="EV_DecodeEvent_ScanStop.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="TimeOut (event)">
+              <param name="Local" value="EV_DecodeEvent_TimeOut.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="IsListening (property)">
+              <param name="Local" value="PR_DecodeEvent_IsListening.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeEventArgs">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeEventArgs (Class)">
+              <param name="Local" value="CL_DecodeEventArgs.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeEventArgs">
+              <param name="Local" value="MT_DecodeEventArgs_DecodeEventArgs.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="RequestID (property)">
+              <param name="Local" value="PR_DecodeEventArgs_RequestID.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeException">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeException (Class)">
+              <param name="Local" value="CL_DecodeException.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeException (1)">
+              <param name="Local" value="MT_DecodeException_DecodeException.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeException (2)">
+              <param name="Local" value="MT_DecodeException_DecodeException2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeException (3)">
+              <param name="Local" value="MT_DecodeException_DecodeException3.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeHandle">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeHandle (Class)">
+              <param name="Local" value="CL_DecodeHandle.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeHandle (1)">
+              <param name="Local" value="MT_DecodeHandle_DecodeHandle.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DecodeHandle (2)">
+              <param name="Local" value="MT_DecodeHandle_DecodeHandle2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="CancelNotifyPress">
+              <param name="Local" value="MT_DecodeHandle_CancelNotifyPress.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="CancelNotifyRelease">
+              <param name="Local" value="MT_DecodeHandle_CancelNotifyRelease.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="CancelNotifyStart">
+              <param name="Local" value="MT_DecodeHandle_CancelNotifyStart.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="CancelNotifyStop">
+              <param name="Local" value="MT_DecodeHandle_CancelNotifyStop.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="CancelRequest">
+              <param name="Local" value="MT_DecodeHandle_CancelRequest.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Dispose">
+              <param name="Local" value="MT_DecodeHandle_Dispose.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="FlushData">
+              <param name="Local" value="MT_DecodeHandle_FlushData.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetAimIdentifier">
+              <param name="Local" value="MT_DecodeHandle_GetAimIdentifier.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetCodeId">
+              <param name="Local" value="MT_DecodeHandle_GetCodeId.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetDeviceCaps">
+              <param name="Local" value="MT_DecodeHandle_GetDeviceCaps.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetFriendlyName">
+              <param name="Local" value="MT_DecodeHandle_GetFriendlyName.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostPressMsg">
+              <param name="Local" value="MT_DecodeHandle_PostPressMsg.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostReleaseMsg">
+              <param name="Local" value="MT_DecodeHandle_PostReleaseMsg.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostRequestMsg">
+              <param name="Local" value="MT_DecodeHandle_PostRequestMsg.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostRequestMsgEx">
+              <param name="Local" value="MT_DecodeHandle_PostRequestMsgEx.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostRequestWait">
+              <param name="Local" value="MT_DecodeHandle_PostRequestWait.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostStartMsg">
+              <param name="Local" value="MT_DecodeHandle_PostStartMsg.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PostStopMsg">
+              <param name="Local" value="MT_DecodeHandle_PostStopMsg.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ReadString (1)">
+              <param name="Local" value="MT_DecodeHandle_ReadString2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ReadString (2)">
+              <param name="Local" value="MT_DecodeHandle_ReadString.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ReadString (3)">
+              <param name="Local" value="ReadString_(3).htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftTrigger">
+              <param name="Local" value="MT_DecodeHandle_SoftTrigger.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftTriggerStop">
+              <param name="Local" value="MT_DecodeHandle_SoftTriggerStop.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Device">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device (Class)">
+              <param name="Local" value="CL_Device.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.AccEventArgs">
+              <param name="ImageNumber" value="1">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.AccEventArgs (Class)">
+                <param name="Local" value="Device.AccEventArgs_(Class).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.AccEventArgs ">
+                <param name="Local" value="AccEventArgs_(Constructor).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Data (property)">
+                <param name="Local" value="Data_(property).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.AccStream ">
+              <param name="ImageNumber" value="1">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DataReady (event)">
+                <param name="Local" value="DataReady_(event).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.AccStream (Class)">
+                <param name="Local" value="Device.AccStream_(Class).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.AccStream (1)">
+                <param name="Local" value="Device.AccStream_(1).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.AccStream (2)">
+                <param name="Local" value="Device.AccStream_(2).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Dispose">
+                <param name="Local" value="Dispose.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Enable (property)">
+                <param name="Local" value="Enable_(property).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Interval (property)">
+                <param name="Local" value="Interval_(property).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device Delegates">
+              <param name="ImageNumber" value="1">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="AccDataReady">
+                <param name="Local" value="AccDataReady.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device Enumerations">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Enumerations List">
+                <param name="Local" value="EN_Device_EnumerationList.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="BeepTime">
+                <param name="Local" value="BeepTime.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="BeepTone">
+                <param name="Local" value="BeepTone.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="BootType">
+                <param name="Local" value="EN_Device_BootType.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="BTDirect">
+                <param name="Local" value="EN_Device_BTDirect.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DeviceModel">
+                <param name="Local" value="EN_Device_DeviceModel.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DisplayBrightness">
+                <param name="Local" value="EN_Device_DisplayBrightness.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DisplayBacklight">
+                <param name="Local" value="EN_Device_DisplayBacklight.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DLKeys">
+                <param name="Local" value="EN_Device_DLKeys.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="HapticId">
+                <param name="Local" value="HapticId.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="HardwareOptions">
+                <param name="Local" value="EN_Device_HardwareOptions.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="KbdMultitapDelay">
+                <param name="Local" value="EN_Device_KbdMultitapDelay.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="KbdRemapError">
+                <param name="Local" value="EN_Device_KbdRemapError.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="KbdState">
+                <param name="Local" value="EN_Device_KbdState.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="KbdType">
+                <param name="Local" value="EN_Device_KbdType.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Language">
+                <param name="Local" value="EN_Device_Language.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="LEDs">
+                <param name="Local" value="LEDs.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="OperatingSystem">
+                <param name="Local" value="EN_Device_OperatingSystem.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="OSType">
+                <param name="Local" value="EN_Device_OSType.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="PerformanceMetrics">
+                <param name="Local" value="EN_Device_PerformanceMetrics.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="TriggerId">
+                <param name="Local" value="EN_Device_TriggerId.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="TriggerInputType">
+                <param name="Local" value="EN_Device_TriggerInputType.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="UsbFnClass">
+                <param name="Local" value="UsbFnClass.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="UsbFnState">
+                <param name="Local" value="UsbFnState.htm">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="VersionIndex">
+                <param name="Local" value="EN_Device_VersionIndex.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device Structs">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="BatteryThreshold">
+                <param name="Local" value="ST_Device_BatteryThreshold.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="DLCustomKey">
+                <param name="Local" value="ST_Device_DLCustomKey.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="AccData">
+                <param name="Local" value="AccData.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.BatteryInfo">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BatteryInfo (Class)">
+                <param name="Local" value="CL_Device_BatteryInfo.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.BTDevice">
+              <param name="ImageNumber" value="1">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BTDevice (Class)">
+                <param name="Local" value="Html/Device.BTDevice_(Class).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BTDevice (1)">
+                <param name="Local" value="Html/Device.BTDevice_(1).htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.BTPair">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BTPair (Class)">
+                <param name="Local" value="CL_Device_BTPair.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BTPair (1)">
+                <param name="Local" value="MT_Device_BTPair_BTPair.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.BTPair (2)">
+                <param name="Local" value="MT_Device_BTPair_BTPair2.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Device.DLVersionInfo">
+            </object>
+            <ul>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.DLVersionInfo (Class)">
+                <param name="Local" value="CL_Device_DLVersionInfo.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              <li><object type="text/sitemap">
+                <param name="Name" value="Device.DLVersionInfo">
+                <param name="Local" value="MT_Device_DLVersionInfo_DLVersionInfo.htm">
+                <param name="ImageNumber" value="11">
+              </object>
+              </ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BlinkLED">
+              <param name="Local" value="BlinkLED.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtClearAllPairings">
+              <param name="Local" value="MT_Device_BtClearAllPairings.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtClearSerialPairing">
+              <param name="Local" value="MT_Device_BtClearSerialPairing.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtCreateSerialPairing">
+              <param name="Local" value="MT_Device_BtCreateSerialPairing.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtDiscoverSerialDevices">
+              <param name="Local" value="Html/BtDiscoverSerialDevices.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtEnable">
+              <param name="Local" value="MT_Device_BtEnable.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtGetPairingCount">
+              <param name="Local" value="MT_Device_BtGetPairingCount.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtGetPairingInfo">
+              <param name="Local" value="MT_Device_BtGetPairingInfo.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtInitialize">
+              <param name="Local" value="MT_Device_BtInitialize.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtStatus">
+              <param name="Local" value="MT_Device_BtStatus.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="BtTerminate">
+              <param name="Local" value="MT_Device_BtTerminate.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DeviceBuzzerStart">
+              <param name="Local" value="DeviceBuzzerStart.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DeviceBuzzerStop">
+              <param name="Local" value="DeviceBuzzerStop.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DeviceVibrate">
+              <param name="Local" value="DeviceVibrate.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DisplayBkltEnable">
+              <param name="Local" value="MT_Device_DisplayBkltEnable.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DisplayGetBkltBrightness">
+              <param name="Local" value="MT_Device_DisplayGetBkltBrightness.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DisplayGetBkltState">
+              <param name="Local" value="MT_Device_DisplayGetBkltState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DisplaySetBkltBrightness">
+              <param name="Local" value="MT_Device_DisplaySetBkltBrightness.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EnableLED">
+              <param name="Local" value="EnableLED.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EnableModem">
+              <param name="Local" value="EnableModem.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetACSuspendTimeout">
+              <param name="Local" value="GetACSuspendTimeout.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetBatteryInfo">
+              <param name="Local" value="MT_Device_GetBatteryInfo.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetBatteryLevel">
+              <param name="Local" value="MT_Device_GetBatteryLevel.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetBatterySuspendTimeout">
+              <param name="Local" value="GetBatterySuspendTimeout.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetBatteryThreshold">
+              <param name="Local" value="MT_Device_GetBatteryThreshold.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetBootType">
+              <param name="Local" value="MT_Device_GetBootType.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetExtPowerStatus">
+              <param name="Local" value="MT_Device_GetExtPowerStatus.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetFirmwareVersion">
+              <param name="Local" value="MT_Device_GetFirmwareVersion.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetFlashFileRoot">
+              <param name="Local" value="MT_Device_GetFlashFileRoot.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetGPSPowerStatus">
+              <param name="Local" value="MT_Device_GetGPSPowerStatus.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetHardwareInfo">
+              <param name="Local" value="MT_Device_GetHardwareInfo.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetIsInCradle">
+              <param name="Local" value="MT_Device_GetIsInCradle.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetLanguage">
+              <param name="Local" value="MT_Device_GetLanguage.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetMetric">
+              <param name="Local" value="MT_Device_GetMetric.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetModel">
+              <param name="Local" value="MT_Device_GetModel.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetModelName">
+              <param name="Local" value="MT_Device_GetModelName.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetOSType">
+              <param name="Local" value="MT_Device_GetOSType.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetOSType2">
+              <param name="Local" value="MT_Device_GetOSType2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetPhonePowerStatus">
+              <param name="Local" value="MT_Device_GetPhonePowerStatus.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetReportedVersionsInfo">
+              <param name="Local" value="MT_Device_GetReportedVersionsInfo.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetSerialNumber">
+              <param name="Local" value="MT_Device_GetSerialNumber.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetTerminalAPIVersion">
+              <param name="Local" value="MT_Device_GetTerminalAPIVersion.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetTouchScreenEnable">
+              <param name="Local" value="MT_Device_GetTouchScreenEnable.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetTriggerType">
+              <param name="Local" value="MT_Device_GetTriggerType.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetUsbFnDriver">
+              <param name="Local" value="GetUsbFnDriver.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetWiFiPowerStatus">
+              <param name="Local" value="MT_Device_GetWiFiPowerStatus.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomGetEnableState">
+              <param name="Local" value="KeybdCustomGetEnableState1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomClearList">
+              <param name="Local" value="KeybdCustomClearList1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomGetEntry ">
+              <param name="Local" value="KeybdCustomGetEntry_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomGetList">
+              <param name="Local" value="KeybdCustomGetList1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomSetEnableState">
+              <param name="Local" value="KeybdCustomSetEnableState1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomSetEntry">
+              <param name="Local" value="KeybdCustomSetEntry1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdCustomSetList">
+              <param name="Local" value="KeybdCustomSetList_NET.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdGetKeyInputState">
+              <param name="Local" value="MT_Device_KeybdGetKeyInputState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdGetKeymapID">
+              <param name="Local" value="MT_Device_KeybdGetKeymapID.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdGetMultitapDelay">
+              <param name="Local" value="MT_Device_KeybdGetMultitapDelay.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdGetType">
+              <param name="Local" value="MT_Device_KeybdGetType.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdLoadKeymap">
+              <param name="Local" value="MT_Device_KeybdLoadKeymap.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdSetKeyInputState">
+              <param name="Local" value="MT_Device_KeybdSetKeyInputState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="KeybdSetMultitapDelay">
+              <param name="Local" value="MT_Device_KeybdSetMultitapDelay.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PlayBeep">
+              <param name="Local" value="PlayBeep.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Reset">
+              <param name="Local" value="MT_Device_Reset.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetACSuspendTimeout">
+              <param name="Local" value="SetACSuspendTimeout.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetBatterySuspendTimeout">
+              <param name="Local" value="SetBatterySuspendTimeout.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetBatteryThreshold">
+              <param name="Local" value="MT_Device_SetBatteryThreshold.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetGPSPowerState">
+              <param name="Local" value="MT_Device_SetGPSPowerState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetPhonePowerState">
+              <param name="Local" value="MT_Device_SetPhonePowerState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetTouchScreenEnable">
+              <param name="Local" value="MT_Device_SetTouchScreenEnable.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetTriggerType">
+              <param name="Local" value="MT_Device_SetTriggerType.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetUsbFnDriver">
+              <param name="Local" value="SetUsbFnDriver.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetWiFiPowerState">
+              <param name="Local" value="MT_Device_SetWiFiPowerState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiGetMacAddress">
+              <param name="Local" value="MT_Device_WiFiGetMacAddress.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiGetRssi">
+              <param name="Local" value="MT_Device_WiFiGetRssi.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiGetSignalQuality">
+              <param name="Local" value="MT_Device_WiFiGetSignalQuality.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPFASTConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EAPFASTConfig">
+              <param name="Local" value="EAPFASTConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPTLSConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EAPTLSConfig">
+              <param name="Local" value="EAPTLSConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPTTLSConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EAPTTLSConfig">
+              <param name="Local" value="EAPTTLSConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EapWiFiConfig - DEPRECATED">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EapWiFiConfig - DEPRECATED">
+              <param name="Local" value="EapWiFiConfigDotNet.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="JoyaCradle">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleGetState">
+              <param name="Local" value="JoyaCradleGetState_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleLock">
+              <param name="Local" value="JoyaCradleLock_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleGetIsInTrolleyHolder ">
+              <param name="Local" value="JoyaCradleGetIsInTrolleyHolder_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleIsFastChargeEnabled">
+              <param name="Local" value="JoyaCradleIsFastChargeEnabled_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleLed ">
+              <param name="Local" value="JoyaCradleLed_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleReadConfigArea">
+              <param name="Local" value="JoyaCradleReadConfigArea_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleReadCustomArea">
+              <param name="Local" value="JoyaCradleReadCustomArea.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleReset">
+              <param name="Local" value="JoyaCradleReset_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleWriteConfigArea">
+              <param name="Local" value="JoyaCradleWriteConfigArea_.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="JoyaCradleWriteCustomArea">
+              <param name="Local" value="JoyaCradleWriteCustomArea.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="MACAddress">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="MACAddress (class)">
+              <param name="Local" value="MACAddress_(class).htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="LEAPConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="LEAPConfig">
+              <param name="Local" value="LEAPConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Param">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Param (Class)">
+              <param name="Local" value="CL_Param.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="PEAPConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="PEAPConfig">
+              <param name="Local" value="PEAPConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SizeConsts">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SizeConsts (class)">
+              <param name="Local" value="SizeConsts_(class).htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SoftSpot">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftSpot class">
+              <param name="Local" value="SoftSpot_class.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="AddAction">
+              <param name="Local" value="AddAction.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DeleteAction">
+              <param name="Local" value="DeleteAction.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetActionsCount">
+              <param name="Local" value="GetActionsCount.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetActionList">
+              <param name="Local" value="GetActionList.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetLockState">
+              <param name="Local" value="GetLockState.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetScale">
+              <param name="Local" value="GetScale.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetPosition">
+              <param name="Local" value="GetPosition.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Hide">
+              <param name="Local" value="Hide.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="IsRunning">
+              <param name="Local" value="IsRunning.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Lock">
+              <param name="Local" value="Lock.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ResetAllActions">
+              <param name="Local" value="ResetAllActions.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetActionProperty">
+              <param name="Local" value="SetActionProperty.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetCurrentAction">
+              <param name="Local" value="SetCurrentAction.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetPosition">
+              <param name="Local" value="SetPosition.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetScale">
+              <param name="Local" value="SetScale.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Show">
+              <param name="Local" value="Show.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Start">
+              <param name="Local" value="Start.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="Stop">
+              <param name="Local" value="Stop.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SoftSpotAction">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftSpotAction class">
+              <param name="Local" value="SoftSpotAction_class.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftSpotAction [1]">
+              <param name="Local" value="SoftSpotAction_Constructor_1.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SoftSpotAction [2]">
+              <param name="Local" value="SoftSpotAction_constructor_2.htm">
+              <param name="ImageNumber" value="11">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="StandardWiFiConfig">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="StandardWiFiConfig (class)">
+              <param name="Local" value="StandardWiFiConfig.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WiFi">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFi (class)">
+              <param name="Local" value="CL_WiFi.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="ActivateConfig">
+              <param name="Local" value="WiFiActivateConfig.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="AddConfig">
+              <param name="Local" value="WiFiAddConfig.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="DeleteConfig">
+              <param name="Local" value="WiFiDeleteConfig.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="EnableConfig">
+              <param name="Local" value="EnableConfig.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetActiveConfig">
+              <param name="Local" value="WiFiGetActiveConfig_DotNet.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetAllConfigs">
+              <param name="Local" value="WiFiGetAllConfigs.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetConfig">
+              <param name="Local" value="WiFiGetConfig.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetCurrentStatus">
+              <param name="Local" value="WiFiGetCurrentStatus.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetFirmwareVersion">
+              <param name="Local" value="GetFirmwareVersion.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetGlobalDefaults">
+              <param name="Local" value="WiFiGetGlobalDefaults.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetGlobalSettings">
+              <param name="Local" value="GetGlobalSettings.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="SetGlobalSettings">
+              <param name="Local" value="WiFiSetGlobalSettings.htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="GetNumConfigs">
+              <param name="Local" value="WiFiGetNumConfigs.htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WiFiException">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiException (Class)">
+              <param name="Local" value="WiFiException_(Class).htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiException (1)">
+              <param name="Local" value="WiFiException_(1).htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiException (2)">
+              <param name="Local" value="WiFiException_(2).htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiException (3)">
+              <param name="Local" value="WiFiException(3).htm">
+            </object>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiException (4)">
+              <param name="Local" value="WiFiException_(4).htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WiFiGlobalSettings">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiGlobalSettings (Class)">
+              <param name="Local" value="WiFiGlobalSettings_(Class).htm">
+            </object>
+            </ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WiFiStatus">
+          </object>
+          <ul>
+            <li><object type="text/sitemap">
+              <param name="Name" value="WiFiStatus (class)">
+              <param name="Local" value="WiFiStatus_(class).htm">
+            </object>
+            </ul>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Delegates">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Delegates List">
+            <param name="Local" value="Delegates_List.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeScanned">
+            <param name="Local" value="DE_DecodeScanned.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeScanPress">
+            <param name="Local" value="DE_DecodeScanPress.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeScanRelease">
+            <param name="Local" value="DE_DecodeScanRelease.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeScanStop">
+            <param name="Local" value="DE_DecodeScanStop.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeScanStart">
+            <param name="Local" value="DE_DecodeScanStart.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeTimeOut">
+            <param name="Local" value="DE_DecodeTimeOut.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Enumerations">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Enumerations List">
+            <param name="Local" value="EN_EnumerationList.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Authentication">
+            <param name="Local" value="AuthenticationDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="BTProfile">
+            <param name="Local" value="BTProfile.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeId">
+            <param name="Local" value="EN_CodeId.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModCode39">
+            <param name="Local" value="CodeIdModCode39.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModStandard25">
+            <param name="Local" value="CodeIdModStandard25.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModInterleaved25">
+            <param name="Local" value="CodeIdModInterleaved25.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModCodabar ">
+            <param name="Local" value="CodeIdModCodabar_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModCode128 ">
+            <param name="Local" value="CodeIdModCode128_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModUPC_EAN ">
+            <param name="Local" value="CodeIdModUPC_EAN_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModMSI ">
+            <param name="Local" value="CodeIdModMSI_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModMicroPDF417 ">
+            <param name="Local" value="CodeIdModMicroPDF417_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModQRCode">
+            <param name="Local" value="CodeIdModQRCode.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModMaxiCode ">
+            <param name="Local" value="CodeIdModMaxiCode_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModDataMatrix ">
+            <param name="Local" value="CodeIdModDataMatrix_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModComposite ">
+            <param name="Local" value="CodeIdModComposite_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CodeIdModAztec ">
+            <param name="Local" value="CodeIdModAztec_.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CredentialsSource">
+            <param name="Local" value="CredentialsSourceDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="CredentialsType">
+            <param name="Local" value="CredentialsTypeDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeDatamatrixDpm">
+            <param name="Local" value="DecodeDatamatrixDpm.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeDeviceCap">
+            <param name="Local" value="EN_DecodeDeviceCap.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeErrorCode">
+            <param name="Local" value="EN_DecodeErrorCode.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeGoodReadBeepType">
+            <param name="Local" value="EN_DecodeGoodReadBeepType.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeInputType">
+            <param name="Local" value="EN_DecodeInputType.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeInverseLabelType">
+            <param name="Local" value="DecodeInverseLabelType.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeParamLimitIndicator">
+            <param name="Local" value="EN_DecodeParamLimitIndicator.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeRequest">
+            <param name="Local" value="EN_DecodeRequest.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DeviceModel">
+            <param name="Local" value="EN_Device_DeviceModel.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EapInnerMethod">
+            <param name="Local" value="EapInnerMethodDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EapTypes">
+            <param name="Local" value="EapTypesDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Edot11Mode">
+            <param name="Local" value="Edot11ModeDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Encryption">
+            <param name="Local" value="EncryptionDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="ExtPrefixSymbology">
+            <param name="Local" value="ExtPrefixSymbology.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="QRCodeEncoding">
+            <param name="Local" value="Html/QRCodeEncoding.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SDCErr">
+            <param name="Local" value="SDCErrDotNet.htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WedgeType">
+            <param name="Local" value="EN_WedgeType.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WlanInterfaceState">
+            <param name="Local" value="WlanInterfaceStateDotNet.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Interfaces">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="WiFiConfig - DEPRECATED">
+            <param name="Local" value="WiFiConfig.htm">
+          </object>
+          </ul>
+        <li><object type="text/sitemap">
+          <param name="Name" value="Structures">
+        </object>
+        <ul>
+          <li><object type="text/sitemap">
+            <param name="Name" value="Structures List">
+            <param name="Local" value="ST_StructAndOtherLists.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeParam">
+            <param name="Local" value="ST_DecodeParam.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="DecodeParamLimit">
+            <param name="Local" value="ST_DecodeParamLimit.htm">
+            <param name="ImageNumber" value="11">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPConnectionConfig">
+            <param name="Local" value="EAPConnectionConfig_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPCredentialsConfig">
+            <param name="Local" value="EAPCredentialsConfig_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPFASTConfigStruct">
+            <param name="Local" value="EAPFASTConfigStruct_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPTLSConfigStruct">
+            <param name="Local" value="EAPTLSConfigStruct_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="EAPTTLSConfigStruct">
+            <param name="Local" value="EAPTTLSConfigStruct_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="LEAPConfigStruct">
+            <param name="Local" value="LEAPConfigStruct_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="PEAPConfigStruct">
+            <param name="Local" value="PEAPConfigStruct_(struct).htm">
+          </object>
+          <li><object type="text/sitemap">
+            <param name="Name" value="SDCConfig">
+            <param name="Local" value="SDCConfig_(struct).htm">
+          </object>
+          </ul>
+        </ul>
+      </ul>
+    <li><object type="text/sitemap">
+      <param name="Name" value="Examples">
+    </object>
+    <ul>
+      <li><object type="text/sitemap">
+        <param name="Name" value="Examples Table">
+        <param name="Local" value="EXAMPLE_MATRIX.htm">
+        <param name="ImageNumber" value="11">
+      </object>
+      </ul>
+    </ul>
+</ul>
+</html>

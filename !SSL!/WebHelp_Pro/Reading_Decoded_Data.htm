@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Reading Decoded Data</title>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("General References\nDecoding Subsystem\nReading Decoded Data");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"System_Overview.htm\">General References<\/a> > <a href=\"Organization.htm\">Decoding Subsystem<\/a> > Reading Decoded Data<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">Reading Decoded Data</h2>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Applications can receive decoded data either via the keyboard input stream in “Wedge mode”, or by posting requests to the decoding driver.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Keyboard Wedge</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Each data type (with the exception of image data) has an ability to be integrated into the keyboard input stream, allowing applications which are not aware of decoding to still receive decoded data. Decoded input will be seen by applications in precisely the same manner as keyboard input. This feature is independently selectable for each data type. This means that if two drivers interpreted barcode data, the keyboard wedge setting for barcode input would govern them both. By default, the keyboard wedge feature is enabled, which allows the device to be used immediately to scan barcode labels into applications such as WordPad.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Posting Requests</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Applications can receive decoded data by posting a request for data to a decoding driver directly. This mechanism gives the greatest level of control over the decoded data stream. Multiple requests may be posted to a decoding driver. Posted requests have the following attributes:</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Number of Data Samples</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Each request specifies from 1 to 255 data samples (labels, MSR swipes, etc.) to collect. The application posting the request is notified as each data sample is collected. When all of the requested number of samples have been processed, the posted request will be removed.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif; font-size: 12pt;">Recurring Requests</h3>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Posted requests may also be marked as recurring requests, which will treat the number of data samples specified as infinite. This has the side effect of effectively granting the posting application exclusive access to the decoding device.</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,818 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Introduction</title>
+<link rel="StyleSheet" href="Datalogic_SDK.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("C SDK\nAPI History");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"SDK_C_Introduction.htm\">C SDK<\/a> > API History<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<h2 style="font-family: Verdana, sans-serif;">Datalogic C SDK API History</h2>
+<p style="font-family: Verdana, sans-serif;">The following describes how 
+ the contents of the SDK header files have changed from release to release. 
+ </p>
+<p style="font-family: Verdana, sans-serif;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif;">SDK 2.2.0.x:</h3>
+<h4 style="margin-left: 40px;">wifiApi.h</h4>
+<h5 style="margin-left: 40px;">Added #defines</h5>
+<p style="margin-left: 40px;">&#160;WEP_SZ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;27</p>
+<h5 style="margin-left: 40px;">Added structs</h5>
+<p style="margin-left: 40px;">WEP_KEY</p>
+<h5 style="margin-left: 40px;">Changed enums</h5>
+<p style="margin-left: 40px;">ENCRYPTION</p>
+<h5 style="margin-left: 40px;">Changed structs</h5>
+<p style="margin-left: 40px;">SDCConfig</p>
+<h5 style="margin-left: 40px;">Added functions</h5>
+<p style="margin-left: 40px;">SDCERR WiFiEnableConfig(char *name, BOOL 
+ enable);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h3 style="font-family: Verdana, sans-serif;"><span style="font-family: Verdana, sans-serif;">SDK 
+ 2.1.0.65</span></h3>
+<h4 style="margin-left: 40px;">decodeApi.h</h4>
+<h5 style="margin-left: 40px;">Added #defines</h5>
+<p style="margin-left: 40px;">&#160;DCD_INVERSE_1D_NORMAL &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x00</p>
+<p style="margin-left: 40px;">&#160;DCD_INVERSE_1D_INVERSE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x01</p>
+<p style="margin-left: 40px;">&#160;DCD_INVERSE_1D_BOTH &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x02</p>
+<p style="margin-left: 40px;">&#160;DCD_DATAMATRIX_DPM_NODPM &#160;&#160;&#160;&#160;&#160;&#160;0x00</p>
+<p style="margin-left: 40px;">&#160;DCD_DATAMATRIX_DPM_LESS_AGG &#160;0x01</p>
+<p style="margin-left: 40px;">&#160;DCD_DATAMATRIX_DPM_AGGRESS &#160;&#160;0x02</p>
+<p style="margin-left: 40px;">&#160;DCD_DATAMATRIX_DPM_MOST_AGG 0x03</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px;">decodeParam.h</h4>
+<h5 style="margin-left: 40px;">Added #defines</h5>
+<p style="margin-left: 40px;">INVERSE_1D_SELECTION &#160;0x0031</p>
+<p style="margin-left: 40px;">Get_Inverse1DSelection() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(INVERSE_1D_SELECTION)</p>
+<p style="margin-left: 40px;">Set_Inverse1DSelection(value) &#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(INVERSE_1D_SELECTION, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">DATAMATRIX_DPM_OPMODE 0x0B33</p>
+<p style="margin-left: 40px;">Get_DataMatrixDpmOpmode() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(DATAMATRIX_DPM_OPMODE)</p>
+<p style="margin-left: 40px;">Set_DataMatrixDpmOpmode(value) &#160;&#160;&#160;&#160;&#160;DecodeSetParam(DATAMATRIX_DPM_OPMODE, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px;">deviceApi.h</h4>
+<h5 style="margin-left: 40px;">Added #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_SKORPIO_X4 &#160;16</p>
+<p style="margin-left: 40px;">UNIT_MODEL_FALCON_X4 17</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h5 style="margin-left: 40px;">Added functions</h5>
+<p style="margin-left: 40px;">BOOL cdecl DeviceSetUsbFnDriver(USBFN_CLASS 
+ newDriver);</p>
+<p style="margin-left: 40px;">USBFN_CLASS cdecl DeviceGetUsbFnDriver(USBFN_STATE 
+ state);</p>
+<h5 style="margin-left: 40px;">Added enums</h5>
+<p style="margin-left: 40px;">USBFN_CLASS</p>
+<p style="margin-left: 40px;">USBFN_STATE</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px;">dlbt_api.h</h4>
+<h5 style="margin-left: 40px;">Added #defines</h5>
+<p style="margin-left: 40px;">BT_MIN_PIN_SIZE &#160;1</p>
+<p style="margin-left: 40px;">BT_MAX_PIN_SIZE 16</p>
+<p style="margin-left: 40px;">BT_PROFILE_PRINTER &#160;0</p>
+<p style="margin-left: 40px;">BT_PROFILE_SERIAL &#160;&#160;&#160;1</p>
+<p style="margin-left: 40px;">BT_PROFILE_HF &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2</p>
+<p style="margin-left: 40px;">BT_PROFILE_HID &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3</p>
+<p style="margin-left: 40px;">BT_PROFILE_PAN &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4</p>
+<h5 style="margin-left: 40px;">Added functions</h5>
+<p style="margin-left: 40px;">BOOL cdecl BtCreatePairing(WCHAR *addrStr, 
+ int profile, int portIndex, UCHAR *pin);</p>
+<p style="margin-left: 40px;">BOOL cdecl BtGetRadioInfo(BT_DEVICE *radioInfo);</p>
+<h5 style="margin-left: 40px;">Removed #defines</h5>
+<p style="font-style: italic; margin-left: 40px;">These #defines have been 
+ <span style="font-weight: bold;">moved</span> to the new beaconAPI.h file.</p>
+<p style="margin-left: 40px;">BLE_ADDR_STR_SIZE &#160;15</p>
+<p style="margin-left: 40px;">BLE_UUID_SIZE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;33</p>
+<h5 style="margin-left: 40px;">Removed structs</h5>
+<p style="font-style: italic; margin-left: 40px;">These structs have been 
+ <span style="font-weight: bold;">moved</span> to the new beaconAPI.h file.</p>
+<p style="margin-left: 40px;">BT_BEACON, *PBT_BEACON</p>
+<p style="margin-left: 40px;"><span>BT_SCAN_BEACON_INFO, *PBT_SCAN_BEACON_INFO</span></p>
+<h5 style="margin-left: 40px;">Removed functions</h5>
+<p style="margin-left: 40px;">BOOL cdecl BtScanBeacons(BT_SCAN_BEACON_INFO 
+ *info);</p>
+<p style="margin-left: 40px;">BOOL CvtBtStringToAddr(WCHAR *, BT_ADDR *, 
+ DWORD len);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px;">beaconAPI.h</h4>
+<p style="margin-left: 40px;">New header file that provides Bluetooth beacon 
+ capabilities on Joya Touch devices.</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px;">wifiApi.h</h4>
+<p style="margin-left: 40px;">New header file that provides access to Wi-Fi 
+ functions on Skorpio X4 devices.</p>
+<p>&#160;</p>
+<h3 style="font-family: Verdana, sans-serif;">SDK 2.0.0.0</h3>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">commonApi.h</h4>
+<h5 style="font-family: Verdana, sans-serif; margin-left: 40px;">Added 
+ #defines</h5>
+<p style="font-size: 10pt; margin-left: 40px;">ERROR_FUNC_NOT_FOUND &#160;0xFF</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">decodeApi.h</h4>
+<h5 style="font-family: Verdana, sans-serif; margin-left: 40px;">Added 
+ functions</h5>
+<p style="font-size: 10pt; margin-left: 40px;">DecodeGetXMLParams(LPWSTR 
+ sBuffer, long *pnSize)</p>
+<p style="font-size: 10pt; margin-left: 40px;">DecodeSetXMLParams(LPWSTR 
+ sBuffer, long nSize)</p>
+<p style="font-size: 10pt; margin-left: 40px;">&#160;</p>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">deviceApi.h</h4>
+<h5 style="font-family: Verdana, sans-serif; margin-left: 40px;">Changed 
+ enums</h5>
+<p style="font-size: 10pt; margin-left: 40px;">Added 3 values to LED_ID 
+ enum:</p>
+<ul style="list-style: disc; font-family: Verdana, sans-serif;">
+	<ul style="list-style: disc; font-family: Verdana, sans-serif;">
+		<li style="font-size: 10pt; font-family: Verdana, sans-serif;"><p 
+			 style="font-family: Verdana, sans-serif; font-size: 10pt;">LED_ID_BOTTOM</p></li>
+		<li style="font-size: 10pt; font-family: Verdana, sans-serif;"><p 
+			 style="font-family: Verdana, sans-serif; font-size: 10pt;">LED_ID_LEFT</p></li>
+		<li style="font-size: 10pt; font-family: Verdana, sans-serif;"><p 
+			 style="font-family: Verdana, sans-serif; font-size: 10pt;">LED_ID_RIGHT</p></li>
+	</ul>
+</ul>
+<h5 style="font-family: Verdana, sans-serif; margin-left: 40px;">Added 
+ enums</h5>
+<p style="margin-left: 40px;">HAPTIC_ID</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_JOYANG</p>
+<p style="margin-left: 40px;">HARDWARE_PISTOL_TRIGGER</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Removed 
+ #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_JOYA</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions</h5>
+<p style="margin-left: 40px;">DeviceBuzzerStart(void);</p>
+<p style="margin-left: 40px;">DeviceBuzzerStop(void);</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceVibrate(HAPTIC_ID hapticType);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">dlbt_api.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ structs</h5>
+<p style="margin-left: 40px;">BT_BEACON</p>
+<p style="margin-left: 40px;">BT_SCAN_BEACON_INFO</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">BLE_ADDR_STR_SIZE 15</p>
+<p style="margin-left: 40px;">BLE_UUID_SIZE &#160;33</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions </h5>
+<p style="margin-left: 40px;">BtScanBeacons(BT_SCAN_BEACON_INFO *info)</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">JoyaCradleApi.h</h4>
+<p style="margin-left: 40px;">new header file. provides APIs for accessing 
+ the JoyaTouch cradle.</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="font-family: Verdana, sans-serif; margin-left: 40px;">SoftSpotApi.h</h4>
+<p style="margin-left: 40px;">new header file provides APIs for controlling 
+ SoftSpot software feature.</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h3>SDK 1.9.5.0</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">deviceApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">HARDWARE_WLAN 0x00000040</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">dlbt_api.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">BT_MAX_DEVICES 15 </p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ structs</h5>
+<p style="margin-left: 40px;">BT_DEVICE</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions</h5>
+<p style="margin-left: 40px;">&#160;BOOL cdecl BtDiscoverSerialDevices(BT_DISCOVERY_INFO 
+ *info);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h3>SDK 1.9.0.1</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeParam.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Changed 
+ enums</h5>
+<p style="margin-left: 40px;">Added a new value to CODE_ID enum:</p>
+<p style="margin-left: 40px;">CODE_ID_CHINAPOST</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">MOD_C128_ISBT_CONCAT 4</p>
+<p style="margin-left: 40px;">AUTO_RANGE_ENABLE 0x0002</p>
+<p style="margin-left: 40px;">DISPLAY_READ_ENABLE 0x000D</p>
+<p style="margin-left: 40px;">MULTI_INDICAT_ENABLE 0x0014</p>
+<p style="margin-left: 40px;">DECODE_SCAN_WIDTH 0x002F</p>
+<p style="margin-left: 40px;">MULTI_SCAN_COUNT 0x0030</p>
+<p style="margin-left: 40px;">Get_AutoRangeEnable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(AUTO_RANGE_ENABLE)</p>
+<p style="margin-left: 40px;">Get_DisplayReadEnable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(DISPLAY_READ_ENABLE)</p>
+<p style="margin-left: 40px;">Get_MultiIndicateEnable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(MULTI_INDICATE_ENABLE)</p>
+<p style="margin-left: 40px;">Get_DecodeScanWidth() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(DECODE_SCAN_WIDTH)</p>
+<p style="margin-left: 40px;">Get_MultiScanCount() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(MULTI_SCAN_COUNT)</p>
+<p style="margin-left: 40px;">Set_AutoRangeEnable(enable) &#160;&#160;DecodeSetParam(AUTO_RANGE_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_DisplayReadEnable(enable) DecodeSetParam(DISPLAY_READ_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_MultiIndicateEnable(enable) DecodeSetParam(MULTI_INDICATE_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_DecodeScanWidth(value) &#160;&#160;&#160;DecodeSetParam(DECODE_SCAN_WIDTH, 
+ (value))</p>
+<p style="margin-left: 40px;">Set_MultiScanCount(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(MULTI_SCAN_COUNT, 
+ (value))</p>
+<p style="margin-left: 40px;">CHINAPOST_ENABLE 0x0218</p>
+<p style="margin-left: 40px;">CHINAPOST_ENABLE_CHECK 0x021A</p>
+<p style="margin-left: 40px;">CHINAPOST_SEND_CHECK 0x021B</p>
+<p style="margin-left: 40px;">CHINAPOST_USER_ID 0x022F</p>
+<p style="margin-left: 40px;">Get_ChinaPost_Enable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(CHINAPOST_ENABLE)</p>
+<p style="margin-left: 40px;">Get_ChinaPost_SendCheck() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(CHINAPOST_SEND_CHECK)</p>
+<p style="margin-left: 40px;">Get_ChinaPost_UserID() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(CHINAPOST_USER_ID)</p>
+<p style="margin-left: 40px;">Set_ChinaPost_Enable(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(CHINAPOST_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_ChinaPost_EnableCheck(enable) DecodeSetParam(CHINAPOST_ENABLE_CHECK, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_ChinaPost_SendCheck(enable) &#160;&#160;DecodeSetParam(CHINAPOST_SEND_CHECK, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_ChinaPost_UserID(ch) &#160;&#160;DecodeSetParam(CHINAPOST_USER_ID, 
+ (ch))</p>
+<p style="margin-left: 40px;">CODE128_ISBT_CONCAT_REQ 0x040B</p>
+<p style="margin-left: 40px;">CODE128_ISBT_CONCATENATE 0x040E</p>
+<p style="margin-left: 40px;">COMPOSITE_EAN_REQUIRE_2D 0x0A15</p>
+<p style="margin-left: 40px;">Get_Code128ISBTConcatReq() DecodeGetParam(CODE128_ISBT_CONCAT_REQ)</p>
+<p style="margin-left: 40px;">Get_Code128ISBTConcatenate() DecodeGetParam(CODE128_ENABLE_ISBT_CONCATENATE)</p>
+<p style="margin-left: 40px;">Set_Code128ISBTConcatReq(enable) DecodeSetParam(CODE128_ISBT_CONCAT_REQ, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_Code128ISBTConcatenate(enable) DecodeSetParam(CODE128_ENABLE_ISBT_CONCATENATE, 
+ (enable))</p>
+<p style="margin-left: 40px;">COMPOSITE_EAN_REQUIRE_2D 0x0A15</p>
+<p style="margin-left: 40px;">Get_CompositeEAN_Require2D() &#160;DecodeGetParam(COMPOSITE_EAN_REQUIRE_2D)</p>
+<p style="margin-left: 40px;">Set_CompositeEAN_Require2D(enable) DecodeSetParam(COMPOSITE_EAN_REQUIRE_2D, 
+ (enable))</p>
+<p style="margin-left: 40px;">QRCODE_ENCODING 0x0B32</p>
+<p style="margin-left: 40px;">FORMAT_8859_1 &#160;0 </p>
+<p style="margin-left: 40px;">FORMAT_UTF8 &#160;1</p>
+<p style="margin-left: 40px;">FORMAT_SHIFT_JIS &#160;2</p>
+<p style="margin-left: 40px;">Get_QRCodeEncoding() &#160;DecodeGetParam(QRCODE_ENCODING)</p>
+<p style="margin-left: 40px;">Set_QRCodeEncoding(value) &#160;DecodeSetParam(QRCODE_ENCODING, 
+ (value))</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Changed 
+ #defines</h5>
+<p style="margin-left: 40px;">MOD_S25_STRIP_CHECK value changed from 2 
+ to 3</p>
+<p style="margin-left: 40px;">MOD_I25_STRING_CHECK value changed from 2 
+ to 3</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Removed 
+ #defines</h5>
+<p style="margin-left: 40px;">MOD_S25_2_BAR_START 8</p>
+<p style="margin-left: 40px;">MOD_EAN8_PLUS_EXT 7</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">deviceApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_DH60 &#160;1</p>
+<p style="margin-left: 40px;">UNIT_MODEL_FALCONPLUS &#160;13</p>
+<p>&#160;</p>
+<h3>SDK 1.8.5.0</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeParam.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">TARGET_ENABLE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x000C</p>
+<p style="margin-left: 40px;">CURVED_SURFACE_ENABLE 0x0019</p>
+<p style="margin-left: 40px;">Get_TargetEnable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(TARGET_ENABLE)</p>
+<p style="margin-left: 40px;">Get_CurvedSurfaceEnable() DecodeGetParam(CURVED_SURFACE_ENABLE)</p>
+<p style="margin-left: 40px;">Set_TargetEnable(enable) &#160;&#160;&#160;DecodeSetParam(TARGET_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_CurvedSurfaceEnable(enable) &#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(CURVED_SURFACE_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decviceApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">LANG_JAPANESE_T 0x28</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p>&#160;</p>
+<h3>SDK 1.8.0.0</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">MAX_DCD_DEVICES &#160;9</p>
+<p style="margin-left: 40px;">DCD_NAME_LENGTH 6</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decviceApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Removed 
+ #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_RSVD8 &#160;8</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">UNIT_MODEL_LYNX &#160;8</p>
+<p style="margin-left: 40px;">LANG_INTL &#160;0x10</p>
+<p style="margin-left: 40px;">LANG_INTL_T &#160;0x30</p>
+<p style="margin-left: 40px;">ACC_DEVICE_NAME &#160;L&quot;DGS1:&quot;</p>
+<p style="margin-left: 40px;">ACC_DEFAULT_PERIOD &#160;100</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ structs</h5>
+<p style="margin-left: 40px;">GACC_DATA, *PGACC_DATA</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions</h5>
+<p style="margin-left: 40px;">HANDLE cdecl AccelerometerOpen(LPCWSTR deviceName);</p>
+<p style="margin-left: 40px;">BOOL cdecl AccelerometerClose(HANDLE hAccDevice);</p>
+<p style="margin-left: 40px;">BOOL cdecl AccelerometerStartMsg(HANDLE hAccDevice, 
+ DWORD pollingInterval, HWND hWnd, UINT uMsg);</p>
+<p style="margin-left: 40px;">BOOL cdecl AccelerometerStartEvent(HANDLE 
+ hAccDevice, DWORD pollingInterval, HANDLE hEvent);</p>
+<p style="margin-left: 40px;">BOOL cdecl AccelerometerStop(HANDLE hAccDevice);</p>
+<p style="margin-left: 40px;">BOOL cdecl AccelerometerRead(HANDLE hAccDevice, 
+ PGACC_DATA results);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h3>SDK 1.7.2.4</h3>
+<p style="margin-left: 40px;">No changes.</p>
+<p>&#160;</p>
+<h3>SDK 1.7.2.2</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeParam.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">&#160;GOOD_READ_LED_ENABLE &#160;0x0013</p>
+<p style="margin-left: 40px;">&#160;GOOD_READ_INTERVAL &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x002E</p>
+<p style="margin-left: 40px;">&#160;Get_GoodReadLEDEnable() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(GOOD_READ_LED_ENABLE)</p>
+<p style="margin-left: 40px;">&#160;Get_GoodReadInterval() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(GOOD_READ_INTERVAL)</p>
+<p style="margin-left: 40px;">&#160;Set_GoodReadLEDEnable(enable) DecodeSetParam(GOOD_READ_LED_ENABLE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_GoodReadInterval(value) &#160;&#160;&#160;&#160;&#160;DecodeSetParam(GOOD_READ_INTERVAL, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_ENABLE_2_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;0x0E00</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_ENABLE_5_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;0x0E01</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_ENABLE_CODE128 &#160;&#160;&#160;&#160;0x0E02</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_REQUIRE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E03</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_ENABLE_2_DIGIT &#160;&#160;&#160;&#160;0x0E04</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_ENABLE_5_DIGIT &#160;&#160;&#160;&#160;0x0E05</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_ENABLE_CODE128 &#160;&#160;&#160;0x0E06</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_REQUIRE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E07</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_ENABLE_2_DIGIT &#160;&#160;&#160;&#160;0x0E08</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_ENABLE_5_DIGIT &#160;&#160;&#160;&#160;0x0E09</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_ENABLE_CODE128 &#160;&#160;&#160;0x0E0A</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_REQUIRE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E0B</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_ENABLE_2_DIGIT &#160;&#160;&#160;&#160;0x0E0C</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_ENABLE_5_DIGIT &#160;&#160;&#160;&#160;0x0E0D</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_ENABLE_CODE128 &#160;&#160;&#160;0x0E0E</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_REQUIRE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E0F</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_PREFIX &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E20</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_PREFIX &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E21</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_PREFIX &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E22</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_PREFIX &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E23</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_PREFIX_SYM &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E24</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_PREFIX_SYM &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E25</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_PREFIX_SYM &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E26</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_PREFIX_SYM &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E27</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT1_PREFIX_LEN &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E28</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT2_PREFIX_LEN &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E29</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT3_PREFIX_LEN &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E2A</p>
+<p style="margin-left: 40px;">&#160;EAN_EXT4_PREFIX_LEN &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x0E2B</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_NONE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_ANY &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_EAN13 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_EAN8 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_UPCA &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</p>
+<p style="margin-left: 40px;">&#160;EXT_PREFIX_SYM_UPCE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5 
+ &#160;</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1Enable2Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_ENABLE_2_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1Enable5Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_ENABLE_5_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1EnableCode128() &#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_ENABLE_CODE128)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1Require() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_REQUIRE)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2Enable2Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_ENABLE_2_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2Enable5Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_ENABLE_5_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2EnableCode128() &#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_ENABLE_CODE128)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2Require() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_REQUIRE)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3Enable2Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_ENABLE_2_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3Enable5Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_ENABLE_5_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3EnableCode128() &#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_ENABLE_CODE128)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3Require() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_REQUIRE)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4Enable2Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_ENABLE_2_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4Enable5Digit() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_ENABLE_5_DIGIT)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4EnableCode128() &#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_ENABLE_CODE128)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4Require() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_REQUIRE)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1Prefix() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_PREFIX)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2Prefix() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_PREFIX)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3Prefix() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_PREFIX)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4Prefix() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_PREFIX)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1PrefixSym() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_PREFIX_SYM)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2PrefixSym() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_PREFIX_SYM)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3PrefixSym() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_PREFIX_SYM)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4PrefixSym() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_PREFIX_SYM)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext1PrefixLen() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT1_PREFIX_LEN)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext2PrefixLen() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT2_PREFIX_LEN)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext3PrefixLen() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT3_PREFIX_LEN)</p>
+<p style="margin-left: 40px;">&#160;Get_EAN_Ext4PrefixLen() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(EAN_EXT4_PREFIX_LEN)</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1Enable2Digit(enable) DecodeSetParam(EAN_EXT1_ENABLE_2_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1Enable5Digit(enable) DecodeSetParam(EAN_EXT1_ENABLE_5_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1EnableCode128(enable) DecodeSetParam(EAN_EXT1_ENABLE_CODE128, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1Require(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT1_REQUIRE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2Enable2Digit(enable) DecodeSetParam(EAN_EXT2_ENABLE_2_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2Enable5Digit(enable) DecodeSetParam(EAN_EXT2_ENABLE_5_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2EnableCode128(enable) DecodeSetParam(EAN_EXT2_ENABLE_CODE128, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2Require(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT2_REQUIRE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3Enable2Digit(enable) DecodeSetParam(EAN_EXT3_ENABLE_2_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3Enable5Digit(enable) DecodeSetParam(EAN_EXT3_ENABLE_5_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3EnableCode128(enable) DecodeSetParam(EAN_EXT3_ENABLE_CODE128, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3Require(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT3_REQUIRE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4Enable2Digit(enable) DecodeSetParam(EAN_EXT4_ENABLE_2_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4Enable5Digit(enable) DecodeSetParam(EAN_EXT4_ENABLE_5_DIGIT, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4EnableCode128(enable) DecodeSetParam(EAN_EXT4_ENABLE_CODE128, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4Require(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT4_REQUIRE, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1Prefix(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT1_PREFIX, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2Prefix(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT2_PREFIX, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3Prefix(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT3_PREFIX, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4Prefix(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(EAN_EXT4_PREFIX, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1PrefixSym(value) &#160;DecodeSetParam(EAN_EXT1_PREFIX_SYM, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2PrefixSym(value) &#160;DecodeSetParam(EAN_EXT2_PREFIX_SYM, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3PrefixSym(value) &#160;DecodeSetParam(EAN_EXT3_PREFIX_SYM, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4PrefixSym(value) &#160;DecodeSetParam(EAN_EXT4_PREFIX_SYM, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext1PrefixLen(value) &#160;DecodeSetParam(EAN_EXT1_PREFIX_LEN, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext2PrefixLen(value) &#160;DecodeSetParam(EAN_EXT2_PREFIX_LEN, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext3PrefixLen(value) &#160;DecodeSetParam(EAN_EXT3_PREFIX_LEN, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;Set_EAN_Ext4PrefixLen(value) &#160;DecodeSetParam(EAN_EXT4_PREFIX_LEN, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">deviceApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ enums</h5>
+<p style="margin-left: 40px;">BEEP_TONE</p>
+<p style="margin-left: 40px;">BEEP_TIME<br />
+LED_ID</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions</h5>
+<p style="margin-left: 40px;">DWORD cdecl DeviceGetBatterySuspendTimeout();</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceSetBatterySuspendTimeout(DWORD 
+ timeout);</p>
+<p style="margin-left: 40px;">DWORD cdecl DeviceGetACSuspendTimeout();</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceSetACSuspendTimeout(DWORD 
+ timeout);</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceEnableModem(BOOL bEnable);</p>
+<p style="margin-left: 40px;">BOOL cdecl DevicePlayBeep (BEEP_TONE tone, 
+ BEEP_TIME duration, BOOL async);</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceEnableLED (LED_ID led, BOOL 
+ enable);</p>
+<p style="margin-left: 40px;">BOOL cdecl DeviceBlinkLED (LED_ID led, DWORD 
+ count, DWORD onTime, DWORD offTime);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">dlkeys.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">DLK_ROLL_PLUS &#160;&#160;&#160;0xF9</p>
+<p style="margin-left: 40px;">DLK_ROLL_MINUS &#160;0xFD</p>
+<p style="margin-left: 40px;">DLK_SOFT1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0xC5</p>
+<p style="margin-left: 40px;">DLK_SOFT2 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0xC6</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Removed 
+ #defines</h5>
+<p style="margin-left: 40px;">DLK_PRINT &#160;0x2A</p>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Changed 
+ #defines</h5>
+<p style="margin-left: 40px;">DLK_OEM_4 value changed from DLK_BACKQUOTE 
+ to DLK_LBRACKET</p>
+<p>&#160;</p>
+<h3>SDK 1.7.0.1</h3>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeApi.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ functions</h5>
+<p style="margin-left: 40px;">DWORD cdecl DecodeGetParamLength(DWORD index);</p>
+<p style="margin-left: 40px;">DWORD cdecl DecodeGetParamString(DWORD index, 
+ WCHAR *data, DWORD maxLen);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeSetParamString(DWORD index, 
+ WCHAR *data, DWORD maxLen);</p>
+<p style="margin-left: 40px;">DWORD cdecl DecodeGetCodeIDMod(HANDLE hFile, 
+ DWORD reqID);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeReadStringEx(HANDLE hFile, 
+ DWORD reqID, DWORD *stringLen, LPWSTR lpString, DWORD maxLen, CODE_ID 
+ *codeID, DWORD *idMod);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostStartEvent(HANDLE hFile, 
+ HANDLE hEvent);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostStartMsg(HANDLE hFile, 
+ HWND hWnd, UINT uMsg);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeCancelNotifyStart(HANDLE 
+ hFile);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostStopEvent(HANDLE hFile, 
+ HANDLE hEvent);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostStopMsg(HANDLE hFile, 
+ HWND hWnd, UINT uMsg);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeCancelNotifyStop(HANDLE 
+ hFile);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostPressEvent(HANDLE hEvent);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostPressMsg(HWND hWnd, 
+ UINT uMsg);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeCancelNotifyPress(void);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostReleaseEvent(HANDLE 
+ hEvent);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodePostReleaseMsg(HWND hWnd, 
+ UINT uMsg);</p>
+<p style="margin-left: 40px;">BOOL cdecl DecodeCancelNotifyRelease(void);</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">decodeParam.h</h4>
+<h5 style="margin-left: 40px; font-family: Verdana, sans-serif;">Added 
+ #defines</h5>
+<p style="margin-left: 40px;">&#160;MOD_NORMAL &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 
+ &#160;&#160;&#160;&#160;&#160;&#160;// Normal symbology label; no special 
+ processing</p>
+<p style="margin-left: 40px;">MOD_C39_CHECK_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and sent</p>
+<p style="margin-left: 40px;">MOD_C39_STRIP_CHECK &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and removed</p>
+<p style="margin-left: 40px;">MOD_C39_FULL_ASCII &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Full ASCII conversion; 
+ no check digit</p>
+<p style="margin-left: 40px;">MOD_C39_FULL_ASCII_CHECK &#160;&#160;&#160;&#160;&#160;5 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Full ASCII conversion; 
+ check digit verified and sent</p>
+<p style="margin-left: 40px;">MOD_C39_FULL_ASCII_STRIP &#160;&#160;&#160;&#160;&#160;&#160;7 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Full ASCII conversion; 
+ check digit verified and removed</p>
+<p style="margin-left: 40px;">MOD_S25_CHECK_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and sent</p>
+<p style="margin-left: 40px;">MOD_S25_STRIP_CHECK &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and removed</p>
+<p style="margin-left: 40px;">MOD_S25_2_BAR_START &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Two bar start/stop 
+ used</p>
+<p style="margin-left: 40px;">MOD_I25_CHECK_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and sent</p>
+<p style="margin-left: 40px;">MOD_I25_STRIP_CHECK &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and removed</p>
+<p style="margin-left: 40px;">MOD_CDB_CHECK_DIGIT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and sent</p>
+<p style="margin-left: 40px;">MOD_CDB_STRIP_CHECK &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and removed</p>
+<p style="margin-left: 40px;">MOD_C128_1ST_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is first character 
+ in label (GS1-128)</p>
+<p style="margin-left: 40px;">MOD_C128_2ND_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is second character 
+ in label</p>
+<p style="margin-left: 40px;">MOD_EAN13_PLUS_EXT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Full EAN-13/UPC-A/UPC-E 
+ with extension data</p>
+<p style="margin-left: 40px;">MOD_EAN8_ONLY &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;EAN-8 label; no extension 
+ data</p>
+<p style="margin-left: 40px;">MOD_EAN8_PLUS_EXT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;EAN-8 label with extension 
+ data</p>
+<p style="margin-left: 40px;">MOD_MSI_STRIP_CHECK &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Check digit verified 
+ and removed</p>
+<p style="margin-left: 40px;">MOD_PDF_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_PDF_BCI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;BCI protocol support</p>
+<p style="margin-left: 40px;">MOD_PDF_1ST_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Code 128 emulation; 
+ implied FNC1 is first character</p>
+<p style="margin-left: 40px;">MOD_PDF_2ND_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Code 128 emulation; 
+ implied FNC1 is second character</p>
+<p style="margin-left: 40px;">MOD_PDF_C128 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Code 128 emulation; 
+ no implied FNC1</p>
+<p style="margin-left: 40px;">MOD_QR_2005 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;2005 Label; no ECI 
+ protocol</p>
+<p style="margin-left: 40px;">MOD_QR_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol</p>
+<p style="margin-left: 40px;">MOD_QR_1ST_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;no ECI protocol; implied 
+ FNC1 is first character</p>
+<p style="margin-left: 40px;">MOD_QR_ECI_1ST_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol; implied 
+ FNC1 is first character</p>
+<p style="margin-left: 40px;">MOD_QR_2ND_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;no ECI protocol; implied 
+ FNC1 is second character</p>
+<p style="margin-left: 40px;">MOD_QR_ECI_2ND_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol; implied 
+ FNC1 is second character</p>
+<p style="margin-left: 40px;">MOD_MAXI_MODE_45 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Label in mode 4 or 
+ 5</p>
+<p style="margin-left: 40px;">MOD_MAXI_MODE_23 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Label in mode 2 or 
+ 3</p>
+<p style="margin-left: 40px;">MOD_MAXI_MODE_45_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Label in mode 4 or 
+ 5; ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_MAXI_MODE_23_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Label in mode 2 or 
+ 3; ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_DM_ECC200 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200</p>
+<p style="margin-left: 40px;">MOD_DM_ECC200_FNC1_15 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200; FNC1 is first 
+ or fifth character</p>
+<p style="margin-left: 40px;">MOD_DM_ECC200_FNC1_26 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200; FNC1 is first 
+ or fifth character</p>
+<p style="margin-left: 40px;">MOD_DM_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200; ECI protocol</p>
+<p style="margin-left: 40px;">MOD_DM_ECI_FNC1_15 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200; ECI protocol; 
+ FNC1 is first or fifth character</p>
+<p style="margin-left: 40px;">MOD_DM_ECI_FNC1_26 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECC 200; ECI protocol; 
+ FNC1 is first or fifth character</p>
+<p style="margin-left: 40px;">&#160;MOD_COMP_SEPARATE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Data follows a symbol 
+ separator</p>
+<p style="margin-left: 40px;">&#160;MOD_COMP_ESC &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Data follows escape</p>
+<p style="margin-left: 40px;">&#160;MOD_COMP_ESC_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Data follows escape; 
+ ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_AZTEC_1ST_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;1 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is first character</p>
+<p style="margin-left: 40px;">MOD_AZTEC_2ND_FNC1 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;2 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is second character</p>
+<p style="margin-left: 40px;">MOD_AZTEC_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;3 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_AZTEC_1ST_FNC1_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;4 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is first character; 
+ ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_AZTEC_2ND_FNC1_ECI &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;5 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is second character; 
+ ECI protocol support</p>
+<p style="margin-left: 40px;">MOD_AZTEC_ADD &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;6 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;Append header present</p>
+<p style="margin-left: 40px;">MOD_AZTEC_1ST_FNC1_ADD &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;7 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is first character; 
+ Append header present</p>
+<p style="margin-left: 40px;">MOD_AZTEC_2ND_FNC1_ADD &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;8 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is second character; 
+ Append header present</p>
+<p style="margin-left: 40px;">MOD_AZTEC_ECI_ADD &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;9 
+ &#160;&#160;&#160;&#160;&#160;&#160;// &#160;&#160;ECI protocol support; 
+ Append header present</p>
+<p style="margin-left: 40px;">MOD_AZTEC_1ST_FNC1_ECI_ADD &#160;&#160;&#160;10 
+ &#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is first character; 
+ ECI protocol; Append header</p>
+<p style="margin-left: 40px;">MOD_AZTEC_2ND_FNC1_ECI_ADD &#160;&#160;&#160;11 
+ &#160;&#160;&#160;&#160;&#160;// &#160;&#160;FNC1 is second character; 
+ ECI protocol; Append header</p>
+<p style="margin-left: 40px;">MOD_AZTEC_RUNE &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;12 
+ &#160;&#160;&#160;&#160;&#160;// &#160;&#160;Rune decoded</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">REMOVE_NON_PRINTABLE_CHARS 0x0018</p>
+<p style="margin-left: 40px;">GS_SUBSTITUTION &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x002C</p>
+<p style="margin-left: 40px;">DECODE_TIMEOUT &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x002D</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">Get_RemoveNonPrintableChars() DecodeGetParam(REMOVE_NON_PRINTABLE_CHARS)</p>
+<p style="margin-left: 40px;">Get_GSSubstitution() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(GS_SUBSTITUTION)</p>
+<p style="margin-left: 40px;">Get_DecodeTimeout() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(DECODE_TIMEOUT)</p>
+<p style="margin-left: 40px;">Set_RemoveNonPrintbleChars(enable) DecodeSetParam(REMOVE_NON_PRINTABLE_CHARS, 
+ (enable))</p>
+<p style="margin-left: 40px;">Set_GSSubstitution(ch) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(GS_SUBSTITUTION, 
+ (ch))</p>
+<p style="margin-left: 40px;">Set_DecodeTimeout(value) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(DECODE_TIMEOUT, 
+ (value))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<p style="margin-left: 40px;">CODE128_EXT_ASCII &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;0x040F</p>
+<p style="margin-left: 40px;">Get_Code128ExtASCII() &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeGetParam(CODE128_EXT_ASCII)</p>
+<p style="margin-left: 40px;">Set_Code128ExtASCII(enable) &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;DecodeSetParam(CODE128_EXT_ASCII, 
+ (enable))</p>
+<p style="margin-left: 40px;">&#160;</p>
+<h4 style="margin-left: 40px; font-family: Verdana, sans-serif;">dlkeys.h</h4>
+<p style="margin-left: 40px;">New header file, defining Datalogic re-mappable 
+ keys</p>
+<h3>&#160;</h3>
+<p>&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

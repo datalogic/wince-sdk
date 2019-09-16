@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <tocdata>  <item name=\"Namespaces List\" url=\"NS_NamespaceList.htm\" />  <book name=\"Datalogic.API\" >  <chunk name=\"Datalogic.API\" ref=\"whtdata6.xml\" />  </book>    </tocdata>";

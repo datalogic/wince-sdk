@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rhpml majorversion="7" minorversion="13">
+	<fontsets>
+		<fontset>
+			<name>Ravie</name>
+			<fontlist>Ravie</fontlist>
+		</fontset>
+		<fontset>
+			<name>Papyrus</name>
+			<fontlist>Papyrus</fontlist>
+		</fontset>
+		<fontset>
+			<name>Edwardian Script ITC</name>
+			<fontlist>Edwardian Script ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Brush Script MT</name>
+			<fontlist>Brush Script MT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Berlin Sans FB</name>
+			<fontlist>Berlin Sans FB</fontlist>
+		</fontset>
+		<fontset>
+			<name>Weather</name>
+			<fontlist>Weather</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39XS</name>
+			<fontlist>IDAutomationHC39XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39XL</name>
+			<fontlist>IDAutomationHC39XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39XXL</name>
+			<fontlist>IDAutomationC39XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25XS</name>
+			<fontlist>IDAutomationHI25XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25XL</name>
+			<fontlist>IDAutomationHI25XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>Coronet</name>
+			<fontlist>Coronet</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCP3</name>
+			<fontlist>ISOCP3</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCT2</name>
+			<fontlist>ISOCT2</fontlist>
+		</fontset>
+		<fontset>
+			<name>Dutch801 Rm BT</name>
+			<fontlist>Dutch801 Rm BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>GreekC</name>
+			<fontlist>GreekC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Serifa BT</name>
+			<fontlist>Serifa BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>PosterBodoni BT</name>
+			<fontlist>PosterBodoni BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Wingdings 3</name>
+			<fontlist>Wingdings 3</fontlist>
+		</fontset>
+		<fontset>
+			<name>Raavi</name>
+			<fontlist>Raavi</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman CYR</name>
+			<fontlist>Times New Roman CYR</fontlist>
+		</fontset>
+		<fontset>
+			<name>Pristina</name>
+			<fontlist>Pristina</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25XS</name>
+			<fontlist>IDAutomationI25XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25S</name>
+			<fontlist>IDAutomationI25S</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25M</name>
+			<fontlist>IDAutomationI25M</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25L</name>
+			<fontlist>IDAutomationI25L</fontlist>
+		</fontset>
+		<fontset>
+			<name>ZWAdobeF</name>
+			<fontlist>ZWAdobeF</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128S</name>
+			<fontlist>IDAutomationC128S</fontlist>
+		</fontset>
+		<fontset>
+			<name>InterstateBoldCompressed</name>
+			<fontlist>InterstateBoldCompressed</fontlist>
+		</fontset>
+		<fontset>
+			<name>OrnaMental</name>
+			<fontlist>OrnaMental</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCP2</name>
+			<fontlist>ISOCP2</fontlist>
+		</fontset>
+		<fontset>
+			<name>GreekS</name>
+			<fontlist>GreekS</fontlist>
+		</fontset>
+		<fontset>
+			<name>ScriptS</name>
+			<fontlist>ScriptS</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code EAN</name>
+			<fontlist>BC Code EAN</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swiss911 XCm BT</name>
+			<fontlist>Swiss911 XCm BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>GoudyHandtooled BT</name>
+			<fontlist>GoudyHandtooled BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Futura XBlk BT</name>
+			<fontlist>Futura XBlk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Wingdings 2</name>
+			<fontlist>Wingdings 2</fontlist>
+		</fontset>
+		<fontset>
+			<name>Batang</name>
+			<fontlist>Batang</fontlist>
+		</fontset>
+		<fontset>
+			<name>SAPDings</name>
+			<fontlist>SAPDings</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman CE</name>
+			<fontlist>Times New Roman CE</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New CE</name>
+			<fontlist>Courier New CE</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial</name>
+			<fontlist>Arial</fontlist>
+		</fontset>
+		<fontset>
+			<name>Viner Hand ITC</name>
+			<fontlist>Viner Hand ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Handwriting</name>
+			<fontlist>Lucida Handwriting</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bauhaus 93</name>
+			<fontlist>Bauhaus 93</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Rounded MT Bold</name>
+			<fontlist>Arial Rounded MT Bold</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationUPCEANXS</name>
+			<fontlist>IDAutomationUPCEANXS</fontlist>
+		</fontset>
+		<fontset>
+			<name>Christmas Tree</name>
+			<fontlist>Christmas Tree</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humnst777 Lt BT</name>
+			<fontlist>Humnst777 Lt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst521 XBd BT</name>
+			<fontlist>Humanst521 XBd BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst521 UBd BT</name>
+			<fontlist>Humanst521 UBd BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>CountryBlueprint</name>
+			<fontlist>CountryBlueprint</fontlist>
+		</fontset>
+		<fontset>
+			<name>ScriptC</name>
+			<fontlist>ScriptC</fontlist>
+		</fontset>
+		<fontset>
+			<name>SuperFrench</name>
+			<fontlist>SuperFrench</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst521 BT</name>
+			<fontlist>Humanst521 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Futura Md BT</name>
+			<fontlist>Futura Md BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>English111 Vivace BT</name>
+			<fontlist>English111 Vivace BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Greek Helve</name>
+			<fontlist>WP Greek Helve</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Baltic</name>
+			<fontlist>Arial Baltic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Onyx</name>
+			<fontlist>Onyx</fontlist>
+		</fontset>
+		<fontset>
+			<name>Magneto</name>
+			<fontlist>Magneto</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Calligraphy</name>
+			<fontlist>Lucida Calligraphy</fontlist>
+		</fontset>
+		<fontset>
+			<name>Colonna MT</name>
+			<fontlist>Colonna MT</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128S</name>
+			<fontlist>IDAutomationHbC128S</fontlist>
+		</fontset>
+		<fontset>
+			<name>Dauphin</name>
+			<fontlist>Dauphin</fontlist>
+		</fontset>
+		<fontset>
+			<name>Carr Xmas Dingbats</name>
+			<fontlist>Carr Xmas Dingbats</fontlist>
+		</fontset>
+		<fontset>
+			<name>Frostbitten Wanker</name>
+			<fontlist>Frostbitten Wanker</fontlist>
+		</fontset>
+		<fontset>
+			<name>Almonte Snow</name>
+			<fontlist>Almonte Snow</fontlist>
+		</fontset>
+		<fontset>
+			<name>Univers Condensed</name>
+			<fontlist>Univers Condensed</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humnst777 Blk BT</name>
+			<fontlist>Humnst777 Blk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCP</name>
+			<fontlist>ISOCP</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 3</name>
+			<fontlist>Proxy 3</fontlist>
+		</fontset>
+		<fontset>
+			<name>ZapfEllipt BT</name>
+			<fontlist>ZapfEllipt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>BankGothic Md BT</name>
+			<fontlist>BankGothic Md BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MathB</name>
+			<fontlist>WP MathB</fontlist>
+		</fontset>
+		<fontset>
+			<name>Mangal</name>
+			<fontlist>Mangal</fontlist>
+		</fontset>
+		<fontset>
+			<name>Tahoma</name>
+			<fontlist>Tahoma</fontlist>
+		</fontset>
+		<fontset>
+			<name>Georgia</name>
+			<fontlist>Georgia</fontlist>
+		</fontset>
+		<fontset>
+			<name>Comic Sans MS</name>
+			<fontlist>Comic Sans MS</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman Greek</name>
+			<fontlist>Times New Roman Greek</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman</name>
+			<fontlist>Times New Roman</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial CE</name>
+			<fontlist>Arial CE</fontlist>
+		</fontset>
+		<fontset>
+			<name>Freestyle Script</name>
+			<fontlist>Freestyle Script</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bernard MT Condensed</name>
+			<fontlist>Bernard MT Condensed</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bell MT</name>
+			<fontlist>Bell MT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Agency FB</name>
+			<fontlist>Agency FB</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128L</name>
+			<fontlist>IDAutomationHbC128L</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25M</name>
+			<fontlist>IDAutomationHI25M</fontlist>
+		</fontset>
+		<fontset>
+			<name>Antique Olive</name>
+			<fontlist>Antique Olive</fontlist>
+		</fontset>
+		<fontset>
+			<name>AvantGarde Md BT</name>
+			<fontlist>AvantGarde Md BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 2</name>
+			<fontlist>Proxy 2</fontlist>
+		</fontset>
+		<fontset>
+			<name>CityBlueprint</name>
+			<fontlist>CityBlueprint</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 Ex BT</name>
+			<fontlist>Swis721 Ex BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BdCnOul BT</name>
+			<fontlist>Swis721 BdCnOul BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 39 1:3</name>
+			<fontlist>BC Code 39 1:3</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 39 1:2</name>
+			<fontlist>BC Code 39 1:2</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 48Pts</name>
+			<fontlist>BARCODES 48Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 18Pts</name>
+			<fontlist>BARCODES 18Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>FuturaBlack BT</name>
+			<fontlist>FuturaBlack BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Arabic Sihafa</name>
+			<fontlist>WP Arabic Sihafa</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Unicode MS</name>
+			<fontlist>Arial Unicode MS</fontlist>
+		</fontset>
+		<fontset>
+			<name>Marlett</name>
+			<fontlist>Marlett</fontlist>
+		</fontset>
+		<fontset>
+			<name>Berlin Sans FB Demi</name>
+			<fontlist>Berlin Sans FB Demi</fontlist>
+		</fontset>
+		<fontset>
+			<name>Poor Richard</name>
+			<fontlist>Poor Richard</fontlist>
+		</fontset>
+		<fontset>
+			<name>Parchment</name>
+			<fontlist>Parchment</fontlist>
+		</fontset>
+		<fontset>
+			<name>Niagara Engraved</name>
+			<fontlist>Niagara Engraved</fontlist>
+		</fontset>
+		<fontset>
+			<name>Modern No. 20</name>
+			<fontlist>Modern No. 20</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Bright</name>
+			<fontlist>Lucida Bright</fontlist>
+		</fontset>
+		<fontset>
+			<name>Harrington</name>
+			<fontlist>Harrington</fontlist>
+		</fontset>
+		<fontset>
+			<name>Cooper Black</name>
+			<fontlist>Cooper Black</fontlist>
+		</fontset>
+		<fontset>
+			<name>Blackadder ITC</name>
+			<fontlist>Blackadder ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128XS</name>
+			<fontlist>IDAutomationHbC128XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128XL</name>
+			<fontlist>IDAutomationHbC128XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128M</name>
+			<fontlist>IDAutomationHbC128M</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHbC128XXL</name>
+			<fontlist>IDAutomationHbC128XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39XS</name>
+			<fontlist>IDAutomationC39XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39XL</name>
+			<fontlist>IDAutomationC39XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39S</name>
+			<fontlist>IDAutomationC39S</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39M</name>
+			<fontlist>IDAutomationC39M</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC39L</name>
+			<fontlist>IDAutomationC39L</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25L</name>
+			<fontlist>IDAutomationHI25L</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationDMatrix</name>
+			<fontlist>IDAutomationDMatrix</fontlist>
+		</fontset>
+		<fontset>
+			<name>CG Omega</name>
+			<fontlist>CG Omega</fontlist>
+		</fontset>
+		<fontset>
+			<name>Zurich BlkEx BT</name>
+			<fontlist>Zurich BlkEx BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 1</name>
+			<fontlist>Proxy 1</fontlist>
+		</fontset>
+		<fontset>
+			<name>Dutch801 XBd BT</name>
+			<fontlist>Dutch801 XBd BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 Cn BT</name>
+			<fontlist>Swis721 Cn BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 36Pts</name>
+			<fontlist>BARCODES 36Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>Staccato222 BT</name>
+			<fontlist>Staccato222 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Souvenir Lt BT</name>
+			<fontlist>Souvenir Lt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Benguiat Bk BT</name>
+			<fontlist>Benguiat Bk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP CyrillicB</name>
+			<fontlist>WP CyrillicB</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP CyrillicA</name>
+			<fontlist>WP CyrillicA</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman MT Extra Bold</name>
+			<fontlist>Times New Roman MT Extra Bold</fontlist>
+		</fontset>
+		<fontset>
+			<name>Century Schoolbook</name>
+			<fontlist>Century Schoolbook</fontlist>
+		</fontset>
+		<fontset>
+			<name>SimSun</name>
+			<fontlist>SimSun</fontlist>
+		</fontset>
+		<fontset>
+			<name>Century</name>
+			<fontlist>Century</fontlist>
+		</fontset>
+		<fontset>
+			<name>Shruti</name>
+			<fontlist>Shruti</fontlist>
+		</fontset>
+		<fontset>
+			<name>Jokerman</name>
+			<fontlist>Jokerman</fontlist>
+		</fontset>
+		<fontset>
+			<name>Harlow Solid Italic</name>
+			<fontlist>Harlow Solid Italic</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39XXL</name>
+			<fontlist>IDAutomationHC39XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationUPCEANS</name>
+			<fontlist>IDAutomationUPCEANS</fontlist>
+		</fontset>
+		<fontset>
+			<name>Christmas</name>
+			<fontlist>Christmas</fontlist>
+		</fontset>
+		<fontset>
+			<name>IglooCaps</name>
+			<fontlist>IglooCaps</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst521 XBdCn BT</name>
+			<fontlist>Humanst521 XBdCn BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>ItalicC</name>
+			<fontlist>ItalicC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Stylus BT</name>
+			<fontlist>Stylus BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BdOul BT</name>
+			<fontlist>Swis721 BdOul BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BlkCn BT</name>
+			<fontlist>Swis721 BlkCn BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP TypographicSymbols</name>
+			<fontlist>WP TypographicSymbols</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MathA</name>
+			<fontlist>WP MathA</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP IconicSymbolsB</name>
+			<fontlist>WP IconicSymbolsB</fontlist>
+		</fontset>
+		<fontset>
+			<name>MT Extra</name>
+			<fontlist>MT Extra</fontlist>
+		</fontset>
+		<fontset>
+			<name>Century Gothic</name>
+			<fontlist>Century Gothic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bookman Old Style</name>
+			<fontlist>Bookman Old Style</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Console</name>
+			<fontlist>Lucida Console</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New TUR</name>
+			<fontlist>Courier New TUR</fontlist>
+		</fontset>
+		<fontset>
+			<name>7.0pt</name>
+			<fontlist>7.0pt</fontlist>
+		</fontset>
+		<fontset>
+			<name>Vladimir Script</name>
+			<fontlist>Vladimir Script</fontlist>
+		</fontset>
+		<fontset>
+			<name>Snap ITC</name>
+			<fontlist>Snap ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Juice ITC</name>
+			<fontlist>Juice ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>High Tower Text</name>
+			<fontlist>High Tower Text</fontlist>
+		</fontset>
+		<fontset>
+			<name>Californian FB</name>
+			<fontlist>Californian FB</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128L</name>
+			<fontlist>IDAutomationC128L</fontlist>
+		</fontset>
+		<fontset>
+			<name>CommonBullets</name>
+			<fontlist>CommonBullets</fontlist>
+		</fontset>
+		<fontset>
+			<name>Frosty</name>
+			<fontlist>Frosty</fontlist>
+		</fontset>
+		<fontset>
+			<name>Clarendon Condensed</name>
+			<fontlist>Clarendon Condensed</fontlist>
+		</fontset>
+		<fontset>
+			<name>Monospac821 BT</name>
+			<fontlist>Monospac821 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Monotxt</name>
+			<fontlist>Monotxt</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 7</name>
+			<fontlist>Proxy 7</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 72Pts</name>
+			<fontlist>BARCODES 72Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 54Pts</name>
+			<fontlist>BARCODES 54Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 24Pts</name>
+			<fontlist>BARCODES 24Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>BARCODES 12Pts</name>
+			<fontlist>BARCODES 12Pts</fontlist>
+		</fontset>
+		<fontset>
+			<name>Serifa Th BT</name>
+			<fontlist>Serifa Th BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>BernhardMod BT</name>
+			<fontlist>BernhardMod BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Phonetic</name>
+			<fontlist>WP Phonetic</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP IconicSymbolsA</name>
+			<fontlist>WP IconicSymbolsA</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial monospaced for SAP</name>
+			<fontlist>Arial monospaced for SAP</fontlist>
+		</fontset>
+		<fontset>
+			<name>Gautami</name>
+			<fontlist>Gautami</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial TUR</name>
+			<fontlist>Arial TUR</fontlist>
+		</fontset>
+		<fontset>
+			<name>Britannic Bold</name>
+			<fontlist>Britannic Bold</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bradley Hand ITC</name>
+			<fontlist>Bradley Hand ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>GeniusGothic BT</name>
+			<fontlist>GeniusGothic BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39S</name>
+			<fontlist>IDAutomationHC39S</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25XXL</name>
+			<fontlist>IDAutomationI25XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128M</name>
+			<fontlist>IDAutomationC128M</fontlist>
+		</fontset>
+		<fontset>
+			<name>Marigold</name>
+			<fontlist>Marigold</fontlist>
+		</fontset>
+		<fontset>
+			<name>Albertus Extra Bold</name>
+			<fontlist>Albertus Extra Bold</fontlist>
+		</fontset>
+		<fontset>
+			<name>Letter Gothic</name>
+			<fontlist>Letter Gothic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 Lt BT</name>
+			<fontlist>Swis721 Lt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 6</name>
+			<fontlist>Proxy 6</fontlist>
+		</fontset>
+		<fontset>
+			<name>RomanD</name>
+			<fontlist>RomanD</fontlist>
+		</fontset>
+		<fontset>
+			<name>Symap</name>
+			<fontlist>Symap</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humnst777 BT</name>
+			<fontlist>Humnst777 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Hebrew David</name>
+			<fontlist>WP Hebrew David</fontlist>
+		</fontset>
+		<fontset>
+			<name>Book Antiqua</name>
+			<fontlist>Book Antiqua</fontlist>
+		</fontset>
+		<fontset>
+			<name>Wide Latin</name>
+			<fontlist>Wide Latin</fontlist>
+		</fontset>
+		<fontset>
+			<name>Stencil</name>
+			<fontlist>Stencil</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25S</name>
+			<fontlist>IDAutomationHI25S</fontlist>
+		</fontset>
+		<fontset>
+			<name>PanRoman</name>
+			<fontlist>PanRoman</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 LtEx BT</name>
+			<fontlist>Swis721 LtEx BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BlkOul BT</name>
+			<fontlist>Swis721 BlkOul BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Technic</name>
+			<fontlist>Technic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Txt</name>
+			<fontlist>Txt</fontlist>
+		</fontset>
+		<fontset>
+			<name>Romantic</name>
+			<fontlist>Romantic</fontlist>
+		</fontset>
+		<fontset>
+			<name>RomanT</name>
+			<fontlist>RomanT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Symath</name>
+			<fontlist>Symath</fontlist>
+		</fontset>
+		<fontset>
+			<name>Symusic</name>
+			<fontlist>Symusic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 5</name>
+			<fontlist>Proxy 5</fontlist>
+		</fontset>
+		<fontset>
+			<name>HandelGothic BT</name>
+			<fontlist>HandelGothic BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Narrow</name>
+			<fontlist>Arial Narrow</fontlist>
+		</fontset>
+		<fontset>
+			<name>Palatino Linotype</name>
+			<fontlist>Palatino Linotype</fontlist>
+		</fontset>
+		<fontset>
+			<name>Franklin Gothic Medium</name>
+			<fontlist>Franklin Gothic Medium</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Black</name>
+			<fontlist>Arial Black</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New Greek</name>
+			<fontlist>Courier New Greek</fontlist>
+		</fontset>
+		<fontset>
+			<name>Tempus Sans ITC</name>
+			<fontlist>Tempus Sans ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Old English Text MT</name>
+			<fontlist>Old English Text MT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Gigi</name>
+			<fontlist>Gigi</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128XS</name>
+			<fontlist>IDAutomationC128XS</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128XL</name>
+			<fontlist>IDAutomationC128XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>InterstateBoldCondensed</name>
+			<fontlist>InterstateBoldCondensed</fontlist>
+		</fontset>
+		<fontset>
+			<name>Univers</name>
+			<fontlist>Univers</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst531 BT</name>
+			<fontlist>Humanst531 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Italic</name>
+			<fontlist>Italic</fontlist>
+		</fontset>
+		<fontset>
+			<name>CommercialPi BT</name>
+			<fontlist>CommercialPi BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>EuroRoman</name>
+			<fontlist>EuroRoman</fontlist>
+		</fontset>
+		<fontset>
+			<name>TechnicLite</name>
+			<fontlist>TechnicLite</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 4</name>
+			<fontlist>Proxy 4</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalB Helve</name>
+			<fontlist>WP MultinationalB Helve</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalA Helve</name>
+			<fontlist>WP MultinationalA Helve</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalB Courier</name>
+			<fontlist>WP MultinationalB Courier</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalA Courier</name>
+			<fontlist>WP MultinationalA Courier</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP BoxDrawing</name>
+			<fontlist>WP BoxDrawing</fontlist>
+		</fontset>
+		<fontset>
+			<name>Tunga</name>
+			<fontlist>Tunga</fontlist>
+		</fontset>
+		<fontset>
+			<name>MV Boli</name>
+			<fontlist>MV Boli</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Sans Unicode</name>
+			<fontlist>Lucida Sans Unicode</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New CYR</name>
+			<fontlist>Courier New CYR</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial Greek</name>
+			<fontlist>Arial Greek</fontlist>
+		</fontset>
+		<fontset>
+			<name>Mistral</name>
+			<fontlist>Mistral</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst531 UBlk BT</name>
+			<fontlist>Humanst531 UBlk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 Blk BT</name>
+			<fontlist>Swis721 Blk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>GothicE</name>
+			<fontlist>GothicE</fontlist>
+		</fontset>
+		<fontset>
+			<name>HandelGotDLig</name>
+			<fontlist>HandelGotDLig</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 39 1:2,75</name>
+			<fontlist>BC Code 39 1:2,75</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 39 1:2,25</name>
+			<fontlist>BC Code 39 1:2,25</fontlist>
+		</fontset>
+		<fontset>
+			<name>Kabel Bk BT</name>
+			<fontlist>Kabel Bk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>AvantGarde Bk BT</name>
+			<fontlist>AvantGarde Bk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Greek Courier</name>
+			<fontlist>WP Greek Courier</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Greek Century</name>
+			<fontlist>WP Greek Century</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP ArabicScript Sihafa</name>
+			<fontlist>WP ArabicScript Sihafa</fontlist>
+		</fontset>
+		<fontset>
+			<name>Webdings</name>
+			<fontlist>Webdings</fontlist>
+		</fontset>
+		<fontset>
+			<name>Trebuchet MS</name>
+			<fontlist>Trebuchet MS</fontlist>
+		</fontset>
+		<fontset>
+			<name>Verdana</name>
+			<fontlist>Verdana</fontlist>
+		</fontset>
+		<fontset>
+			<name>Symbol</name>
+			<fontlist>Symbol</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman Baltic</name>
+			<fontlist>Times New Roman Baltic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New</name>
+			<fontlist>Courier New</fontlist>
+		</fontset>
+		<fontset>
+			<name>Matura MT Script Capitals</name>
+			<fontlist>Matura MT Script Capitals</fontlist>
+		</fontset>
+		<fontset>
+			<name>Chiller</name>
+			<fontlist>Chiller</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39L</name>
+			<fontlist>IDAutomationHC39L</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHI25XXL</name>
+			<fontlist>IDAutomationHI25XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationUPCEANL</name>
+			<fontlist>IDAutomationUPCEANL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationC128XXL</name>
+			<fontlist>IDAutomationC128XXL</fontlist>
+		</fontset>
+		<fontset>
+			<name>InterstateBold</name>
+			<fontlist>InterstateBold</fontlist>
+		</fontset>
+		<fontset>
+			<name>Humanst531 Blk BT</name>
+			<fontlist>Humanst531 Blk BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>CG Times</name>
+			<fontlist>CG Times</fontlist>
+		</fontset>
+		<fontset>
+			<name>Complex</name>
+			<fontlist>Complex</fontlist>
+		</fontset>
+		<fontset>
+			<name>CommercialScript BT</name>
+			<fontlist>CommercialScript BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BlkEx BT</name>
+			<fontlist>Swis721 BlkEx BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>ItalicT</name>
+			<fontlist>ItalicT</fontlist>
+		</fontset>
+		<fontset>
+			<name>HandelGotDBol</name>
+			<fontlist>HandelGotDBol</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC 2/5 int. 1:3</name>
+			<fontlist>BC 2/5 int. 1:3</fontlist>
+		</fontset>
+		<fontset>
+			<name>LithographLight</name>
+			<fontlist>LithographLight</fontlist>
+		</fontset>
+		<fontset>
+			<name>BernhardFashion BT</name>
+			<fontlist>BernhardFashion BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalA Roman</name>
+			<fontlist>WP MultinationalA Roman</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MultinationalB Roman</name>
+			<fontlist>WP MultinationalB Roman</fontlist>
+		</fontset>
+		<fontset>
+			<name>PMingLiU</name>
+			<fontlist>PMingLiU</fontlist>
+		</fontset>
+		<fontset>
+			<name>Garamond</name>
+			<fontlist>Garamond</fontlist>
+		</fontset>
+		<fontset>
+			<name>Microsoft Sans Serif</name>
+			<fontlist>Microsoft Sans Serif</fontlist>
+		</fontset>
+		<fontset>
+			<name>Estrangelo Edessa</name>
+			<fontlist>Estrangelo Edessa</fontlist>
+		</fontset>
+		<fontset>
+			<name>Impact</name>
+			<fontlist>Impact</fontlist>
+		</fontset>
+		<fontset>
+			<name>Showcard Gothic</name>
+			<fontlist>Showcard Gothic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Informal Roman</name>
+			<fontlist>Informal Roman</fontlist>
+		</fontset>
+		<fontset>
+			<name>Playbill</name>
+			<fontlist>Playbill</fontlist>
+		</fontset>
+		<fontset>
+			<name>Kunstler Script</name>
+			<fontlist>Kunstler Script</fontlist>
+		</fontset>
+		<fontset>
+			<name>Baskerville Old Face</name>
+			<fontlist>Baskerville Old Face</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationHC39M</name>
+			<fontlist>IDAutomationHC39M</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationI25XL</name>
+			<fontlist>IDAutomationI25XL</fontlist>
+		</fontset>
+		<fontset>
+			<name>IDAutomationUPCEANM</name>
+			<fontlist>IDAutomationUPCEANM</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 Win95BT</name>
+			<fontlist>Swis721 Win95BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Snowdrift</name>
+			<fontlist>Snowdrift</fontlist>
+		</fontset>
+		<fontset>
+			<name>GDT</name>
+			<fontlist>GDT</fontlist>
+		</fontset>
+		<fontset>
+			<name>GothicG</name>
+			<fontlist>GothicG</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 LtCn BT</name>
+			<fontlist>Swis721 LtCn BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Syastro</name>
+			<fontlist>Syastro</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC 2/5 int. 1:2,5</name>
+			<fontlist>BC 2/5 int. 1:2,5</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC 2/5 int. 1:2</name>
+			<fontlist>BC 2/5 int. 1:2</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MathExtendedB</name>
+			<fontlist>WP MathExtendedB</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP MathExtendedA</name>
+			<fontlist>WP MathExtendedA</fontlist>
+		</fontset>
+		<fontset>
+			<name>MS Outlook</name>
+			<fontlist>MS Outlook</fontlist>
+		</fontset>
+		<fontset>
+			<name>Haettenschweiler</name>
+			<fontlist>Haettenschweiler</fontlist>
+		</fontset>
+		<fontset>
+			<name>Times New Roman TUR</name>
+			<fontlist>Times New Roman TUR</fontlist>
+		</fontset>
+		<fontset>
+			<name>Arial CYR</name>
+			<fontlist>Arial CYR</fontlist>
+		</fontset>
+		<fontset>
+			<name>Vivaldi</name>
+			<fontlist>Vivaldi</fontlist>
+		</fontset>
+		<fontset>
+			<name>Niagara Solid</name>
+			<fontlist>Niagara Solid</fontlist>
+		</fontset>
+		<fontset>
+			<name>Charlesworth</name>
+			<fontlist>Charlesworth</fontlist>
+		</fontset>
+		<fontset>
+			<name>MS LineDraw</name>
+			<fontlist>MS LineDraw</fontlist>
+		</fontset>
+		<fontset>
+			<name>AmerType Md BT</name>
+			<fontlist>AmerType Md BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Albertus Medium</name>
+			<fontlist>Albertus Medium</fontlist>
+		</fontset>
+		<fontset>
+			<name>Vineta BT</name>
+			<fontlist>Vineta BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 9</name>
+			<fontlist>Proxy 9</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 39 1:2,5</name>
+			<fontlist>BC Code 39 1:2,5</fontlist>
+		</fontset>
+		<fontset>
+			<name>OzHandicraft BT</name>
+			<fontlist>OzHandicraft BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lithograph</name>
+			<fontlist>Lithograph</fontlist>
+		</fontset>
+		<fontset>
+			<name>Kabel Ult BT</name>
+			<fontlist>Kabel Ult BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Allegro BT</name>
+			<fontlist>Allegro BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>WP Japanese</name>
+			<fontlist>WP Japanese</fontlist>
+		</fontset>
+		<fontset>
+			<name>Monotype Corsiva</name>
+			<fontlist>Monotype Corsiva</fontlist>
+		</fontset>
+		<fontset>
+			<name>SAPIcons</name>
+			<fontlist>SAPIcons</fontlist>
+		</fontset>
+		<fontset>
+			<name>Sylfaen</name>
+			<fontlist>Sylfaen</fontlist>
+		</fontset>
+		<fontset>
+			<name>Kristen ITC</name>
+			<fontlist>Kristen ITC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Footlight MT Light</name>
+			<fontlist>Footlight MT Light</fontlist>
+		</fontset>
+		<fontset>
+			<name>SwitzerlandNarrow</name>
+			<fontlist>SwitzerlandNarrow</fontlist>
+		</fontset>
+		<fontset>
+			<name>GothicI</name>
+			<fontlist>GothicI</fontlist>
+		</fontset>
+		<fontset>
+			<name>TechnicBold</name>
+			<fontlist>TechnicBold</fontlist>
+		</fontset>
+		<fontset>
+			<name>UniversalMath1 BT</name>
+			<fontlist>UniversalMath1 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Swis721 BT</name>
+			<fontlist>Swis721 BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>RomanC</name>
+			<fontlist>RomanC</fontlist>
+		</fontset>
+		<fontset>
+			<name>Proxy 8</name>
+			<fontlist>Proxy 8</fontlist>
+		</fontset>
+		<fontset>
+			<name>TypoUpright BT</name>
+			<fontlist>TypoUpright BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>GoudyOlSt BT</name>
+			<fontlist>GoudyOlSt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Futura Lt BT</name>
+			<fontlist>Futura Lt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>CopprplGoth Bd BT</name>
+			<fontlist>CopprplGoth Bd BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Bremen Bd BT</name>
+			<fontlist>Bremen Bd BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Latha</name>
+			<fontlist>Latha</fontlist>
+		</fontset>
+		<fontset>
+			<name>Courier New Baltic</name>
+			<fontlist>Courier New Baltic</fontlist>
+		</fontset>
+		<fontset>
+			<name>Lucida Fax</name>
+			<fontlist>Lucida Fax</fontlist>
+		</fontset>
+		<fontset>
+			<name>Centaur</name>
+			<fontlist>Centaur</fontlist>
+		</fontset>
+		<fontset>
+			<name>Broadway</name>
+			<fontlist>Broadway</fontlist>
+		</fontset>
+		<fontset>
+			<name>Algerian</name>
+			<fontlist>Algerian</fontlist>
+		</fontset>
+		<fontset>
+			<name>SnowCaps</name>
+			<fontlist>SnowCaps</fontlist>
+		</fontset>
+		<fontset>
+			<name>sAvPLNTn</name>
+			<fontlist>sAvPLNTn</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCT</name>
+			<fontlist>ISOCT</fontlist>
+		</fontset>
+		<fontset>
+			<name>ISOCT3</name>
+			<fontlist>ISOCT3</fontlist>
+		</fontset>
+		<fontset>
+			<name>BankGothic Lt BT</name>
+			<fontlist>BankGothic Lt BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>RomanS</name>
+			<fontlist>RomanS</fontlist>
+		</fontset>
+		<fontset>
+			<name>SansSerif</name>
+			<fontlist>SansSerif</fontlist>
+		</fontset>
+		<fontset>
+			<name>Simplex</name>
+			<fontlist>Simplex</fontlist>
+		</fontset>
+		<fontset>
+			<name>Symeteo</name>
+			<fontlist>Symeteo</fontlist>
+		</fontset>
+		<fontset>
+			<name>BC Code 128</name>
+			<fontlist>BC Code 128</fontlist>
+		</fontset>
+		<fontset>
+			<name>Zurich Ex BT</name>
+			<fontlist>Zurich Ex BT</fontlist>
+		</fontset>
+		<fontset>
+			<name>Letter Gothic MT</name>
+			<fontlist>Letter Gothic MT</fontlist>
+		</fontset>
+		<fontset>
+			<name>MS Mincho</name>
+			<fontlist>MS Mincho</fontlist>
+		</fontset>
+		<fontset>
+			<name>Map Symbols</name>
+			<fontlist>Map Symbols</fontlist>
+		</fontset>
+		<fontset>
+			<name>Monotype Sorts</name>
+			<fontlist>Monotype Sorts</fontlist>
+		</fontset>
+		<fontset>
+			<name>Wingdings</name>
+			<fontlist>Wingdings</fontlist>
+		</fontset>
+	</fontsets>
+</rhpml>

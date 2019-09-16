@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta name="generator" content="Adobe RoboHelp 2015" />
+<title>SoftSpot class</title>
+<link rel="StyleSheet" href="default.css" type="text/css" />
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nNamespaces\nDatalogic.API\nClasses\nSoftSpot\nSoftSpot class");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"NS_NamespaceList.htm\">Namespaces<\/a> > <a href=\"NS_DatalogicApi.htm\">Datalogic.API<\/a> > <a href=\"CL_ClassList.htm\">Classes<\/a> > <a href=\"SoftSpot_class.htm\">SoftSpot<\/a> > SoftSpot class<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><span><span style="font-family: Verdana, sans-serif; font-size: 10pt; background-color: #33cccc;"><font size="2" style="font-size:10pt;"><i style="font-style: italic;">Datalogic .NET SDK</i></font></span></span></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; font-size: 10pt;"><b style="font-weight: bold;"><span style="font-weight: bold;">SoftSpot</span>(Class)</b></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt; font-style: italic; font-weight: bold;"><span style="font-family: Verdana, sans-serif; font-size: 10pt; font-style: italic; font-weight: bold;"><font size="2" style="font-size:10pt;"><i>Public members</i></font></span></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">// seeSoptSpotAction class public members documentation <a href="SoftSpotAction_class.htm">SoftSpotAction class</a></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">public enum Property</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Title,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Icon,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ActionType,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;App,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Args,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Order</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;"><span style="font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;"><span style="font-style: italic; font-weight: bold;"><i>&#160;</i></span>&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</font></span>SoftSpot class.</p>
+<p>&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">public enum ActionType</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;<span style="font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Scan,</font></span></p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;<span style="font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;App,</font></span></p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;<span style="font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Sip,</font></span></p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;<span style="font-family: Verdana, sans-serif; font-size: 8pt;"><font size="1" style="font-size:8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Cpl</font></span></p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">public enum ActionResetState</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Empty,</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;FactoryDefaults</p>
+<p style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

@@ -1,0 +1,1077 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="OriginalFile" content="EXAMPLE_MATRIX.doc" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>EXAMPLE_MATRIX</title>
+<link rel="stylesheet" href="EXAMPLE_MATRIX.css" type="text/css" />
+<style type="text/css">
+<!--
+A:visited { color:#800080; }
+A:link { color:#0000ff; }
+-->
+</style>
+<script type="text/javascript" language="JavaScript">
+//<![CDATA[
+function reDo() {
+  if (innerWidth != origWidth || innerHeight != origHeight)
+     location.reload();
+}
+if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+	origWidth = innerWidth;
+	origHeight = innerHeight;
+	onresize = reDo;
+}
+onerror = null; 
+//]]>
+</script>
+<style type="text/css">
+<!--
+div.WebHelpPopupMenu { position:absolute;
+left:0px;
+top:0px;
+z-index:4;
+visibility:hidden; }
+-->
+</style>
+<script type="text/javascript" language="javascript1.2" src="whmsg.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript" src="whver.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whutils.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whproxy.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whlang.js" charset="utf-8"></script>
+<script type="text/javascript" language="javascript1.2" src="whtopic.js" charset="utf-8"></script>
+
+</head>
+
+<body><script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.gbWhTopic)
+{
+	var strUrl = document.location.href;
+	var bc = 0;
+	var n = strUrl.toLowerCase().indexOf("bc-");
+	if(n != -1)
+	{
+		document.location.replace(strUrl.substring(0, n));
+		bc = strUrl.substring(n+3);
+	}
+
+	if (window.addTocInfo)
+	{
+	addTocInfo("SDK .NET\nExamples\nExamples Table");
+addButton("show",BTN_TEXT,"Show","","","","",0,0,"","","");
+
+	}
+	if (window.writeBtnStyle)
+		writeBtnStyle();
+
+	if (window.writeIntopicBar)
+		writeIntopicBar(1);
+
+	
+	document.write("<p style=\"text-align:right\"> ");
+AddMasterBreadcrumbs("SDK.htm", "", ">", "Home", "System_Overview.htm");
+document.write("<a href=\"NS_NamespaceList.htm\">SDK .NET<\/a> > <a href=\"EXAMPLE_MATRIX.htm\">Examples<\/a> > Examples Table<\/p>");
+
+}
+else
+	if (window.gbIE4)
+		document.location.reload();
+
+onLoadHandler = function()
+{
+  if (window.setRelStartPage)
+	{
+	setTimeout("setRelStartPage('SDK.htm');", 1)
+
+    setTimeout("UpdateBreadCrumbsMarker();", 1);
+	}
+}
+
+if (window.addEventListener){  
+	window.addEventListener('load', onLoadHandler, false);   
+} else if (window.attachEvent){  
+	window.attachEvent('onload', onLoadHandler);  
+}
+
+function onSetStartPage()
+{
+  autoSync(1);
+  sendSyncInfo();
+  sendAveInfoOut();
+}
+//-->
+//]]></script>
+<script type="text/javascript" src="./ehlpdhtm.js" language="JavaScript1.2"></script>
+
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; 
+	 font-size: 10pt;"><i style="font-style: italic;">Datalogic .NET SDK</i></p>
+<p class="WD_Normal" style="background-color: #33cccc; font-family: Verdana, sans-serif; 
+	 font-size: 10pt;"><b style="font-weight: bold;">EXAMPLE MATRIX for 
+ Datalogic.API Namespace</b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+font-family:Verdana, sans-serif;
+font-size:10pt;
+border-width:4px;"><span style="padding: 0cm; font-family: Verdana, sans-serif; font-size: 10pt; "><font size="2" style="font-size:10pt;"><b style="font-weight: bold;">Example Path: 
+	 &#160;&lt;Datalogic SDK installation folder&gt;\DotNet\Samples\</b></font></span></p>
+</div>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 10pt;"><b 
+	 style="font-weight: bold;"><i style="font-style: italic;">Description</i></b></p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">This 
+ table describe the examples you can find in the “Samples” path giving 
+ an outline of what they do and on what devices they can be executed.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">This 
+ table summarize the examples you can find in the “Samples” path.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">There 
+ are four solution, one for each class of the Datalogic.API namespace and 
+ inside the solution there are one or more projects that you can</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">compile 
+ in stand alone mode or together because are independent each other.</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">Compiling 
+ requirements:</p>
+<ul style="list-style: disc; font-family: Verdana, sans-serif; font-size: 8pt;">
+	<li style="font-family: Verdana, sans-serif; font-size: 8pt;"><p class="WD_Normal" 
+		 style="font-family: Verdana, sans-serif; font-size: 8pt;">Visual 
+	 Studio 2005 (Visual C#);</p></li>
+	<li style="font-family: Verdana, sans-serif; font-size: 8pt;"><p class="WD_Normal" 
+		 style="font-family: Verdana, sans-serif; font-size: 8pt;">Debug 
+	 Mode compiling;</p></li>
+	<li style="font-family: Verdana, sans-serif; font-size: 8pt;"><p class="WD_Normal" 
+		 style="font-family: Verdana, sans-serif; font-size: 8pt;">Target 
+	 Device might be: &quot;Intel PXA27x Dev Platform: ARMV4I_Release&quot; 
+	 or &quot;Windows CE 6 SDK ARMV4I Device&quot; according to the example;</p></li>
+	<li style="font-family: Verdana, sans-serif; font-size: 8pt;"><p class="WD_Normal" 
+		 style="font-family: Verdana, sans-serif; font-size: 8pt;">Assembly: 
+	 Datalogic.API.dll v1.12.0.0.</p></li>
+</ul>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p class="WD_Normal" style="font-size: 8pt;">&#160;</p>
+<table style="margin-left: 1.9pt;" cellspacing="0">
+	<col />
+	<col width="350" />
+	<col width="157" />
+	<col width="212" />
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+											 font-size: 10pt;"><b style="font-weight: bold;">Example 
+		 ID</b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;">Description</b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;"><span 
+		 style="font-weight: bold;">Solution</span> Name</b></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 10pt;"><b style="font-weight: bold;"><span 
+		 style="font-weight: bold;">Project</span> Name</b></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">1</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">DecodeHandle class constructor example</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandleSample_Part1.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">2</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">DecodeHandle class 
+		 constructor overload example</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part1.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">3</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Decode Friendly name getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part1.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">4</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Decode capabilities 
+		 getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part1.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">5</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">DecodeHandle Soft Trigger ex.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part1.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">6</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">DecodeHandle Stop 
+		 Soft Trigger ex.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part1.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">7</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Posting a request with calling thread stop 
+		 (wait for event).</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part2.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">8</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">How to Cancel a request 
+		 just posted</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part3.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">9</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Read String first overload.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part2.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">10</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Read String second 
+		 overload.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part2.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">10a</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US" style="font-size: 8.0pt; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+									 mso-bidi-language: AR-SA;"><font size="1" style="font-size:8pt;">ReadString 
+		 third overload.</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandle.sln</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';"><span 
+		 style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandleSample_Part2.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">10b</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;"><span lang="EN-US" 
+															 xml:lang="EN-US" 
+															 style="font-size: 8.0pt; 
+															 mso-fareast-font-family: 'Times New Roman'; 
+															 mso-bidi-font-family: 'Times New Roman'; 
+															 mso-ansi-language: EN-US; 
+															 mso-fareast-language: EN-US; 
+															 mso-bidi-language: AR-SA;"><font size="1" style="font-size:8pt;">Use 
+		 of Code Id Modifiers.</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandle.sln</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';"><span 
+		 style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandleSample_Part2.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">11</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Flush Data.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part4.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">12</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Decode Class: parameter 
+		 set and get.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Decode.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeSample.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">13</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Set and get multiple parameters.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Decode.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeSample.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">14</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Test multiple parameters 
+		 and retreive param limits.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Decode.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeSample.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">15</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Generic decode settings and getting info</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Decode.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeSample.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">16</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Post a Request message 
+		 and Soft Trigger Example</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part5.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">17</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Post and Cancel request on Start scan</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part5.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">18</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Post and Cancel request 
+		 on Stop scan</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part5.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">19</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Post and Cancel request on Press scan physical 
+		 button,</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeHandleSample_Part5.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">20</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Post and Cancel request 
+		 on Release scan physical button.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeHandle.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DecodeHandleSample_Part5.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">21</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">All events associated to the Decode class.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DecodeEvent.sln</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DecodeEventSample.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">22</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Device Unit test. 
+		 General Info.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">DeviceSample_UnitTest.csprj</font></span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">23</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Device Unit test. General Info.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">24</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Device Class: Battery 
+		 infos and power status.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">25</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Device Class: Getting General info like OS, 
+		 Model etc …</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">26</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Touch Screen enabling 
+		 and disabling.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">27</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Battery Threshold setting and getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">28</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Trigger Type setting 
+		 and getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">29</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Display backlight brightness.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">30</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Display backlight 
+		 enabling.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">31</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Phone power: setting and getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">32</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">GPS power: setting 
+		 and getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">33</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">WiFi power: setting and getting.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">34</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Device Class Bluetooth 
+		 Functionalities.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_Bluetooth.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">35</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Keyboard’s map identifier info.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">36</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Keyboard’s state 
+		 set and get.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">37</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Keyboard load Keymap.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_UnitTest.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">38</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;">Device Class: Getting 
+		 information on Wifi device.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal"><span style="font-size: 8.0pt; 
+															 font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8.0pt; 
+									 font-family: 'Courier New';">DeviceSample_WifiAndReset.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">39</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">Device Class: device’s Reset function.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal"><span style="font-size: 8.0pt; font-family: 'Courier New';"><font size="1" style="font-size:8pt;">Device.sln</font></span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-size: 8.0pt; font-family: 'Courier New';">DeviceSample_WifiAndReset.csprj</p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">40</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;"><span lang="EN-US" 
+															 xml:lang="EN-US" 
+															 style="mso-bidi-font-size: 12.0pt; 
+															 mso-fareast-font-family: 'Times New Roman'; 
+															 mso-bidi-font-family: 'Times New Roman'; 
+															 mso-ansi-language: EN-US; 
+															 mso-fareast-language: EN-US; 
+															 mso-bidi-language: AR-SA;">AccStream 
+		 class initialization</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8pt; 
+									 font-family: 'Courier New', monospace;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">Device.sln</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-size: 8pt; 
+									 font-family: 'Courier New', monospace;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA;">DeviceSample_Accelerometer.csprj</span></p></td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">41</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+									 mso-bidi-language: AR-SA;">AccStream 
+		 data collection</span></p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; 
+		 font-size: 8pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">Device.sln</font></span> 
+		 </td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; 
+		 font-size: 8pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">DeviceSample_Accelerometer.csprj</font></span> 
+		 </td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 width="96" bgcolor="#BFBFBF"><p class="WD_Normal" style="text-align: center; 
+											 font-family: Verdana, sans-serif; 
+											 font-size: 8pt;">42</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><p class="WD_Normal" style="font-family: Verdana, sans-serif; 
+									 font-size: 8pt;"><span style="mso-fareast-font-family: SimSun; 
+															 mso-ansi-language: IT; 
+															 mso-fareast-language: ZH-CN; 
+															 mso-bidi-language: AR-SA;">AccStream 
+		 disposal</span> &#160;</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+									 mso-bidi-language: AR-SA; font-size: 8pt; 
+									 font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">Device.sln</font></span> 
+		 </td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt; padding-left: 0px; 
+			 padding-top: 0px; padding-right: 0px; padding-bottom: 0px;" 
+			 bgcolor="#BFBFBF"><span lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+									 mso-fareast-font-family: 'Times New Roman'; 
+									 mso-bidi-font-family: 'Times New Roman'; 
+									 mso-ansi-language: EN-US; mso-fareast-language: EN-US; 
+									 mso-bidi-language: AR-SA; font-size: 8pt; 
+									 font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">DeviceSample_Accelerometer.csprj</font></span> 
+		 </td>
+	</tr>
+	<tr>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt;" 
+			 width="96"><p class="WD_Normal" style="text-align: center; 
+							 font-family: Verdana, sans-serif; font-size: 8pt;">43</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt;"><p 
+			 class="WD_Normal" style="font-family: Verdana, sans-serif; 
+			 font-size: 8pt;">WiFi Sample. Demonstrates usage of all methods 
+		 in WiFi class.</p></td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; 
+		 font-size: 8pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">WiFiSample.sln</font></span> 
+		 </td>
+		<td style="vertical-align: top; padding: 0cm 5.4pt 0cm 5.4pt;"><span 
+		 lang="EN-US" xml:lang="EN-US" style="mso-bidi-font-size: 12.0pt; 
+		 mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; 
+		 mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; 
+		 font-size: 8pt; font-family: 'Courier New', monospace;"><font size="1" style="font-size:8pt;">WiFiSample.csproj</font></span> 
+		 </td>
+	</tr>
+</table>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<div style="border: none; border-bottom: solid #000000 1.0pt; padding: 0cm 0cm 1.0pt 0cm;">
+	<p class="WD_Normal" style="
+border:none;
+padding:0cm;
+border-width:4px;"><span style="padding: 0cm; ">&#160;</span></p>
+</div>
+<p class="WD_Normal" style="text-align: center; font-family: Verdana, sans-serif; 
+	 font-size: 8pt;"><i style="font-style: italic;">Copyright © Datalogic 
+ ADC. All Right Reserved</i></p>
+<p class="WD_Normal">&#160;</p>
+<p class="WD_Normal">&#160;</p>
+<script type="text/javascript" language="javascript1.2">//<![CDATA[
+<!--
+if (window.writeIntopicBar)
+	writeIntopicBar(0);
+
+
+highlightSearch();
+//-->
+//]]></script>
+</body>
+</html>

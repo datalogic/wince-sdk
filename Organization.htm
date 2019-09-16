@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="topic-status" content="In Progress" />
+<meta name="topic-priority" content="0" />
+<meta name="topic-time-estimate" content="0" />
+<meta name="topic-comment" content="" />
+<meta name="topic-id" content="Organization" />
+<meta name="generator" content="Adobe RoboHelp 2015" />
+<title>Organization</title>
+</head>
+<body>
+<h2 style="font-family: Verdana, sans-serif; font-size: 14pt;">Organization</h2>
+<p style="text-align: left;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">Decoding on the Datalogic platform is accomplished through the use of multiple device drivers. Each driver exposes a stream interface to the Device Manager, and is written using a monolithic model. The figure below illustrates the relationship between the various device drivers.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="font-weight: bold; text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;"><img src="Images/Decoding Subsystem Drivers.jpg" alt="" style="border: none;" width="363" height="460" border="0" /><br />
+&#160;</p>
+<p style="font-weight: bold; text-align: center; font-family: Verdana, sans-serif; font-size: 8pt;">Decoding Subsystem Drivers</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">All drivers related to decoding are assigned a name with the prefix "DCD". &#160;The index of each driver is assigned automatically by the Device Manager with the exception of the Decode Manager, which is assigned an index of zero. &#160;Each decoding device (laser engine, imager or a combination device) has a corresponding decoding driver which interfaces directly to it. &#160;The Decode Manager has the responsibility of being the single interface point for functions common to input data types, such as label programming, and keyboard wedge support. &#160;Applications can use it to enumerate the decoding devices present in the system. &#160;Once a suitable device is found the user can use the decoding SDK to obtain data from that device.</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">&#160;</p>
+<p style="text-align: left; font-family: Verdana, sans-serif; font-size: 8pt;">The decoding system is based on the concept of input data types. The distinction is based on the automatic data collection technology used to collect the data. The currently supported data types are barcodes and images. A physical decoding device is capable of interpreting data in at least one of these forms, and some devices can interpret more than one data type.</p>
+</body>
+</html>
